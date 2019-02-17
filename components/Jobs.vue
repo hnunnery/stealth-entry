@@ -98,8 +98,6 @@ export default {
   .container {
     padding: 10px !important;
   }
-  .row {
-  }
   .card {
     margin: 8px 2px 2px !important;
   }

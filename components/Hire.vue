@@ -7,7 +7,7 @@
           <h4
             class="primary--text display-1 px-3 py-3 px-2"
           >Hire Stealth Entry as your Cyber Security as a Service (CSaaS)</h4>
-          <v-btn class="white--text gradient my-4" to="/contact">Take Action Today</v-btn>
+          <v-btn class="gradient orange white--text my-4" to="/contact">Take Action Today</v-btn>
           <h5
             class="white--text headline py-3 px-3"
           >In a few easy steps, Stealth Entry can customize a cyber security solution just for you!</h5>

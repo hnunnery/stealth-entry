@@ -32,7 +32,7 @@
                         <v-btn slot="activator" class="white--text gradient">Penetration Testing</v-btn>
 
                         <v-layout white justify-center align-center>
-                          <v-flex xs12 class="penetration-testing text-xs-center py-4">
+                          <v-flex xs12 class="penetration-testing text-xs-center py-4 b-sheet">
                             <h4
                               class="my-header primary--text text-xs-center display-1 font-weight-light pb-1"
                             >Penetration Testing</h4>
@@ -65,7 +65,7 @@
                         >Vulnerability Assessment</v-btn>
 
                         <v-layout white justify-center align-center>
-                          <v-flex xs12 class="penetration-testing text-xs-center py-4">
+                          <v-flex xs12 class="vulnerability-assessment text-xs-center py-4 b-sheet">
                             <h4
                               class="my-header primary--text text-xs-center display-1 font-weight-light pb-1"
                             >Vulnerability Assessment</h4>
@@ -98,7 +98,7 @@
                         <v-btn slot="activator" class="white--text gradient">Incident Response</v-btn>
 
                         <v-layout white justify-center align-center>
-                          <v-flex xs12 class="penetration-testing text-xs-center py-4">
+                          <v-flex xs12 class="incident-response text-xs-center py-4 b-sheet">
                             <h4
                               class="my-header primary--text text-xs-center display-1 font-weight-light pb-1"
                             >Incident Response</h4>
@@ -129,7 +129,7 @@
                         <v-btn slot="activator" class="white--text gradient">Application Security</v-btn>
 
                         <v-layout white justify-center align-center>
-                          <v-flex xs12 class="penetration-testing text-xs-center py-4">
+                          <v-flex xs12 class="application-security text-xs-center py-4 b-sheet">
                             <h4
                               class="my-header primary--text text-xs-center display-1 font-weight-light pb-1"
                             >Application Security Management</h4>
@@ -159,7 +159,7 @@
                         <v-btn slot="activator" class="white--text gradient">Project Management</v-btn>
 
                         <v-layout white justify-center align-center>
-                          <v-flex xs12 class="penetration-testing text-xs-center py-4">
+                          <v-flex xs12 class="project-management text-xs-center py-4 b-sheet">
                             <h4
                               class="my-header primary--text text-xs-center display-1 font-weight-light pb-1"
                             >Project Management</h4>
@@ -178,7 +178,7 @@
                         <v-btn slot="activator" class="white--text gradient">Software Development</v-btn>
 
                         <v-layout white justify-center align-center>
-                          <v-flex xs12 class="penetration-testing text-xs-center py-4">
+                          <v-flex xs12 class="software-development text-xs-center py-4 b-sheet">
                             <h4
                               class="my-header primary--text text-xs-center display-1 font-weight-light pb-1"
                             >Software Development</h4>
@@ -231,11 +231,13 @@ export default {
 button {
   width: 240px;
 }
-.penetration-testing {
+.b-sheet {
   max-width: 800px;
   padding: 20px;
+  margin-bottom: 50px;
   @media screen and (min-width: 960px) {
     padding: 50px;
+    margin-bottom: 100px;
   }
 }
 ul.languages li {

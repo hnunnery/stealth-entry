@@ -52,7 +52,7 @@
           </v-flex>
           <v-flex xs12 md10 offset-md-1 lg6 class="md-and-up-padding-y5">
             <h2
-              class="my-header primary--text text-xs-center display-2 font-weight-light mt-2"
+              class="my-header primary--text text-xs-center display-2 font-weight-light mt-2 px-1"
             >Cyber Security as a Service (CSaaS)</h2>
             <v-divider class="my-2"></v-divider>
             <div class="text-xs-left secondary--text subheading px-2">
