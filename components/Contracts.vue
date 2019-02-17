@@ -3,7 +3,7 @@
     <v-layout wrap justify-center class="mb-5">
       <v-flex xs12 xl8 offset-xl-2>
         <h2
-          class="text-xs-center primary--text my-header font-weight-light display-2 my-2"
+          class="text-xs-center primary--text text-shadow font-weight-light display-2 my-2"
         >Contracts</h2>
         <v-divider></v-divider>
         <h4
@@ -50,4 +50,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container {
+  min-height: 100vh;
+}
 </style>

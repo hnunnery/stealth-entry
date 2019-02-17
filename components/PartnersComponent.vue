@@ -104,17 +104,11 @@ export default {
   margin: 0;
   padding: 0;
   width: 100vw;
+  min-height: 100vh;
 }
 .hero-background-circuit {
   background-repeat: repeat;
-}
-.partners-component {
-  border-bottom: 2px solid var(--orange);
-}
-h2 {
-  padding: 20px 0 30px;
-  border-bottom: 1px solid var(--orange);
-  margin-bottom: 0;
+  /* border-bottom: 1px solid var(--orange); */
 }
 .card {
   height: 180px;
@@ -145,7 +139,7 @@ h2 {
   .symantec {
     margin-top: 40px;
   }
-  .responsive-img elevation12 white {
+  .responsive-img {
     padding: 5px;
   }
 }

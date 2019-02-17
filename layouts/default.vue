@@ -32,9 +32,9 @@
           <v-icon class="primary--text navbar-icons">far fa-handshake</v-icon>&nbsp;
           <span class="nav-text secondary--text">Partners</span>
         </v-btn>
-        <v-btn flat to="/team">
-          <v-icon class="primary--text navbar-icons">fas fa-user-circle</v-icon>&nbsp;
-          <span class="nav-text secondary--text">Team</span>
+        <v-btn flat to="/contracts">
+          <v-icon class="primary--text navbar-icons">fas fa-file-contract</v-icon>&nbsp;
+          <span class="nav-text secondary--text">Contracts</span>
         </v-btn>
         <v-btn flat to="/blog">
           <v-icon class="primary--text navbar-icons">fas fa-blog</v-icon>&nbsp;
@@ -54,7 +54,7 @@
     <v-navigation-drawer
       clipped
       temporary
-      width="170"
+      width="190"
       :right="right"
       v-model="rightDrawer"
       class="hidden-lg-and-up hero-background-circuit"
@@ -102,12 +102,12 @@
             <v-list-tile-title class="secondary--text subheading font-weight-medium">PARTNERS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile to="/team" class="sidenav-element">
+        <v-list-tile to="/contracts" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-user-circle</v-icon>
+            <v-icon class="primary--text">fas fa-file-contract</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">TEAM</v-list-tile-title>
+            <v-list-tile-title class="secondary--text subheading font-weight-medium">CONTRACTS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/blog" class="sidenav-element">
@@ -191,48 +191,6 @@ export default {
       clipped: false,
       drawer: true,
       fixed: false,
-      items: [
-        {
-          icon: "fas fa-home",
-          title: "HOME",
-          link: "/"
-        },
-        {
-          icon: "fas fa-shield-alt",
-          title: "SERVICES",
-          link: "/services"
-        },
-        {
-          icon: "fas fa-flask",
-          title: "RESEARCH",
-          link: "/research"
-        },
-        {
-          icon: "fas fa-users",
-          title: "CAREERS",
-          link: "/careers"
-        },
-        {
-          icon: "fas fa-handshake",
-          title: "PARTNERS",
-          link: "/partners"
-        },
-        {
-          icon: "far fa-handshake",
-          title: "TEAM",
-          link: "/team"
-        },
-        {
-          icon: "fas fa-blog",
-          title: "BLOG",
-          link: "/blog"
-        },
-        {
-          icon: "fas fa-envelope",
-          title: "CONTACT",
-          link: "/contact"
-        }
-      ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
@@ -366,6 +324,10 @@ a {
   @media screen and (max-width: 599px) {
     font-size: 2.5em !important;
   }
+}
+
+.text-shadow {
+  text-shadow: 2px 2px #4242422c;
 }
 
 /* Non-mobile padding left and right */

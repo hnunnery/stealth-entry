@@ -1,6 +1,9 @@
 <template>
   <v-container fluid id="fullwidth" class="hero-background-circuit pa-3 container">
     <v-layout wrap justify-center align-center class="py-4 row">
+      <v-flex xs12 class="mt-3 mb-4">
+        <h2 class="text-shadow display-3 primary--text text-xs-center">Our Team</h2>
+      </v-flex>
       <!-- Israel Profile -->
       <v-flex xs12 lg8>
         <v-card class="elevation12 pa-2 card">
@@ -42,7 +45,6 @@ export default {
   margin: 0;
   padding: 0;
   width: 100vw;
-  min-height: 100vh;
 }
 .hero-background-circuit {
   background-repeat: repeat;

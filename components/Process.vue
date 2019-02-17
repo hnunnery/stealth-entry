@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="hero-background-circuit">
+  <v-container fluid>
     <v-layout row wrap justify-center align-center class="py-3">
       <v-flex xs12 lg10 offset-lg-1>
         <v-layout row wrap justify-center align-center>
@@ -65,8 +65,10 @@ export default {
 
 
 <style lang="scss" scoped>
-.hero-background-circuit {
+.container {
   background-repeat: repeat;
+  border-top: 1px solid var(--orange);
+  border-bottom: 1px solid var(--orange);
 }
 h2 {
   margin: 5px 0 10px;
