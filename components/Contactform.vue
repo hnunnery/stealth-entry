@@ -80,13 +80,13 @@
               <input type="hidden" name="form-name" value="contact">
               <div class="input-field col s12" hidden>
                 <input id="bot-field" type="text">
-                <label for="bot-field">Name</label>
+                <label for="bot-field"></label>
               </div>
               <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
               <v-text-field name="first_name" label="First Name" required></v-text-field>
               <v-text-field name="last_name" label="Last Name" required></v-text-field>
               <v-text-field name="email" label="Email" required></v-text-field>
-              <v-textarea name="message" label="Message" placeholder="Type your message here..."></v-textarea>
+              <v-textarea name="message" label="Message"></v-textarea>
               <div class="text-xs-center">
                 <v-btn type="submit" class="white--text gradient">Submit</v-btn>
               </div>
