@@ -20,8 +20,8 @@
       </v-flex>
       <v-flex xs12 md8 offset-md-2 lg6>
         <img
-          src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1549425942/StealthEntry/monitors.jpg"
-          alt="monitoring"
+          src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1549926272/StealthEntry/IoT.jpg"
+          alt="secure iot"
           class="responsive-img elevation-12"
         >
       </v-flex>

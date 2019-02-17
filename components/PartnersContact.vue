@@ -74,6 +74,8 @@
               <v-card-text>
                 <form name="reseller" method="POST" data-netlify="true" class="pa-4">
                   <h2 class="secondary--text text-xs-center display-2">Contact Sales</h2>
+                  <!-- NETLIFY FORM NAME -->
+                  <input type="hidden" name="form-name" value="reseller">
                   <input type="text" name="name" placeholder="Name" required class="my-4">
                   <input type="text" name="company" placeholder="Company" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">

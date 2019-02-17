@@ -3,8 +3,8 @@
     <v-layout row wrap align-center justify-center>
       <v-flex xs12 md8 offset-md-2 lg6>
         <img
-          src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1549948253/StealthEntry/tiq-with-logo.jpg"
-          alt="tiq"
+          src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1549926272/StealthEntry/blockchain.jpg"
+          alt="blockchain"
           class="responsive-img elevation-12"
         >
       </v-flex>
