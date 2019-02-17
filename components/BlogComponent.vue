@@ -1,0 +1,99 @@
+<template>
+  <v-container fluid id="fullwidth" class="hero-background-circuit pa-3">
+    <v-layout wrap justify-center align-center>
+      <!-- BLOG POST 1 -->
+      <v-flex xs12 md6 lg4>
+        <v-card
+          class="elevation-12 ma-3"
+          to="/blog/blog12172018"
+          data-aos="flip-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <v-img
+            src="https://res.cloudinary.com/missionwebdev/image/upload/c_crop,f_auto,g_north,w_1000,h_540,b_black,o_70/v1549426160/StealthEntry/hacker.jpg"
+            alt="hacker"
+            class="white--text"
+            contain
+          >
+            <v-container fill-height fluid>
+              <v-layout fill-height>
+                <v-flex xs12>
+                  <span
+                    class="display-1"
+                  >What are the Biggest Cyber Security Threats to Your Business?</span>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-img>
+        </v-card>
+      </v-flex>
+      <!-- BLOG POST 1 -->
+      <v-flex xs12 md6 lg4>
+        <v-card
+          class="elevation-12 ma-3"
+          to="/blog/blog12102018"
+          data-aos="flip-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
+          <v-img
+            src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_1000,b_black,o_70/v1549426148/StealthEntry/detected.jpg"
+            alt="detected"
+            class="white--text"
+            contain
+          >
+            <v-container fill-height fluid>
+              <v-layout fill-height>
+                <v-flex xs12>
+                  <span class="display-1">Five Benefits of an MSSP</span>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-img>
+        </v-card>
+      </v-flex>
+      <!-- BLOG POST 1 -->
+      <v-flex xs12 md6 lg4>
+        <v-card
+          class="elevation-12 ma-3"
+          to="/blog/blog121020182"
+          data-aos="flip-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <v-img
+            src="https://res.cloudinary.com/missionwebdev/image/upload/c_crop,f_auto,g_north,h_540,w_1000,b_black,o_70/v1549425942/StealthEntry/monitors.jpg"
+            alt="monitoring"
+            class="white--text"
+            contain
+          >
+            <v-container fill-height fluid>
+              <v-layout fill-height>
+                <v-flex xs12>
+                  <span class="display-1">Curious about hiring a Managed Security Service Provider?</span>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-img>
+        </v-card>
+      </v-flex>
+    </v-layout>
+  </v-container>
+</template>
+    
+<script>
+export default {};
+</script>
+
+<style lang="scss" scoped>
+#fullwidth {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+}
+.hero-background-circuit {
+  background-repeat: repeat;
+}
+</style>
