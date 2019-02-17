@@ -67,34 +67,39 @@
           </v-flex>
           <v-flex xs12 md6>
             <v-card
-              class="elevation12 my-5"
+              class="elevation12 my-4"
               data-aos="fade-left"
               data-aos-delay="800"
               data-aos-duration="1000"
             >
               <v-card-text>
-                <v-form
-                  lazy-validation
-                  class="white pa-4 my-2"
+                <form
+                  class="white pa-4"
                   method="post"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                 >
                   <!-- NETLIFY FORM NAME -->
                   <input type="hidden" name="form-name" value="contact">
-                  <div class="input-field col s12" hidden>
+                  <div hidden>
                     <input id="bot-field" type="text">
                     <label for="bot-field"></label>
                   </div>
                   <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
-                  <v-text-field :name="first_name" label="First Name" required></v-text-field>
-                  <v-text-field :name="last_name" label="Last Name" required></v-text-field>
-                  <v-text-field :name="email" label="Email" required></v-text-field>
-                  <v-textarea :name="message" label="Message"></v-textarea>
+                  <input
+                    type="text"
+                    name="first_name"
+                    placeholder="First Name"
+                    required
+                    class="my-4"
+                  >
+                  <input type="text" name="last_name" placeholder="Last Name" required class="my-4">
+                  <input type="email" name="email" placeholder="Email" required class="my-4">
+                  <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                   <div class="text-xs-center">
-                    <v-btn type="submit" class="white--text gradient">Submit</v-btn>
+                    <v-btn type="submit" class="white--text gradient mt-4">Submit</v-btn>
                   </div>
-                </v-form>
+                </form>
               </v-card-text>
             </v-card>
           </v-flex>
@@ -119,5 +124,27 @@ export default {
 }
 .hero-background-circuit {
   background-repeat: repeat;
+}
+
+input,
+textarea {
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 30px 0 0 0;
+  border-bottom: solid 1px var(--orange);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  &:focus,
+  &:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+    &::-webkit-input-placeholder {
+      color: var(--orange);
+      font-size: 11px;
+      transform: translateY(-20px);
+      visibility: visible !important;
+    }
+  }
 }
 </style>
