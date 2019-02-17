@@ -38,17 +38,6 @@
         <a href="#" target="_blank">
           <v-card class="card elevation12 text-xs-center ma-3">
             <img
-              src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_250/v1549899542/StealthEntry/partners/redseal.png"
-              alt="redseal"
-              class="responsive-img redseal"
-            >
-          </v-card>
-        </a>
-      </v-flex>
-      <v-flex xs12 sm6 md4 lg4 xl3>
-        <a href="#" target="_blank">
-          <v-card class="card elevation12 text-xs-center ma-3">
-            <img
               src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_250/v1549899542/StealthEntry/partners/thales.png"
               alt="thales"
               class="responsive-img thales"

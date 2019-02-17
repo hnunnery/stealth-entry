@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="hero-background-circuit">
-    <v-layout row wrap justify-center align-center class="py-5">
+    <v-layout row wrap justify-center align-center class="py-3">
       <v-flex xs12 lg10 offset-lg-1>
         <v-layout row wrap justify-center align-center>
           <v-flex xs12 md4>
@@ -77,6 +77,13 @@ h2 {
   }
   @media screen and (min-width: 1450px) {
     height: 200px;
+  }
+}
+/* Mobile Phone Styling */
+@media screen and (max-width: 599px) {
+  .row {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
   }
 }
 </style>

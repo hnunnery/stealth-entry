@@ -10,7 +10,7 @@
       </v-flex>
       <v-flex xs12 md8 offset-md-2 lg6 class="md-and-up-padding-y5">
         <h2
-          class="my-header primary--text text-xs-center display-3 font-weight-light"
+          class="my-header primary--text text-xs-center display-3 mt-2 font-weight-light"
         >Secure Cloud Service</h2>
         <v-divider class="my-2"></v-divider>
         <div class="text-xs-left secondary--text subheading px-2">

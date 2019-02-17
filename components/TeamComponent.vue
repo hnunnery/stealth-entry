@@ -47,6 +47,7 @@ export default {
 .hero-background-circuit {
   background-repeat: repeat;
 }
+/* Mobile Phone Styling */
 @media screen and (max-width: 599px) {
   .container {
     padding: 10px !important;

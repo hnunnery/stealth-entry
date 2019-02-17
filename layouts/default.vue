@@ -363,7 +363,11 @@ a {
 /* Adds Text Shadow to Section Headers */
 .my-header {
   text-shadow: 2px 2px #4242422c;
+  @media screen and (max-width: 599px) {
+    font-size: 2.5em !important;
+  }
 }
+
 /* Non-mobile padding left and right */
 .md-and-up-padding-y5 {
   @media screen and (min-width: 960px) {

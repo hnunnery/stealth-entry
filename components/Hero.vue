@@ -50,9 +50,9 @@
               class="responsive-img elevation-12"
             >
           </v-flex>
-          <v-flex xs12 md8 offset-md-2 lg6 class="md-and-up-padding-y5">
+          <v-flex xs12 md10 offset-md-1 lg6 class="md-and-up-padding-y5">
             <h2
-              class="my-header primary--text text-xs-center display-2 font-weight-light my-3"
+              class="my-header primary--text text-xs-center display-2 font-weight-light mt-2"
             >Cyber Security as a Service (CSaaS)</h2>
             <v-divider class="my-2"></v-divider>
             <div class="text-xs-left secondary--text subheading px-2">
@@ -111,6 +111,13 @@ export default {
   margin-bottom: 30px;
   @media screen and (min-width: 960px) {
     margin-bottom: -70px;
+  }
+}
+/* Mobile Phone Styling */
+@media screen and (max-width: 599px) {
+  .container,
+  .row {
+    margin-bottom: 0 !important;
   }
 }
 </style>
