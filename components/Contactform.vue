@@ -67,6 +67,7 @@
           </v-flex>
           <v-flex xs12 md6>
             <v-form
+              lazy-validation
               class="elevation12 white pa-4 my-5"
               method="post"
               data-netlify="true"
