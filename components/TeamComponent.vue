@@ -1,9 +1,9 @@
 <template>
-  <v-container fluid id="fullwidth" class="hero-background-circuit pa-3">
-    <v-layout wrap justify-center align-center class="py-4">
+  <v-container fluid id="fullwidth" class="hero-background-circuit pa-3 container">
+    <v-layout wrap justify-center align-center class="py-4 row">
       <!-- Israel Profile -->
       <v-flex xs12 lg8>
-        <v-card class="elevation12 pa-2">
+        <v-card class="elevation12 pa-2 card">
           <v-layout wrap justify-center align-center>
             <v-flex xs12 md5>
               <v-img
@@ -46,5 +46,17 @@ export default {
 }
 .hero-background-circuit {
   background-repeat: repeat;
+}
+@media screen and (max-width: 599px) {
+  .container {
+    padding: 10px !important;
+  }
+  .row {
+    padding-top: 0 !important;
+  }
+  .card {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
 }
 </style>

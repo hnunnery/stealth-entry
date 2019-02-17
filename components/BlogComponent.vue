@@ -4,7 +4,7 @@
       <!-- BLOG POST 1 -->
       <v-flex xs12 md6 lg4>
         <v-card
-          class="elevation-12 ma-3"
+          class="elevation-12 ma-3 card"
           to="/blog/blog12172018"
           data-aos="flip-up"
           data-aos-delay="100"
@@ -14,7 +14,6 @@
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_crop,f_auto,g_north,w_1000,h_540,b_black,o_70/v1549426160/StealthEntry/hacker.jpg"
             alt="hacker"
             class="white--text"
-            contain
           >
             <v-container fill-height fluid>
               <v-layout fill-height>
@@ -31,7 +30,7 @@
       <!-- BLOG POST 1 -->
       <v-flex xs12 md6 lg4>
         <v-card
-          class="elevation-12 ma-3"
+          class="elevation-12 ma-3 card"
           to="/blog/blog12102018"
           data-aos="flip-up"
           data-aos-delay="200"
@@ -41,7 +40,6 @@
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_1000,b_black,o_70/v1549426148/StealthEntry/detected.jpg"
             alt="detected"
             class="white--text"
-            contain
           >
             <v-container fill-height fluid>
               <v-layout fill-height>
@@ -56,7 +54,7 @@
       <!-- BLOG POST 1 -->
       <v-flex xs12 md6 lg4>
         <v-card
-          class="elevation-12 ma-3"
+          class="elevation-12 ma-3 card"
           to="/blog/blog121020182"
           data-aos="flip-up"
           data-aos-delay="300"
@@ -66,7 +64,6 @@
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_crop,f_auto,g_north,h_540,w_1000,b_black,o_70/v1549425942/StealthEntry/monitors.jpg"
             alt="monitoring"
             class="white--text"
-            contain
           >
             <v-container fill-height fluid>
               <v-layout fill-height>
@@ -95,5 +92,18 @@ export default {};
 }
 .hero-background-circuit {
   background-repeat: repeat;
+}
+/* Mobile Phone Styling */
+@media screen and (max-width: 599px) {
+  .container {
+    padding: 10px !important;
+  }
+  .card {
+    margin: 10px 0 !important;
+  }
+  .display-1 {
+    font-size: 2em !important;
+    font-weight: 300 !important;
+  }
 }
 </style>

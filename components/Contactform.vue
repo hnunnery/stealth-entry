@@ -151,4 +151,10 @@ textarea {
     }
   }
 }
+
+@media screen and (max-width: 599px) {
+  .container {
+    padding: 10px !important;
+  }
+}
 </style>
