@@ -67,22 +67,23 @@
           </v-flex>
           <v-flex xs12 md6>
             <v-card
-              class="elevation12 my-4"
+              class="elevation12 my-4 white"
               data-aos="fade-left"
               data-aos-delay="800"
               data-aos-duration="1000"
             >
               <v-card-text>
                 <form
-                  class="white pa-4"
-                  method="post"
+                  name="contact"
+                  method="POST"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
+                  class="pa-4"
                 >
                   <!-- NETLIFY FORM NAME -->
                   <input type="hidden" name="form-name" value="contact">
                   <!-- NETLIFY BOT FIELD -->
-                  <input type="text" id="bot-field" class="hidden">
+                  <input type="text" name="bot-field" class="hidden">
                   <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
                   <input
                     type="text"
