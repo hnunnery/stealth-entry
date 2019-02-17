@@ -66,31 +66,37 @@
             </div>
           </v-flex>
           <v-flex xs12 md6>
-            <v-form
-              lazy-validation
-              class="elevation12 white pa-4 my-5"
-              method="post"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
+            <v-card
+              class="elevation12 my-5"
               data-aos="fade-left"
               data-aos-delay="800"
               data-aos-duration="1000"
             >
-              <!-- NETLIFY FORM NAME -->
-              <input type="hidden" name="form-name" value="contact">
-              <div class="input-field col s12" hidden>
-                <input id="bot-field" type="text">
-                <label for="bot-field"></label>
-              </div>
-              <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
-              <v-text-field name="first_name" label="First Name" required></v-text-field>
-              <v-text-field name="last_name" label="Last Name" required></v-text-field>
-              <v-text-field name="email" label="Email" required></v-text-field>
-              <v-textarea name="message" label="Message"></v-textarea>
-              <div class="text-xs-center">
-                <v-btn type="submit" class="white--text gradient">Submit</v-btn>
-              </div>
-            </v-form>
+              <v-card-text>
+                <v-form
+                  lazy-validation
+                  class="white pa-4 my-2"
+                  method="post"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                >
+                  <!-- NETLIFY FORM NAME -->
+                  <input type="hidden" name="form-name" value="contact">
+                  <div class="input-field col s12" hidden>
+                    <input id="bot-field" type="text">
+                    <label for="bot-field"></label>
+                  </div>
+                  <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
+                  <v-text-field :name="first_name" label="First Name" required></v-text-field>
+                  <v-text-field :name="last_name" label="Last Name" required></v-text-field>
+                  <v-text-field :name="email" label="Email" required></v-text-field>
+                  <v-textarea :name="message" label="Message"></v-textarea>
+                  <div class="text-xs-center">
+                    <v-btn type="submit" class="white--text gradient">Submit</v-btn>
+                  </div>
+                </v-form>
+              </v-card-text>
+            </v-card>
           </v-flex>
         </v-layout>
       </v-flex>
