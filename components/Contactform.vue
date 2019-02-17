@@ -81,10 +81,8 @@
                 >
                   <!-- NETLIFY FORM NAME -->
                   <input type="hidden" name="form-name" value="contact">
-                  <div hidden>
-                    <input id="bot-field" type="text">
-                    <label for="bot-field"></label>
-                  </div>
+                  <!-- NETLIFY BOT FIELD -->
+                  <input type="text" id="bot-field" class="hidden">
                   <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
                   <input
                     type="text"
@@ -124,6 +122,10 @@ export default {
 }
 .hero-background-circuit {
   background-repeat: repeat;
+}
+
+.hidden {
+  display: none;
 }
 
 input,
