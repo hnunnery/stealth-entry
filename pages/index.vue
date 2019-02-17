@@ -1,17 +1,25 @@
 <template>
-  <v-layout column justify-center align-center>
-    <v-flex xs12 sm8 md6>
-      <div class="text-xs-center">
-        <logo/>
-        <vuetify-logo/>
-      </div>
-      <v-card></v-card>
-    </v-flex>
-  </v-layout>
+  <div>
+    <Hero/>
+    <Hire/>
+    <Process/>
+  </div>
 </template>
 
 <script>
+import Hero from "@/components/Hero";
+import Hire from "@/components/Hire";
+import Process from "@/components/Process";
+
 export default {
-  components: {}
+  name: "index",
+  components: {
+    Hero,
+    Hire,
+    Process
+  },
+  data() {
+    return {};
+  }
 };
 </script>
