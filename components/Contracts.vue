@@ -2,12 +2,10 @@
   <v-container>
     <v-layout wrap justify-center class="mb-5">
       <v-flex xs12 xl8 offset-xl-2>
-        <h2
-          class="text-xs-center primary--text text-shadow font-weight-light display-2 my-2"
-        >Contracts</h2>
+        <h2 class="text-xs-center primary--text text-shadow font-weight-light display-3">Contracts</h2>
         <v-divider></v-divider>
         <h4
-          class="text-xs-center secondary--text subheading my-4"
+          class="text-xs-center secondary--text subheading my-3"
         >AUTHORIZED INFORMATION TECHNOLOGY SCHEDULE PRICELIST GENERAL PURPOSE COMMERCIAL INFORMATION TECHNOLOGY EQUIPMENT, SOFTWARE & SERVICES</h4>
         <p>FPDS Code D302 - IT Systems Development Services</p>
         <p>FPDS Code D306 - IT Systems Analysis Services</p>

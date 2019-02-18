@@ -79,7 +79,22 @@
                   <input type="text" name="name" placeholder="Name" required class="my-4">
                   <input type="text" name="company" placeholder="Company" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">
-                  <v-select :items="brands" label="Select Brand"></v-select>
+                  <div class="custom-select">
+                    <label for="brands" class="secondary--text">Select Brand:</label>
+                    <div class="select">
+                      <select name="brands" id="brands">
+                        <option value disabled selected></option>
+                        <option value="cisco">Cisco</option>
+                        <option value="ubiquiti">Ubiquiti</option>
+                        <option value="project-hosts">Project Hosts</option>
+                        <option value="thales">Thales</option>
+                        <option value="imperva">Imperva</option>
+                        <option value="f5">F5</option>
+                        <option value="fortinet">Fortinet</option>
+                        <option value="symantec">Symantec</option>
+                      </select>
+                    </div>
+                  </div>
                   <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                   <!-- <div data-netlify-recaptcha="true"></div> -->
                   <div class="text-xs-center">
@@ -114,6 +129,60 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.custom-select select {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+  padding: 0 50px 0 20px;
+  cursor: pointer;
+  text-indent: 5px;
+}
+
+.custom-select .select {
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--orange);
+  height: 50px;
+  cursor: pointer;
+}
+
+.custom-select .select:focus {
+  outline: none;
+}
+
+.custom-select .select:before {
+  content: "";
+  background: var(--accent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  pointer-events: none;
+}
+
+.custom-select .select:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 7px 0;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.custom-select .select::-ms-expand {
+  display: none;
+}
+</style>
+
 
 <style lang="scss" scoped>
 #fullwidth {
