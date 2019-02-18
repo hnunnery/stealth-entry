@@ -6,7 +6,7 @@
         <div class="hire-top secondary diagonal-div hero-background-circuit">
           <h4
             class="primary--text display-1 px-3 py-3 px-2"
-          >Hire Stealth Entry as your Cyber Security as a Service (CSaaS)</h4>
+          >Trust Stealth Entry as your Cyber Security as a Service (CSaaS)</h4>
           <v-btn class="gradient orange white--text my-4" to="/contact">Take Action Today</v-btn>
           <h5
             class="white--text headline py-3 px-3"

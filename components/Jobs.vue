@@ -4,7 +4,7 @@
       <v-flex xs12>
         <h2
           class="text-shadow display-3 primary--text font-weight-light text-xs-center mt-4 mb-2 mx-2"
-        >Stealth Entry Careers</h2>
+        >Careers</h2>
         <v-divider></v-divider>
       </v-flex>
     </v-layout>
