@@ -67,6 +67,13 @@
                   class="responsive-img symantec"
                 >
               </v-flex>
+              <v-flex xs12 sm6 class="text-xs-center py-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_100,w_220/v1550514965/StealthEntry/partners/dts_logo.jpg"
+                  alt="dts"
+                  class="responsive-img dts"
+                >
+              </v-flex>
             </v-layout>
           </v-flex>
           <v-flex xs12 sm6>
@@ -92,6 +99,7 @@
                         <option value="F5">F5</option>
                         <option value="Fortinet">Fortinet</option>
                         <option value="Symantec">Symantec</option>
+                        <option value="Dedicated Tech Services">Dedicated Tech Services</option>
                       </select>
                     </div>
                   </div>
