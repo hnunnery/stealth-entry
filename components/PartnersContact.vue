@@ -80,18 +80,18 @@
                   <input type="text" name="company" placeholder="Company" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">
                   <div class="custom-select">
-                    <label for="brands" class="secondary--text">Select Brand:</label>
-                    <div class="select">
+                    <label for="brands" class="grey--text text--darken-1">Brand:</label>
+                    <div class="select font-weight-bold secondary--text">
                       <select name="brands" id="brands">
                         <option value disabled selected></option>
-                        <option value="cisco">Cisco</option>
-                        <option value="ubiquiti">Ubiquiti</option>
-                        <option value="project-hosts">Project Hosts</option>
-                        <option value="thales">Thales</option>
-                        <option value="imperva">Imperva</option>
-                        <option value="f5">F5</option>
-                        <option value="fortinet">Fortinet</option>
-                        <option value="symantec">Symantec</option>
+                        <option value="Cisco">Cisco</option>
+                        <option value="Ubiquiti">Ubiquiti</option>
+                        <option value="Project Hosts">Project Hosts</option>
+                        <option value="Thales">Thales</option>
+                        <option value="Imperva">Imperva</option>
+                        <option value="F5">F5</option>
+                        <option value="Fortinet">Fortinet</option>
+                        <option value="Symantec">Symantec</option>
                       </select>
                     </div>
                   </div>
@@ -131,6 +131,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+/* CSS for Select Component */
 .custom-select select {
   width: 100%;
   height: 100%;
@@ -156,7 +157,7 @@ export default {
 
 .custom-select .select:before {
   content: "";
-  background: var(--accent);
+  background: var(--orange);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -199,6 +200,7 @@ export default {
   display: none;
 }
 
+/* CSS for Form */
 input,
 textarea {
   width: 100%;

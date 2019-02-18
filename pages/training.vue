@@ -1,13 +1,17 @@
 <template>
-  <div class="training center">
-    <h1>Training Page</h1>
-    <h2>coming soon</h2>
+  <div class="training">
+    <Training/>
   </div>
 </template>
 
 <script>
+import Training from "@/components/Training";
+
 export default {
   name: "training",
+  components: {
+    Training
+  },
   data() {
     return {};
   },
@@ -17,5 +21,3 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>

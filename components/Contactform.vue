@@ -33,15 +33,17 @@
                 data-aos-delay="400"
                 data-aos-duration="1000"
               >
-                <v-layout class="pb-4">
-                  <v-flex xs3 class="text-xs-center">
-                    <v-icon size="45px" class="primary--text">fas fa-mobile-alt</v-icon>
-                  </v-flex>
-                  <v-flex xs9>
-                    <h4 class="secondary--text display-1">Give us a ring</h4>
-                    <p class="secondary--text subheading">614-423-9334</p>
-                  </v-flex>
-                </v-layout>
+                <a href="tel:614-423-9334">
+                  <v-layout class="pb-4">
+                    <v-flex xs3 class="text-xs-center">
+                      <v-icon size="45px" class="primary--text">fas fa-mobile-alt</v-icon>
+                    </v-flex>
+                    <v-flex xs9>
+                      <h4 class="secondary--text display-1">Give us a ring</h4>
+                      <p class="secondary--text subheading">614-423-9334</p>
+                    </v-flex>
+                  </v-layout>
+                </a>
               </div>
               <div
                 class="col s12 text-xs-left"

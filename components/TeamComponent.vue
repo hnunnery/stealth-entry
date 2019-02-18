@@ -10,7 +10,7 @@
           <v-layout wrap justify-center align-center>
             <v-flex xs12 md5>
               <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_320/v1538693517/VOWAID/hunter.jpg"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_320,q_100/v1550460580/StealthEntry/team/israel.webp"
                 height="320px"
                 contain
               ></v-img>

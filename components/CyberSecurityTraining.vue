@@ -18,6 +18,9 @@
             being taught by professionals currently working within the Information Security Arena.
             Our instructors can provide the training you need in a mixture of delivery options.
           </p>
+          <p class="text-xs-center my-4">
+            <v-btn to="/training" class="gradient white--text">View EC-Council Courses</v-btn>
+          </p>
         </div>
       </v-flex>
       <v-flex xs12 md8 offset-md-2 lg6>
