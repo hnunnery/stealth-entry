@@ -1,8 +1,13 @@
 <template>
-  <v-container fluid class="hero-background-circuit">
+  <v-container fluid class="hero-background-circuit secondary">
     <v-layout row wrap justify-center align-center class="py-3">
       <v-flex xs12 lg10 offset-lg-1>
         <v-layout row wrap justify-center align-center>
+          <v-flex xs12>
+            <h5
+              class="text-xs-center white--text headline pb-4 px-3"
+            >In a few easy steps, Stealth Entry can customize a cyber security solution just for you!</h5>
+          </v-flex>
           <v-flex xs12 md4>
             <v-card
               class="white elevation-12 text-xs-center py-4 ma-2"
@@ -67,8 +72,8 @@ export default {
 <style lang="scss" scoped>
 .container {
   background-repeat: repeat;
-  border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
+  /* border-top: 1px solid var(--orange);
+  border-bottom: 1px solid var(--orange); */
 }
 h2 {
   margin: 5px 0 10px;

@@ -7,10 +7,7 @@
           <h4
             class="primary--text display-1 px-3 py-3 px-2"
           >Trust Stealth Entry as your Cyber Security as a Service (CSaaS)</h4>
-          <v-btn class="gradient orange white--text my-4" to="/contact">Take Action Today</v-btn>
-          <h5
-            class="white--text headline py-3 px-3"
-          >In a few easy steps, Stealth Entry can customize a cyber security solution just for you!</h5>
+          <v-btn class="gradient orange white--text mt-4 mb-0" to="/contact">Take Action Today</v-btn>
         </div>
       </v-flex>
     </v-layout>
@@ -38,9 +35,9 @@ div.layout {
     border-top: 1px solid var(--orange);
   }
 }
-.hire-top {
+/* .hire-top {
   border-bottom: 1px solid var(--orange);
-}
+} */
 .hero-background-circuit {
   background-repeat: repeat;
 }

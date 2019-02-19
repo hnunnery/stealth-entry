@@ -134,7 +134,7 @@
     </v-content>
 
     <v-footer height="auto" class="page-footer">
-      <v-card flat tile class="flex hero-background-circuit grey darken-4">
+      <v-card flat tile class="flex hero-background-circuit secondary">
         <v-layout row wrap justify-center align-center class="mt-2 mb-3">
           <v-flex xs12 class="text-xs-center mb-2">
             <v-btn class="mx-3" dark icon>
@@ -286,7 +286,7 @@ aside.v-navigation-drawer {
   /* Vuetify Accent */
   --accent: #ffb74d;
   /* Vuetify Secondary */
-  --secondary: #616161;
+  --secondary: #2c2c2c;
   /* Darker Orange */
   --dark: #ff7f00;
 }
