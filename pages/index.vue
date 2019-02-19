@@ -2,7 +2,6 @@
   <div>
     <Hero/>
     <Hire/>
-    <Process/>
     <Mission/>
     <TeamComponent/>
   </div>
@@ -11,7 +10,6 @@
 <script>
 import Hero from "@/components/Hero";
 import Hire from "@/components/Hire";
-import Process from "@/components/Process";
 import Mission from "@/components/Mission";
 import TeamComponent from "@/components/TeamComponent";
 
@@ -20,7 +18,6 @@ export default {
   components: {
     Hero,
     Hire,
-    Process,
     Mission,
     TeamComponent
   },

@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="fullwidth">
+  <v-container fluid id="hire">
     <v-layout row wrap class="row justify-center align-center">
       <v-flex xs12 class="text-xs-center">
         <div class="orange accent"></div>
@@ -8,6 +8,7 @@
             class="primary--text display-1 px-3 py-3 px-2"
           >Trust Stealth Entry as your Cyber Security as a Service (CSaaS)</h4>
           <v-btn class="gradient orange white--text mt-4 mb-0" to="/contact">Take Action Today</v-btn>
+          <Process/>
         </div>
       </v-flex>
     </v-layout>
@@ -15,29 +16,28 @@
 </template>
 
 <script>
+import Process from "@/components/Process";
+
 export default {
   name: "hire",
-  data() {
-    return {};
+  components: {
+    Process
   }
 };
 </script>
 
 <style lang="scss" scoped>
-#fullwidth,
+#hire,
 div.layout {
   margin: 0;
   padding: 0;
   width: 100vw;
 }
-#fullwidth {
+#hire {
   @media screen and (max-width: 959px) {
     border-top: 1px solid var(--orange);
   }
 }
-/* .hire-top {
-  border-bottom: 1px solid var(--orange);
-} */
 .hero-background-circuit {
   background-repeat: repeat;
 }
@@ -50,10 +50,10 @@ div.layout {
 // ORANGE DIAGONAL
 .accent {
   @media screen and (min-width: 960px) {
-    -webkit-clip-path: polygon(0 55%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 55%, 100% 0%, 100% 100%, 0% 100%);
-    height: 330px;
-    margin-bottom: -330px;
+    -webkit-clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
+    height: 300px;
+    margin-bottom: -300px;
   }
 }
 </style>
@@ -62,11 +62,11 @@ div.layout {
 // DIAGONAL DIV (GLOBAL)
 .diagonal-div {
   @media screen and (min-width: 960px) {
-    -webkit-clip-path: polygon(0 55%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 55%, 100% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
     /* height: 350px; */
-    padding-top: 280px;
-    padding-bottom: 40px;
+    padding-top: 180px;
+    padding-bottom: 10px;
   }
 }
 </style>
