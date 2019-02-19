@@ -5,7 +5,7 @@
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 text-shadow font-weight-light text-xs-center pt-3"
+              class="primary--text display-3 text-shadow font-weight-light text-xs-center pt-5"
             >Customers</h2>
             <v-divider></v-divider>
           </v-flex>
@@ -87,7 +87,6 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  min-height: 100vh;
 }
 .hero-background-circuit {
   background-repeat: repeat;

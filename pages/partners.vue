@@ -1,19 +1,22 @@
 <template>
   <div class="partners">
-    <Customers/>
     <PartnersContact/>
+    <StrategicPartners/>
+    <Customers/>
   </div>
 </template>
 
 <script>
-import Customers from "@/components/Customers";
 import PartnersContact from "@/components/PartnersContact";
+import StrategicPartners from "@/components/StrategicPartners";
+import Customers from "@/components/Customers";
 
 export default {
   name: "partners",
   components: {
-    Customers,
-    PartnersContact
+    PartnersContact,
+    StrategicPartners,
+    Customers
   },
   data() {
     return {};
