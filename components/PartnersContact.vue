@@ -69,8 +69,36 @@
               </v-flex>
               <v-flex xs12 sm6 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_100,w_220/v1550514965/StealthEntry/partners/dts_logo.jpg"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1550520877/StealthEntry/partners/Inner-View_-_Logo.png"
+                  alt="inner-view"
+                  class="responsive-img inner-view"
+                >
+              </v-flex>
+              <v-flex xs12 sm6 class="text-xs-center py-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_100,w_200/v1550514965/StealthEntry/partners/dts_logo.jpg"
                   alt="dts"
+                  class="responsive-img dts"
+                >
+              </v-flex>
+              <v-flex xs12 sm6 class="text-xs-center py-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1550520876/StealthEntry/partners/Parsons_-_Logo.png"
+                  alt="parsons"
+                  class="responsive-img dts"
+                >
+              </v-flex>
+              <v-flex xs12 sm6 class="text-xs-center py-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1550520876/StealthEntry/partners/Raytheon_-_Logo.png"
+                  alt="raytheon"
+                  class="responsive-img dts"
+                >
+              </v-flex>
+              <v-flex xs12 sm6 class="text-xs-center py-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1550520876/StealthEntry/partners/SAIC_-_Logo.png"
+                  alt="saic"
                   class="responsive-img dts"
                 >
               </v-flex>
@@ -99,7 +127,11 @@
                         <option value="F5">F5</option>
                         <option value="Fortinet">Fortinet</option>
                         <option value="Symantec">Symantec</option>
+                        <option value="InnerView">InnerView</option>
                         <option value="Dedicated Tech Services">Dedicated Tech Services</option>
+                        <option value="Parsons Cyber">Parsons Cyber</option>
+                        <option value="Raytheon">Raytheon</option>
+                        <option value="SAIC">SAIC</option>
                       </select>
                     </div>
                   </div>

@@ -1,8 +1,8 @@
 <template>
-  <v-container fluid id="fullwidth" class="hero-background-circuit pa-3 container">
+  <v-container fluid id="fullwidth" class="secondary hero-background-circuit pa-3 container">
     <v-layout wrap justify-center align-center class="py-4 row">
       <v-flex xs12 class="mt-3 mb-4">
-        <h2 class="text-shadow display-3 primary--text text-xs-center">Our Team</h2>
+        <h2 class="text-shadow display-3 primary--text text-xs-center font-weight-light">Our Team</h2>
       </v-flex>
       <!-- Israel Profile -->
       <v-flex xs12 lg8>

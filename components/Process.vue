@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid class="hero-background-circuit">
     <v-layout row wrap justify-center align-center class="py-3">
       <v-flex xs12 lg10 offset-lg-1>
         <v-layout row wrap justify-center align-center>
