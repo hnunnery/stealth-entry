@@ -16,7 +16,7 @@
               data-aos-duration="1000"
             >
               <div class="card-content">
-                <v-icon size="70px">fas fa-poll</v-icon>
+                <v-icon size="70px" class="secondary--text">fas fa-poll</v-icon>
                 <h2 class="primary--text display-1">Run Assessment</h2>
                 <p
                   class="secondary--text subheading px-2"
@@ -32,7 +32,7 @@
               data-aos-duration="1000"
             >
               <div class="card-content">
-                <v-icon size="70px">fas fa-shield-alt</v-icon>
+                <v-icon size="70px" class="secondary--text">fas fa-shield-alt</v-icon>
                 <h2 class="white--text display-1">Customize a Plan</h2>
                 <p
                   class="secondary--text subheading px-2"
@@ -48,7 +48,7 @@
               data-aos-duration="1000"
             >
               <div class="card-content">
-                <v-icon size="70px">fas fa-lock</v-icon>
+                <v-icon size="70px" class="secondary--text">fas fa-lock</v-icon>
                 <h2 class="primary--text display-1">Maintain Security</h2>
                 <p
                   class="secondary--text subheading px-2"

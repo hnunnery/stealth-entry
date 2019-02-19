@@ -24,17 +24,17 @@
           <v-icon class="primary--text navbar-icons">fas fa-flask</v-icon>&nbsp;
           <span class="nav-text secondary--text">Research</span>
         </v-btn>
-        <v-btn flat to="/careers">
-          <v-icon class="primary--text navbar-icons">fas fa-users</v-icon>&nbsp;
-          <span class="nav-text secondary--text">Careers</span>
-        </v-btn>
         <v-btn flat to="/partners">
           <v-icon class="primary--text navbar-icons">far fa-handshake</v-icon>&nbsp;
           <span class="nav-text secondary--text">Partners</span>
         </v-btn>
         <v-btn flat to="/contracts">
-          <v-icon class="primary--text navbar-icons">fas fa-file-contract</v-icon>&nbsp;
+          <v-icon class="primary--text navbar-icons">fas fa-users</v-icon>&nbsp;
           <span class="nav-text secondary--text">Contracts</span>
+        </v-btn>
+        <v-btn flat to="/about">
+          <v-icon class="primary--text navbar-icons">fas fa-user-circle</v-icon>&nbsp;
+          <span class="nav-text secondary--text">About</span>
         </v-btn>
         <v-btn flat to="/blog">
           <v-icon class="primary--text navbar-icons">fas fa-blog</v-icon>&nbsp;

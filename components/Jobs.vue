@@ -9,7 +9,7 @@
       </v-flex>
     </v-layout>
 
-    <v-layout row wrap justify-center align-start class="pt-2">
+    <v-layout row wrap justify-center align-start class="py-2">
       <v-flex xs12 md10 lg8 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
@@ -227,7 +227,6 @@ export default {
   margin: 0;
   padding: 0;
   width: 100vw;
-  min-height: 100vh;
 }
 .hero-background-circuit {
   background-repeat: repeat;
