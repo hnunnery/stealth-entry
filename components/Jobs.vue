@@ -1,10 +1,10 @@
 <template>
-  <v-container fluid id="fullwidth">
-    <v-layout>
-      <v-flex xs12>
+  <v-container fluid id="fullwidth" class="mt-4">
+    <v-layout row wrap justify-center>
+      <v-flex xs12 md10 lg8>
         <h2
           class="text-shadow display-3 primary--text font-weight-light text-xs-center mt-3 mb-2 mx-2"
-        >Careers</h2>
+        >Openings</h2>
         <v-divider></v-divider>
       </v-flex>
     </v-layout>

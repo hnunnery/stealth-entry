@@ -119,5 +119,8 @@ export default {
   .row {
     margin-bottom: 0 !important;
   }
+  h2 {
+    font-size: 2.9em !important;
+  }
 }
 </style>

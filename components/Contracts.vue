@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-layout wrap justify-center class="mb-5">
+    <v-layout wrap justify-center>
       <v-flex xs12 xl8 offset-xl-2>
         <h2 class="text-xs-center primary--text text-shadow font-weight-light display-3">Contracts</h2>
         <v-divider></v-divider>
@@ -46,9 +46,3 @@ export default {
   name: "contracts"
 };
 </script>
-
-<style lang="scss" scoped>
-.container {
-  min-height: 100vh;
-}
-</style>

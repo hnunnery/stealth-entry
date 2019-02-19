@@ -86,14 +86,6 @@
             <v-list-tile-title class="secondary--text subheading font-weight-medium">RESEARCH</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile to="/careers" class="sidenav-element">
-          <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-users</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">CAREERS</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
         <v-list-tile to="/partners" class="sidenav-element">
           <v-list-tile-action>
             <v-icon class="primary--text">far fa-handshake</v-icon>
@@ -104,10 +96,18 @@
         </v-list-tile>
         <v-list-tile to="/contracts" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-file-contract</v-icon>
+            <v-icon class="primary--text">fas fa-users</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">CONTRACTS</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile to="/about" class="sidenav-element">
+          <v-list-tile-action>
+            <v-icon class="primary--text">fas fa-user-circle</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title class="secondary--text subheading font-weight-medium">ABOUT</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/blog" class="sidenav-element">
