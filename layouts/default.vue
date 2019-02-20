@@ -32,10 +32,10 @@
           <v-icon class="primary--text navbar-icons">fas fa-users</v-icon>&nbsp;
           <span class="nav-text secondary--text">Contracts</span>
         </v-btn>
-        <v-btn flat to="/about">
+        <!-- <v-btn flat to="/about">
           <v-icon class="primary--text navbar-icons">fas fa-user-circle</v-icon>&nbsp;
           <span class="nav-text secondary--text">About</span>
-        </v-btn>
+        </v-btn>-->
         <v-btn flat to="/blog">
           <v-icon class="primary--text navbar-icons">fas fa-blog</v-icon>&nbsp;
           <span class="nav-text secondary--text">Blog</span>
@@ -102,14 +102,14 @@
             <v-list-tile-title class="secondary--text subheading font-weight-medium">CONTRACTS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile to="/about" class="sidenav-element">
+        <!-- <v-list-tile to="/about" class="sidenav-element">
           <v-list-tile-action>
             <v-icon class="primary--text">fas fa-user-circle</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">ABOUT</v-list-tile-title>
           </v-list-tile-content>
-        </v-list-tile>
+        </v-list-tile>-->
         <v-list-tile to="/blog" class="sidenav-element">
           <v-list-tile-action>
             <v-icon class="primary--text">fas fa-blog</v-icon>

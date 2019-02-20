@@ -5,7 +5,7 @@
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 text-shadow font-weight-light text-xs-center pt-5"
+              class="primary--text display-3 my-header font-weight-light text-xs-center pt-5"
             >Strategic Partners</h2>
             <v-divider></v-divider>
           </v-flex>
@@ -13,28 +13,28 @@
             <v-layout wrap justify-center align-center class="pa-1 mt-4 partners-component">
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1550520876/StealthEntry/partners/SAIC_-_Logo.png"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1550520876/StealthEntry/partners/SAIC_-_Logo.png"
                   alt="saic"
                   class="responsive-img dts"
                 >
               </v-flex>
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1550520876/StealthEntry/partners/Raytheon_-_Logo.png"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1550520876/StealthEntry/partners/Raytheon_-_Logo.png"
                   alt="raytheon"
                   class="responsive-img dts"
                 >
               </v-flex>
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1550520876/StealthEntry/partners/Parsons_-_Logo.png"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1550520876/StealthEntry/partners/Parsons_-_Logo.png"
                   alt="parsons"
                   class="responsive-img dts"
                 >
               </v-flex>
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1550520877/StealthEntry/partners/Inner-View_-_Logo.png"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1550520877/StealthEntry/partners/Inner-View_-_Logo.png"
                   alt="inner-view"
                   class="responsive-img inner-view"
                 >

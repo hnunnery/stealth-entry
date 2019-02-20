@@ -5,7 +5,7 @@
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 text-shadow font-weight-light text-xs-center pt-5"
+              class="primary--text display-3 my-header font-weight-light text-xs-center pt-5"
             >Customers</h2>
             <v-divider></v-divider>
           </v-flex>

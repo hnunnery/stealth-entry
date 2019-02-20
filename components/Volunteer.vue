@@ -5,8 +5,8 @@
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 text-shadow font-weight-light text-xs-center pt-3"
-            >Charity / Volunteer</h2>
+              class="primary--text display-3 my-header font-weight-light text-xs-center pt-3"
+            >Volunteer Organizations</h2>
             <v-divider></v-divider>
           </v-flex>
           <v-flex xs12 xl10>
@@ -30,20 +30,6 @@
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_400/v1550531882/StealthEntry/partners/toys-for-tots.png"
                   alt="toys for tots"
                   class="responsive-img"
-                >
-              </v-flex>
-              <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
-                <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_500/v1550531882/StealthEntry/partners/pediatric.png"
-                  alt="national pediatric cancer foundation"
-                  class="responsive-img"
-                >
-              </v-flex>
-              <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
-                <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1550531882/StealthEntry/partners/top_safe_secure_logo.png"
-                  alt="national pediatric cancer foundation"
-                  class="safe secure"
                 >
               </v-flex>
             </v-layout>

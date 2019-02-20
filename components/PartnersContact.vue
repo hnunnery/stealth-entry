@@ -5,7 +5,7 @@
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 text-shadow font-weight-light text-xs-center pt-3"
+              class="primary--text display-3 my-header font-weight-light text-xs-center pt-3"
             >Technology Integration</h2>
             <v-divider></v-divider>
           </v-flex>
@@ -76,11 +76,11 @@
               </v-flex>
             </v-layout>
           </v-flex>
-          <v-flex xs12 sm6>
+          <v-flex xs12 md6>
             <v-card class="elevation12 my-4 white">
               <v-card-text>
                 <form name="reseller" method="POST" data-netlify="true" class="pa-4">
-                  <h2 class="secondary--text text-xs-center display-2">Contact Sales</h2>
+                  <h2 class="secondary--text text-xs-center my-header display-2">Contact Sales</h2>
                   <!-- NETLIFY FORM NAME -->
                   <input type="hidden" name="form-name" value="reseller">
                   <input type="text" name="name" placeholder="Name" required class="my-4">
@@ -99,11 +99,7 @@
                         <option value="F5">F5</option>
                         <option value="Fortinet">Fortinet</option>
                         <option value="Symantec">Symantec</option>
-                        <option value="InnerView">InnerView</option>
                         <option value="Dedicated Tech Services">Dedicated Tech Services</option>
-                        <option value="Parsons Cyber">Parsons Cyber</option>
-                        <option value="Raytheon">Raytheon</option>
-                        <option value="SAIC">SAIC</option>
                       </select>
                     </div>
                   </div>
@@ -202,7 +198,6 @@ export default {
   margin: 0;
   padding: 0;
   width: 100vw;
-  min-height: 100vh;
 }
 .hero-background-circuit {
   background-repeat: repeat;

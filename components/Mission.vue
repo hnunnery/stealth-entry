@@ -8,16 +8,36 @@
             <v-divider class="mb-3"></v-divider>
             <v-layout row wrap justify-center class="mt-3">
               <v-flex xs12 sm6 class="text-xs-left secondary--text display-1 my-2">
-                <v-icon class="primary--text ml-4 mr-2 mb-1">fas fa-check</v-icon>Integrity
+                <v-icon
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  class="primary--text ml-4 mr-2 mb-1"
+                >fas fa-check</v-icon>Integrity
               </v-flex>
               <v-flex xs12 sm6 class="text-xs-left secondary--text display-1 my-2">
-                <v-icon class="primary--text ml-4 mr-2 mb-1">fas fa-check</v-icon>Respect
+                <v-icon
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                  class="primary--text ml-4 mr-2 mb-1"
+                >fas fa-check</v-icon>Respect
               </v-flex>
               <v-flex xs12 sm6 class="text-xs-left secondary--text display-1 my-2">
-                <v-icon class="primary--text ml-4 mr-2 mb-1">fas fa-check</v-icon>Dependability
+                <v-icon
+                  data-aos="fade-left"
+                  data-aos-delay="600"
+                  data-aos-duration="1000"
+                  class="primary--text ml-4 mr-2 mb-1"
+                >fas fa-check</v-icon>Dependability
               </v-flex>
               <v-flex xs12 sm6 class="text-xs-left secondary--text display-1 my-2">
-                <v-icon class="primary--text ml-4 mr-2 mb-1">fas fa-check</v-icon>Humility
+                <v-icon
+                  data-aos="fade-left"
+                  data-aos-delay="800"
+                  data-aos-duration="1000"
+                  class="primary--text ml-4 mr-2 mb-1"
+                >fas fa-check</v-icon>Humility
               </v-flex>
             </v-layout>
           </v-flex>
