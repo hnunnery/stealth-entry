@@ -13,7 +13,7 @@
             <v-layout wrap justify-center align-center class="pa-1 mt-4 partners-component">
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1550532353/StealthEntry/partners/vfw.jpg"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_270/v1550532353/StealthEntry/partners/vfw.jpg"
                   alt="vfw"
                   class="responsive-img"
                 >
@@ -29,6 +29,13 @@
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_400/v1550531882/StealthEntry/partners/toys-for-tots.png"
                   alt="toys for tots"
+                  class="responsive-img"
+                >
+              </v-flex>
+              <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_400/v1550717566/StealthEntry/partners/safe_secure.png"
+                  alt="safe secure online"
                   class="responsive-img"
                 >
               </v-flex>

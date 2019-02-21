@@ -39,6 +39,13 @@
                   class="responsive-img inner-view"
                 >
               </v-flex>
+              <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_100,w_250/v1550514965/StealthEntry/partners/dts_logo.jpg"
+                  alt="dts"
+                  class="responsive-img dts"
+                >
+              </v-flex>
             </v-layout>
           </v-flex>
         </v-layout>

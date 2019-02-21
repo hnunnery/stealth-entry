@@ -5,7 +5,7 @@
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 my-header font-weight-light text-xs-center pt-3"
+              class="primary--text display-3 my-header custom-size font-weight-light text-xs-center pt-2"
             >Technology Integration</h2>
             <v-divider></v-divider>
           </v-flex>
@@ -67,13 +67,6 @@
                   class="responsive-img symantec"
                 >
               </v-flex>
-              <v-flex xs12 sm6 class="text-xs-center py-3">
-                <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_100,w_200/v1550514965/StealthEntry/partners/dts_logo.jpg"
-                  alt="dts"
-                  class="responsive-img dts"
-                >
-              </v-flex>
             </v-layout>
           </v-flex>
           <v-flex xs12 md6>
@@ -87,7 +80,7 @@
                   <input type="text" name="company" placeholder="Company" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">
                   <div class="custom-select">
-                    <label for="brands" class="grey--text text--darken-1">Brand:</label>
+                    <label for="brands" class="grey--text">Brand:</label>
                     <div class="select font-weight-bold secondary--text">
                       <select name="brands" id="brands">
                         <option value disabled selected></option>
@@ -99,7 +92,6 @@
                         <option value="F5">F5</option>
                         <option value="Fortinet">Fortinet</option>
                         <option value="Symantec">Symantec</option>
-                        <option value="Dedicated Tech Services">Dedicated Tech Services</option>
                       </select>
                     </div>
                   </div>
@@ -120,25 +112,17 @@
 
 <script>
 export default {
-  name: "partners-contact",
-  data() {
-    return {
-      brands: [
-        "Cisco",
-        "Ubiquiti",
-        "Project Hosts",
-        "Thales",
-        "Imperva",
-        "F5",
-        "Fortinet",
-        "Symantec"
-      ]
-    };
-  }
+  name: "partners-contact"
 };
 </script>
 
 <style lang="scss" scoped>
+@media screen and (max-width: 599px) {
+  .custom-size {
+    font-size: 2.4em !important;
+  }
+}
+
 /* CSS for Select Component */
 .custom-select select {
   width: 100%;
