@@ -27,13 +27,7 @@
             >REVIEW GSA CONTRACT</a>
           </v-btn>
           <v-btn class="white--text gradient">
-            <a
-              href="https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=GS-35F-450CA&amp;contractorName=STEALTH+ENTRY+LLC&amp;executeQuery=YES"
-              target="_blank"
-              data-content="https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=GS-35F-450CA&amp;contractorName=STEALTH+ENTRY+LLC&amp;executeQuery=YES"
-              data-type="external"
-              rel="undefined"
-            >VISIT GSA EBUY</a>
+            <a href="/contracts.pdf" target="_blank">VISIT GSA EBUY</a>
           </v-btn>
         </div>
       </v-flex>
