@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="fullwidth" class="mt-4">
+  <v-container fluid id="fullwidth" class="my-4">
     <v-layout row wrap justify-center>
       <v-flex xs12 md10 lg8>
         <h2

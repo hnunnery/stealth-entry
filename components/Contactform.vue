@@ -87,8 +87,14 @@
                   <!-- NETLIFY BOT FIELD -->
                   <input type="text" name="bot-field" class="hidden">
                   <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
-                  <input type="text" name="first_name" placeholder="First Name" class="my-4">
-                  <input type="text" name="last_name" placeholder="Last Name" class="my-4">
+                  <input
+                    type="text"
+                    name="first_name"
+                    placeholder="First Name"
+                    required
+                    class="my-4"
+                  >
+                  <input type="text" name="last_name" placeholder="Last Name" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">
                   <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                   <!-- <div data-netlify-recaptcha="true"></div> -->
