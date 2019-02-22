@@ -119,7 +119,7 @@ export default {
 <style lang="scss" scoped>
 @media screen and (max-width: 599px) {
   .custom-size {
-    font-size: 2.3em !important;
+    font-size: 2.35em !important;
   }
 }
 

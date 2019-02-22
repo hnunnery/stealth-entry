@@ -24,7 +24,7 @@
         <v-layout>
           <v-flex xs12>
             <v-layout row wrap>
-              <v-flex xs12 md6 class="text-xs-center">
+              <v-flex xs12 sm6 class="text-xs-center">
                 <ul>
                   <li>
                     <div class="text-xs-center">
@@ -121,7 +121,7 @@
                   </li>
                 </ul>
               </v-flex>
-              <v-flex xs12 md6 class="text-xs-center">
+              <v-flex xs12 sm6 class="text-xs-center">
                 <ul>
                   <li>
                     <div class="text-xs-center">
