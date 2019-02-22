@@ -3,7 +3,7 @@
     <v-layout row wrap class="row justify-center align-center">
       <v-flex xs12 class="text-xs-center">
         <div class="orange accent"></div>
-        <div class="hire-top secondary diagonal-div hero-background-circuit">
+        <div class="hire-top darkgrey diagonal-div hero-background-circuit">
           <h4
             class="primary--text display-1 px-3 py-3 px-2"
           >Trust Stealth Entry as your Cyber Security as a Service (CSaaS)</h4>

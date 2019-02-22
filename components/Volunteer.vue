@@ -5,7 +5,7 @@
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 my-header font-weight-light text-xs-center pt-3"
+              class="primary--text display-3 my-header custom-size font-weight-light text-xs-center pt-3"
             >Volunteer Organizations</h2>
             <v-divider></v-divider>
           </v-flex>
@@ -56,5 +56,10 @@
 }
 .hero-background-circuit {
   background-repeat: repeat;
+}
+@media screen and (max-width: 599px) {
+  .custom-size {
+    font-size: 2.3em !important;
+  }
 }
 </style>

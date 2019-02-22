@@ -134,7 +134,7 @@
     </v-content>
 
     <v-footer height="auto" class="page-footer">
-      <v-card flat tile class="flex hero-background-circuit secondary">
+      <v-card flat tile class="flex hero-background-circuit darkgrey">
         <v-layout row wrap justify-center align-center class="mt-2 mb-3">
           <v-flex xs12 class="text-xs-center mb-2">
             <v-btn class="mx-3" dark icon>
