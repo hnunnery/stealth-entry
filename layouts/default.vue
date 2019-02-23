@@ -331,7 +331,7 @@ a {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /* Non-mobile padding left and right */

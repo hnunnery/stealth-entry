@@ -130,8 +130,10 @@ export default {
   min-height: 100vh;
 }
 
-.hidden {
-  display: none;
+@media screen and (max-width: 399px) {
+  .container {
+    padding: 5px !important;
+  }
 }
 
 input,
