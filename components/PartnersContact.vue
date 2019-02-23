@@ -76,8 +76,8 @@
                   <h2 class="secondary--text text-xs-center my-header display-2">Contact Sales</h2>
                   <!-- NETLIFY FORM NAME -->
                   <input type="hidden" name="form-name" value="reseller">
-                  <input type="text" name="name" placeholder="Name" class="my-4">
-                  <input type="text" name="company" placeholder="Company" class="my-4">
+                  <input type="text" name="name" placeholder="Name" required class="my-4">
+                  <input type="text" name="company" placeholder="Company" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">
                   <div class="custom-select">
                     <label for="brands" class="grey--text">Brand:</label>
@@ -95,7 +95,7 @@
                       </select>
                     </div>
                   </div>
-                  <textarea name="message" placeholder="Message" rows="4" class="my-4"></textarea>
+                  <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                   <!-- <div data-netlify-recaptcha="true"></div> -->
                   <div class="text-xs-center">
                     <v-btn type="submit" class="white--text gradient mt-4">Submit</v-btn>

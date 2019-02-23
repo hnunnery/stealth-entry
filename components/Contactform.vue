@@ -1,112 +1,122 @@
 <template>
-  <v-container fluid id="fullwidth" class="hero-background-circuit pa-3">
+  <v-container fluid class="hero-background-circuit page-wrapper py-3">
     <v-layout wrap justify-center align-center>
-      <v-flex xs12 lg10 xl8>
+      <v-container>
         <v-layout wrap justify-center align-center>
-          <v-flex xs12 md6>
-            <h2 class="primary--text display-3 text-xs-center pt-3">Get in Touch</h2>
-            <div class="py-4">
-              <div
-                class="text-xs-left"
-                data-aos="fade-right"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                <a href="mailto:info@stealthentry.com?subject=Website Mail">
-                  <v-layout class="pb-4">
-                    <v-flex xs3 class="text-xs-center">
-                      <v-icon size="45px" class="primary--text">fas fa-envelope</v-icon>
-                    </v-flex>
-                    <v-flex xs9>
-                      <h4 class="secondary--text display-1">
-                        Send
-                        <span class="hide-on-mobile">us</span> an email
-                      </h4>
-                      <p class="secondary--text subheading">info@stealthentry.com</p>
-                    </v-flex>
-                  </v-layout>
-                </a>
-              </div>
-              <div
-                class="col s12 text-xs-left"
-                data-aos="fade-right"
-                data-aos-delay="400"
-                data-aos-duration="1000"
-              >
-                <a href="tel:614-423-9334">
-                  <v-layout class="pb-4">
-                    <v-flex xs3 class="text-xs-center">
-                      <v-icon size="45px" class="primary--text">fas fa-mobile-alt</v-icon>
-                    </v-flex>
-                    <v-flex xs9>
-                      <h4 class="secondary--text display-1">Give us a ring</h4>
-                      <p class="secondary--text subheading">614-423-9334</p>
-                    </v-flex>
-                  </v-layout>
-                </a>
-              </div>
-              <div
-                class="col s12 text-xs-left"
-                data-aos="fade-right"
-                data-aos-delay="600"
-                data-aos-duration="1000"
-              >
-                <v-layout class="pb-4">
-                  <v-flex xs3 class="text-xs-center">
-                    <v-icon size="45px" class="primary--text">fas fa-map-marked-alt</v-icon>
-                  </v-flex>
-                  <v-flex xs9>
-                    <h4 class="secondary--text display-1">
-                      <span class="hide-on-mobile">Mailing</span> Address
-                    </h4>
-                    <p class="secondary--text subheading">1900 Polaris Pkwy, Suite 450
-                      <br>Colombus, OH 43240
-                    </p>
-                  </v-flex>
-                </v-layout>
-              </div>
-            </div>
-          </v-flex>
-          <v-flex xs12 md6>
-            <v-card
-              class="elevation12 my-4 white"
-              data-aos="fade-left"
-              data-aos-delay="800"
-              data-aos-duration="1000"
-            >
-              <v-card-text>
-                <form
-                  name="contact"
-                  method="POST"
-                  data-netlify="true"
-                  data-netlify-honeypot="bot-field"
-                  class="pa-4"
-                >
-                  <!-- NETLIFY FORM NAME -->
-                  <input type="hidden" name="form-name" value="contact">
-                  <!-- NETLIFY BOT FIELD -->
-                  <input type="text" name="bot-field" class="hidden">
-                  <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
-                  <input
-                    type="text"
-                    name="first_name"
-                    placeholder="First Name"
-                    required
-                    class="my-4"
+          <v-flex xs12 lg10 xl8>
+            <v-layout wrap justify-center align-center>
+              <v-flex xs12 md6>
+                <h2 class="primary--text display-3 text-xs-center pt-3">Get in Touch</h2>
+                <div class="py-4">
+                  <div
+                    class="text-xs-left"
+                    data-aos="fade-right"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
                   >
-                  <input type="text" name="last_name" placeholder="Last Name" required class="my-4">
-                  <input type="email" name="email" placeholder="Email" required class="my-4">
-                  <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
-                  <!-- <div data-netlify-recaptcha="true"></div> -->
-                  <div class="text-xs-center">
-                    <v-btn type="submit" class="white--text gradient mt-4">Submit</v-btn>
+                    <a href="mailto:info@stealthentry.com?subject=Website Mail">
+                      <v-layout class="pb-4">
+                        <v-flex xs3 class="text-xs-center">
+                          <v-icon size="45px" class="primary--text">fas fa-envelope</v-icon>
+                        </v-flex>
+                        <v-flex xs9>
+                          <h4 class="secondary--text display-1">
+                            Send
+                            <span class="hide-on-mobile">us</span> an email
+                          </h4>
+                          <p class="secondary--text subheading">info@stealthentry.com</p>
+                        </v-flex>
+                      </v-layout>
+                    </a>
                   </div>
-                </form>
-              </v-card-text>
-            </v-card>
+                  <div
+                    class="col s12 text-xs-left"
+                    data-aos="fade-right"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                  >
+                    <a href="tel:614-423-9334">
+                      <v-layout class="pb-4">
+                        <v-flex xs3 class="text-xs-center">
+                          <v-icon size="45px" class="primary--text">fas fa-mobile-alt</v-icon>
+                        </v-flex>
+                        <v-flex xs9>
+                          <h4 class="secondary--text display-1">Give us a ring</h4>
+                          <p class="secondary--text subheading">614-423-9334</p>
+                        </v-flex>
+                      </v-layout>
+                    </a>
+                  </div>
+                  <div
+                    class="col s12 text-xs-left"
+                    data-aos="fade-right"
+                    data-aos-delay="600"
+                    data-aos-duration="1000"
+                  >
+                    <v-layout class="pb-4">
+                      <v-flex xs3 class="text-xs-center">
+                        <v-icon size="45px" class="primary--text">fas fa-map-marked-alt</v-icon>
+                      </v-flex>
+                      <v-flex xs9>
+                        <h4 class="secondary--text display-1">
+                          <span class="hide-on-mobile">Mailing</span> Address
+                        </h4>
+                        <p class="secondary--text subheading">171 Charring Cross Drive
+                          <br>Westerville OH 43081
+                        </p>
+                      </v-flex>
+                    </v-layout>
+                  </div>
+                </div>
+              </v-flex>
+              <v-flex xs12 md6>
+                <v-card
+                  class="elevation12 my-4 white"
+                  data-aos="fade-left"
+                  data-aos-delay="800"
+                  data-aos-duration="1000"
+                >
+                  <v-card-text>
+                    <form
+                      name="contact"
+                      method="POST"
+                      data-netlify="true"
+                      data-netlify-honeypot="bot-field"
+                      class="pa-4"
+                    >
+                      <!-- NETLIFY FORM NAME -->
+                      <input type="hidden" name="form-name" value="contact">
+                      <!-- NETLIFY BOT FIELD -->
+                      <input type="text" name="bot-field" class="hidden">
+                      <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
+                      <input
+                        type="text"
+                        name="first_name"
+                        placeholder="First Name"
+                        required
+                        class="my-4"
+                      >
+                      <input
+                        type="text"
+                        name="last_name"
+                        placeholder="Last Name"
+                        required
+                        class="my-4"
+                      >
+                      <input type="email" name="email" placeholder="Email" required class="my-4">
+                      <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
+                      <!-- <div data-netlify-recaptcha="true"></div> -->
+                      <div class="text-xs-center">
+                        <v-btn type="submit" class="white--text gradient mt-4">Submit</v-btn>
+                      </div>
+                    </form>
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+            </v-layout>
           </v-flex>
         </v-layout>
-      </v-flex>
+      </v-container>
     </v-layout>
   </v-container>
 </template>
@@ -118,14 +128,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#fullwidth {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
+.page-wrapper {
   min-height: 100vh;
-}
-.hero-background-circuit {
-  background-repeat: repeat;
 }
 
 .hidden {
@@ -151,12 +155,6 @@ textarea {
       transform: translateY(-20px);
       visibility: visible !important;
     }
-  }
-}
-
-@media screen and (max-width: 599px) {
-  .container {
-    padding: 10px !important;
   }
 }
 </style>
