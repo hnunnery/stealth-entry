@@ -4,7 +4,9 @@
       <v-flex xs12>
         <v-layout row wrap justify-center class="text-xs-center">
           <v-flex xs12 md10 lg5 class="mx-3">
-            <h2 class="primary--text display-2 pt-5 pb-3 text-shadow font-weight-light">Core Values</h2>
+            <h2
+              class="primary--text display-2 top-spacing pt-5 pb-3 text-shadow font-weight-light"
+            >Core Values</h2>
             <v-divider class="mb-3"></v-divider>
             <v-layout row wrap justify-center class="mt-3">
               <v-flex xs12 sm6 class="text-xs-left secondary--text display-1 my-2">
@@ -79,6 +81,12 @@ export default {
 <style lang="scss" scoped>
 .subheading {
   font-size: 1.4em !important;
+}
+/* Mobile Phone Styling */
+@media screen and (max-width: 599px) {
+  .top-spacing {
+    padding-top: 15px !important;
+  }
 }
 @media screen and (max-width: 1263px) {
   .widen {

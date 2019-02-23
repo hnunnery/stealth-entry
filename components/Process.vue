@@ -16,10 +16,10 @@
               data-aos-duration="1000"
             >
               <div class="card-content">
-                <v-icon size="70px" class="secondary--text">fas fa-poll</v-icon>
-                <h2 class="primary--text display-1">Run Assessment</h2>
+                <v-icon size="70px" class="darkgrey--text">fas fa-poll</v-icon>
+                <h2 class="primary--text display-1 my-2">Run Assessment</h2>
                 <p
-                  class="secondary--text subheading px-2"
+                  class="secondary--text steps px-2"
                 >Stealth Entry’s exceptional analysts will identify your exposure to risks and vulnerabilities and provide a quantitative analysis of all findings.</p>
               </div>
             </v-card>
@@ -32,11 +32,11 @@
               data-aos-duration="1000"
             >
               <div class="card-content">
-                <v-icon size="70px" class="secondary--text">fas fa-shield-alt</v-icon>
-                <h2 class="white--text display-1">Customize a Plan</h2>
+                <v-icon size="70px" class="darkgrey--text">fas fa-shield-alt</v-icon>
+                <h2 class="white--text display-1 my-2">Customize a Plan</h2>
                 <p
-                  class="secondary--text subheading px-2"
-                >We will discover vulnerabilities and design mitigating or compensating security measures before deployment,reducing your risk exposure.</p>
+                  class="secondary--text steps px-2"
+                >We will discover vulnerabilities and design mitigating or compensating security measures before deployment, reducing your risk exposure.</p>
               </div>
             </v-card>
           </v-flex>
@@ -48,11 +48,11 @@
               data-aos-duration="1000"
             >
               <div class="card-content">
-                <v-icon size="70px" class="secondary--text">fas fa-lock</v-icon>
-                <h2 class="primary--text display-1">Maintain Security</h2>
+                <v-icon size="70px" class="darkgrey--text">fas fa-lock</v-icon>
+                <h2 class="primary--text display-1 my-2">Maintain Security</h2>
                 <p
-                  class="secondary--text subheading px-2"
-                >We take pride in protecting all of your computer systems and networks through integrity, availability andauthentication.</p>
+                  class="secondary--text steps px-2"
+                >We take pride in protecting all of your computer systems and networks through integrity, availability, and authentication.</p>
               </div>
             </v-card>
           </v-flex>
@@ -70,14 +70,6 @@ export default {
 
 
 <style lang="scss" scoped>
-.container {
-  background-repeat: repeat;
-  /* border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange); */
-}
-h2 {
-  margin: 5px 0 10px;
-}
 .card-content {
   @media screen and (min-width: 960px) {
     height: 240px;
@@ -86,11 +78,7 @@ h2 {
     height: 200px;
   }
 }
-/* Mobile Phone Styling */
-@media screen and (max-width: 599px) {
-  .row {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
+.steps {
+  font-size: 1.2em;
 }
 </style>
