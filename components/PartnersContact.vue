@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="fullwidth" class="pa-1">
+  <v-container fluid class="pa-1">
     <v-layout wrap justify-center align-center>
       <v-flex xs12 xl10 class="px-3">
         <v-layout wrap justify-center>
@@ -69,7 +69,7 @@
               </v-flex>
             </v-layout>
           </v-flex>
-          <v-flex xs12 md6>
+          <v-flex xs12 sm9 md6 lg5>
             <v-card class="elevation12 my-4 white">
               <v-card-text>
                 <form name="reseller" method="POST" data-netlify="true" class="pa-4">
@@ -178,19 +178,6 @@ export default {
 
 
 <style lang="scss" scoped>
-#fullwidth {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-}
-.hero-background-circuit {
-  background-repeat: repeat;
-}
-
-.hidden {
-  display: none;
-}
-
 /* CSS for Form */
 input,
 textarea {
@@ -215,8 +202,8 @@ textarea {
 }
 
 @media screen and (max-width: 599px) {
-  .container {
+  /* .container {
     padding: 10px !important;
-  }
+  } */
 }
 </style>

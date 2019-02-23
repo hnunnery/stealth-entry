@@ -330,6 +330,10 @@ a {
   text-shadow: 2px 2px #4242422c;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Non-mobile padding left and right */
 .md-and-up-padding-y5 {
   @media screen and (min-width: 960px) {
