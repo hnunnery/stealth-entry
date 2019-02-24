@@ -10,57 +10,57 @@
             <v-divider></v-divider>
           </v-flex>
           <v-flex xs12 md6>
-            <v-layout wrap justify-center align-center class="pa-1 mt-4 partners-component">
-              <v-flex xs12 sm6 class="text-xs-center py-3">
+            <v-layout wrap justify-center align-center class="mt-4 partners-component">
+              <v-flex xs6 class="text-xs-center py-3 px-2">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549899543/StealthEntry/partners/cisco.png"
                   alt="cisco"
                   class="responsive-img cisco"
                 >
               </v-flex>
-              <v-flex xs12 sm6 class="text-xs-center py-3">
+              <v-flex xs6 class="text-xs-center py-3 px-2">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549900611/StealthEntry/partners/ubiquiti.png"
                   alt="ubiquiti"
                   class="responsive-img ubiquiti"
                 >
               </v-flex>
-              <v-flex xs12 sm6 class="text-xs-center py-3">
+              <v-flex xs6 class="text-xs-center py-3 px-2">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220,q_100/v1549899542/StealthEntry/partners/project-hosts.png"
                   alt="project-hosts"
                   class="responsive-img project-hosts"
                 >
               </v-flex>
-              <v-flex xs12 sm6 class="text-xs-center py-3">
+              <v-flex xs6 class="text-xs-center py-3 px-2">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549899542/StealthEntry/partners/thales.png"
                   alt="thales"
                   class="responsive-img thales"
                 >
               </v-flex>
-              <v-flex xs12 sm6 class="text-xs-center py-3">
+              <v-flex xs6 class="text-xs-center py-3 px-2">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549900848/StealthEntry/partners/imperva.png"
                   alt="imperva"
                   class="responsive-img imperva"
                 >
               </v-flex>
-              <v-flex xs12 sm6 class="text-xs-center py-3">
+              <v-flex xs6 class="text-xs-center py-3 px-2">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549901144/StealthEntry/partners/F5-Logo.png"
                   alt="f5"
                   class="responsive-img f5"
                 >
               </v-flex>
-              <v-flex xs12 sm6 class="text-xs-center py-3">
+              <v-flex xs6 class="text-xs-center py-3 px-2">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549901644/StealthEntry/partners/fortinet.png"
                   alt="fortinet"
                   class="responsive-img fortinet"
                 >
               </v-flex>
-              <v-flex xs12 sm6 class="text-xs-center py-3">
+              <v-flex xs6 class="text-xs-center py-3 px-2">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220,q_100/v1549899542/StealthEntry/partners/symantec.png"
                   alt="symantec"
@@ -80,7 +80,7 @@
                   <input type="text" name="company" placeholder="Company" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">
                   <div class="custom-select">
-                    <label for="brands" class="grey--text">Brand:</label>
+                    <label for="brands" class="grey--text sixteen">Brand:</label>
                     <div class="select font-weight-bold secondary--text">
                       <select name="brands" id="brands">
                         <option value disabled selected></option>
@@ -121,6 +121,13 @@ export default {
   .custom-size {
     font-size: 2.35em !important;
   }
+}
+
+input,
+textarea,
+select,
+.sixteen {
+  font-size: 16px;
 }
 
 /* CSS for Select Component */
@@ -199,11 +206,5 @@ textarea {
       visibility: visible !important;
     }
   }
-}
-
-@media screen and (max-width: 599px) {
-  /* .container {
-    padding: 10px !important;
-  } */
 }
 </style>

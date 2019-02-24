@@ -103,6 +103,29 @@
                       class="my-4"
                     >
                     <input type="email" name="email" placeholder="Email" required class="my-4">
+                    <div class="custom-select">
+                      <label for="brands" class="grey--text sixteen">Brand:</label>
+                      <div class="select font-weight-bold secondary--text">
+                        <select name="brands" id="brands">
+                          <option value disabled selected></option>
+                          <option value="Cyber Security Assessments">Cyber Security Assessments</option>
+                          <option
+                            value="Cyber Security as a Service (CSaaS)"
+                          >Cyber Security as a Service (CSaaS)</option>
+                          <option value="Cloud Services">Cloud Services</option>
+                          <option
+                            value="Cyber Security Staff Augmentation (Consulting)"
+                          >Cyber Security Staff Augmentation (Consulting)</option>
+                          <option
+                            value="ECCouncil Authorized Training"
+                          >ECCouncil Authorized Training</option>
+                          <option
+                            value="Critical Threat Management Solution (THREAT-IQ)"
+                          >Critical Threat Management Solution (THREAT-IQ)</option>
+                          <option value="Other">Other</option>
+                        </select>
+                      </div>
+                    </div>
                     <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                     <!-- <div data-netlify-recaptcha="true"></div> -->
                     <div class="text-xs-center">
@@ -137,6 +160,13 @@ export default {
 }
 
 input,
+textarea,
+select,
+.sixteen {
+  font-size: 16px;
+}
+
+input,
 textarea {
   width: 100%;
   display: block;
@@ -156,5 +186,59 @@ textarea {
       visibility: visible !important;
     }
   }
+}
+</style>
+
+<style lang="scss" scoped>
+/* CSS for Select Component */
+.custom-select select {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+  padding: 0 50px 0 20px;
+  cursor: pointer;
+  text-indent: 5px;
+}
+
+.custom-select .select {
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--orange);
+  height: 50px;
+  cursor: pointer;
+}
+
+.custom-select .select:focus {
+  outline: none;
+}
+
+.custom-select .select:before {
+  content: "";
+  background: var(--orange);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  pointer-events: none;
+}
+
+.custom-select .select:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 7px 0;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.custom-select .select::-ms-expand {
+  display: none;
 }
 </style>
