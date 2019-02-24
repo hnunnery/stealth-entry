@@ -104,9 +104,9 @@
                     >
                     <input type="email" name="email" placeholder="Email" required class="my-4">
                     <div class="custom-select">
-                      <label for="brands" class="grey--text sixteen">Brand:</label>
+                      <label for="service" class="grey--text sixteen">Service:</label>
                       <div class="select font-weight-bold secondary--text">
-                        <select name="brands" id="brands">
+                        <select name="service" id="service">
                           <option value disabled selected></option>
                           <option value="Cyber Security Assessments">Cyber Security Assessments</option>
                           <option
