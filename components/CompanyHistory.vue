@@ -11,6 +11,13 @@
           class="secondary--text text-xs-left subheading"
         >Stealth Entry now serves satisfied customers all over the United States, with plans to expand globally. We proudly serve organizations such as the Department of Defense, state and local Governments, and the Insurance, Healthcare, Financial and Retail markets. The choice for Cyber Security is important, yet simple — allow our highly qualified Information Security Professionals to become a trusted part of your team and deliver results that speak volumes.</p>
       </v-flex>
+      <v-flex xs12 lg10 xl8 data-aos="zoom-out-up" data-aos-delay="300" data-aos-duration="1000">
+        <img
+          src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1549227032/StealthEntry/stealth-entry-logo.png"
+          alt="stealth entry logo"
+          class="responsive-img"
+        >
+      </v-flex>
     </v-layout>
   </v-container>
 </template>
