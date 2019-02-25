@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="fullwidth" class="hero-background-circuit pa-3">
+  <v-container fluid class="hero-background-circuit pa-3 wrapper">
     <v-layout wrap justify-center align-center>
       <!-- BLOG POST 1 -->
       <v-flex xs12 md6 lg4>
@@ -84,7 +84,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-#fullwidth {
+.wrapper {
   margin: 0;
   padding: 0;
   width: 100vw;

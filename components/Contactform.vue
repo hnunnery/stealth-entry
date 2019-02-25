@@ -113,9 +113,7 @@
                             value="Cyber Security as a Service (CSaaS)"
                           >Cyber Security as a Service (CSaaS)</option>
                           <option value="Cloud Services">Cloud Services</option>
-                          <option
-                            value="Cyber Security Staff Augmentation (Consulting)"
-                          >Cyber Security Staff Augmentation (Consulting)</option>
+                          <option value="Cyber Security Consulting">Cyber Security Consulting</option>
                           <option
                             value="ECCouncil Authorized Training"
                           >ECCouncil Authorized Training</option>

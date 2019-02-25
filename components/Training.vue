@@ -58,7 +58,7 @@
             <v-flex xs12 md6 class="pa-3">
               <img
                 style="display:block; float:left; padding:0 5px 0 0;"
-                src="http://iclass.eccouncil.org/wp-content/uploads/2018/01/self-paced.png"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/self-paced.png"
                 alt="Self Paced Training"
               >
               <h5
@@ -72,7 +72,7 @@
             <v-flex xs12 md6 class="pa-3">
               <img
                 style="display:block; float:left; padding:0 5px 0 0;"
-                src="http://iclass.eccouncil.org/wp-content/uploads/2018/01/online.png"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/online.png"
                 alt="Live Online Training"
               >
               <h5 class="text-xs-center title" style="margin:4px 0;">iWeek, Live, Online</h5>
@@ -83,7 +83,7 @@
             <v-flex xs12 md6 class="pa-3">
               <img
                 style="display:block; float:left; padding:0 5px 0 0;"
-                src="http://iclass.eccouncil.org/wp-content/uploads/2018/01/in-person.png"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/in-person.png"
                 alt="In Person Training"
               >
               <h5 class="text-xs-center title" style="margin:4px 0;">Instructor-Led Schedule</h5>
@@ -124,7 +124,7 @@
                   >
                     <img
                       style="width:100px; display:block; margin:0 auto;"
-                      src="http://iclass.eccouncil.org/wp-content/uploads/2018/04/CEH-Cover-v10-2.jpg"
+                      src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
                       alt="CEH"
                     >
                     <p
@@ -158,7 +158,7 @@
                   >
                     <img
                       style="width:100px; display:block; margin:0 auto;"
-                      src="http://iclass.eccouncil.org/wp-content/uploads/2018/05/CND-cover-main.jpg"
+                      src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1551134832/StealthEntry/eccouncil/CND-cover-main.jpg"
                       alt="CND"
                     >
                     <p
@@ -175,7 +175,7 @@
                   >
                     <img
                       style="width:100px; display:block; margin:0 auto;"
-                      src="http://iclass.eccouncil.org/wp-content/uploads/2018/04/ECSAV10-Cover.jpg"
+                      src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_300/v1551134832/StealthEntry/eccouncil/ECSAV10-Cover.jpg"
                       alt="ECSA"
                     >
                     <p

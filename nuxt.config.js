@@ -37,13 +37,13 @@ module.exports = {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"
+        href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
       },
-      {
-        rel: "stylesheet",
-        href: "https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      },
+      // Font Awesome Web Font Backup
+      // {
+      //   rel: "stylesheet",
+      //   href: "https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      // },
       // Icon Meta Tags
       {
         rel: "apple-touch-icon",
@@ -74,6 +74,11 @@ module.exports = {
       {
         rel: "shortcut icon",
         href: "/icons/favicon.ico"
+      }
+    ],
+    script: [
+      {
+        src: "https://use.fontawesome.com/releases/v5.7.2/js/all.js"
       }
     ]
   },

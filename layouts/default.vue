@@ -47,7 +47,7 @@
       </v-toolbar-items>
       <!-- NAVBAR FOR SMALL AND EXTRA SMALL SCREEN SIZES -->
       <v-btn icon @click.stop="rightDrawer = !rightDrawer" class="hidden-lg-and-up">
-        <v-icon>menu</v-icon>
+        <v-icon class="darkgrey--text">fas fa-bars</v-icon>
       </v-btn>
     </v-toolbar>
 
