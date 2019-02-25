@@ -64,7 +64,7 @@
       <v-list>
         <v-list-tile to="/" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-home</v-icon>
+            <v-icon class="primary--text text-xs-center">fas fa-home</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">HOME</v-list-tile-title>
@@ -72,7 +72,7 @@
         </v-list-tile>
         <v-list-tile to="/services" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-shield-alt</v-icon>
+            <v-icon class="primary--text text-xs-center">fas fa-shield-alt</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">SERVICES</v-list-tile-title>
@@ -80,7 +80,7 @@
         </v-list-tile>
         <v-list-tile to="/research" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-flask</v-icon>
+            <v-icon class="primary--text text-xs-center">fas fa-flask</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">RESEARCH</v-list-tile-title>
@@ -88,7 +88,7 @@
         </v-list-tile>
         <v-list-tile to="/partners" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">far fa-handshake</v-icon>
+            <v-icon class="primary--text text-xs-center">far fa-handshake</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">PARTNERS</v-list-tile-title>
@@ -96,7 +96,7 @@
         </v-list-tile>
         <v-list-tile to="/contracts" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-users</v-icon>
+            <v-icon class="primary--text text-xs-center">fas fa-users</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">CONTRACTS</v-list-tile-title>
@@ -104,7 +104,7 @@
         </v-list-tile>
         <!-- <v-list-tile to="/about" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-user-circle</v-icon>
+            <v-icon class="primary--text text-xs-center">fas fa-user-circle</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">ABOUT</v-list-tile-title>
@@ -112,7 +112,7 @@
         </v-list-tile>-->
         <v-list-tile to="/blog" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-blog</v-icon>
+            <v-icon class="primary--text text-xs-center">fas fa-blog</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">BLOG</v-list-tile-title>
@@ -120,7 +120,7 @@
         </v-list-tile>
         <v-list-tile to="/contact" class="bottom-sidenav-element sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text">fas fa-envelope</v-icon>
+            <v-icon class="primary--text text-xs-center">fas fa-envelope</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text subheading font-weight-medium">CONTACT</v-list-tile-title>
@@ -252,6 +252,19 @@ aside.v-navigation-drawer {
 }
 .bottom-sidenav-element {
   border-bottom: 0.5px solid var(--accent);
+}
+.v-list {
+  padding: 0 !important;
+  .fa-shield-alt {
+    margin-left: 2px;
+  }
+  .fa-flask,
+  .fa-envelope {
+    margin-left: 3px;
+  }
+  .fa-blog {
+    margin-left: 4px;
+  }
 }
 
 // FOOTER - bottom aligns text in codeHunter
