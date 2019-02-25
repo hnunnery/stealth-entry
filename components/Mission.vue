@@ -80,7 +80,7 @@ export default {
 
 <style lang="scss" scoped>
 .subheading {
-  font-size: 1.4em !important;
+  font-size: 1.3em !important;
 }
 /* Mobile Phone Styling */
 @media screen and (max-width: 599px) {

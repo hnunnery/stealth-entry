@@ -83,6 +83,11 @@ export default {
     width: 100vw;
   }
 }
+
+.subheading {
+  font-size: 1.3em !important;
+}
+
 @media screen and (max-width: 959px) {
   .flex-s {
     display: flex;

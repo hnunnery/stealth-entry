@@ -67,7 +67,7 @@
             <v-icon class="primary--text text-xs-center">fas fa-home</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">HOME</v-list-tile-title>
+            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">HOME</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/services" class="sidenav-element">
@@ -75,7 +75,7 @@
             <v-icon class="primary--text text-xs-center">fas fa-shield-alt</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">SERVICES</v-list-tile-title>
+            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">SERVICES</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/research" class="sidenav-element">
@@ -83,7 +83,7 @@
             <v-icon class="primary--text text-xs-center">fas fa-flask</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">RESEARCH</v-list-tile-title>
+            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">RESEARCH</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/partners" class="sidenav-element">
@@ -91,7 +91,7 @@
             <v-icon class="primary--text text-xs-center">far fa-handshake</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">PARTNERS</v-list-tile-title>
+            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">PARTNERS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/contracts" class="sidenav-element">
@@ -99,23 +99,15 @@
             <v-icon class="primary--text text-xs-center">fas fa-users</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">CONTRACTS</v-list-tile-title>
+            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">CONTRACTS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <!-- <v-list-tile to="/about" class="sidenav-element">
-          <v-list-tile-action>
-            <v-icon class="primary--text text-xs-center">fas fa-user-circle</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">ABOUT</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>-->
         <v-list-tile to="/blog" class="sidenav-element">
           <v-list-tile-action>
             <v-icon class="primary--text text-xs-center">fas fa-blog</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">BLOG</v-list-tile-title>
+            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">BLOG</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/contact" class="bottom-sidenav-element sidenav-element">
@@ -123,7 +115,7 @@
             <v-icon class="primary--text text-xs-center">fas fa-envelope</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text subheading font-weight-medium">CONTACT</v-list-tile-title>
+            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">CONTACT</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -164,9 +156,6 @@
           <v-flex xs12 class="text-xs-center">
             <v-layout row wrap>
               <v-flex xs12 md6>
-                <p class="white--text">© 2019 Stealth Entry | All Rights Reserved</p>
-              </v-flex>
-              <v-flex xs12 md6>
                 <p class="white--text">
                   Created by
                   <a href="https://www.codehunter.io" target="_blank">
@@ -174,6 +163,9 @@
                     <span class="text--white font-weight-bold">Hunter</span>
                   </a> Web Design and Development
                 </p>
+              </v-flex>
+              <v-flex xs12 md6>
+                <p class="white--text">© 2019 Stealth Entry | All Rights Reserved</p>
               </v-flex>
             </v-layout>
           </v-flex>
@@ -218,6 +210,9 @@ export default {
 .nav-text {
   padding-left: 5px;
   font-size: 1.2em;
+}
+.nav-font-size {
+  font-size: 1.2em !important;
 }
 /* Adjust Nav Spacing for Screen Width */
 @media screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -314,6 +309,10 @@ aside.v-navigation-drawer {
   .mobile {
     display: none;
   }
+}
+
+.subheading {
+  font-size: 1.3em !important;
 }
 
 .responsive-img {

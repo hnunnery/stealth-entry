@@ -7,7 +7,7 @@
             <h2
               class="my-header primary--text display-1 font-weight-light py-3 text-xs-center"
             >What are the Biggest Cyber Security Threats to Your Business</h2>
-            <h6 class="secondary--text headline text-xs-center">Neal Saling - December 17, 2018</h6>
+            <h6 class="secondary--text title text-xs-center">Neal Saling - December 17, 2018</h6>
             <v-divider class="my-3"></v-divider>
             <div class="text-xs-left secondary--text description">
               <p

@@ -48,4 +48,7 @@ export default {
     width: 100vw;
   }
 }
+.subheading {
+  font-size: 1.3em !important;
+}
 </style>

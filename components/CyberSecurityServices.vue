@@ -228,6 +228,9 @@ export default {
     margin-top: 50px;
   }
 }
+.subheading {
+  font-size: 1.3em !important;
+}
 button {
   width: 240px;
 }
