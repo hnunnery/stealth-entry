@@ -31,7 +31,23 @@ module.exports = {
       { name: "msapplication-TileColor", content: "#ffffff" },
       { name: "msapplication-config", content: "/icons/browserconfig.xml" },
       { name: "theme-color", content: "#ffffff" },
-      { name: "apple-mobile-web-app-status-bar-style", content: "default" }
+      { name: "apple-mobile-web-app-status-bar-style", content: "default" },
+      {
+        property: "og:title",
+        content: "Stealth Entry Cyber Security Solutions"
+      },
+      {
+        property: "og:description",
+        content:
+          "Our goal is to support our customers cyber security initiatives by providing above and beyond the status quo Threat Hunting, Digital Forensics and Incident Response monitoring you might receive from other organizations!"
+      },
+      {
+        property: "og:image",
+        content:
+          "https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551139322/StealthEntry/main.jpg"
+      },
+      { property: "og:url", content: "https://www.stealthentry.com" },
+      { name: "twitter:card", content: "summary_large_image" }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
