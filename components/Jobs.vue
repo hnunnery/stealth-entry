@@ -1,24 +1,31 @@
 <template>
-  <v-container fluid id="fullwidth" class="my-4">
+  <v-container fluid class="mt-0 pt-0 mb-4">
     <v-layout row wrap justify-center>
-      <v-flex xs12 md10 lg8>
+      <v-flex xs12 lg11 xl10>
         <h2
-          class="text-shadow display-3 primary--text font-weight-light text-xs-center mt-3 mb-2 mx-2"
-        >Openings</h2>
+          class="text-shadow display-3 primary--text font-weight-light mt-3 mb-2 mx-2 text-xs-center"
+        >Careers</h2>
         <v-divider></v-divider>
       </v-flex>
     </v-layout>
-
     <v-layout row wrap justify-center align-start class="py-2">
-      <v-flex xs12 md10 lg8 class="pa-2">
+      <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <div slot="header" class="job-header pt-3">
-              <h4 class="text-xs-center title secondary--text mr-3 inline">Senior CNO Developer</h4>
-              <h5 class="primary--text text-xs-center title mb-1 mr-3 inline">Fort Meade, MD</h5>
-              <p class="secondary--text title text-xs-center mr-3 inline">Active Clearance and FSP</p>
-              <p class="secondary--text title text-xs-center inline">SE-RA-RS – 2</p>
-            </div>
+            <v-layout row wrap slot="header" class="pt-3">
+              <v-flex xs12 sm6 lg3>
+                <h4 class="title secondary--text">Senior CNO Developer</h4>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <h5 class="primary--text title my-1">Fort Meade, MD</h5>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">Active Clearance and FSP</p>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">SE-RA-RS – 2</p>
+              </v-flex>
+            </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
@@ -53,15 +60,23 @@
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-flex>
-      <v-flex xs12 md10 lg8 class="pa-2">
+      <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <div slot="header" class="job-header pt-3">
-              <h4 class="text-xs-center title secondary--text mr-3 inline">Principal CNO Developer</h4>
-              <h5 class="primary--text text-xs-center title mb-1 mr-3 inline">Fort Meade, MD</h5>
-              <p class="secondary--text title text-xs-center mr-3 inline">Active Clearance and FSP</p>
-              <p class="secondary--text title text-xs-center inline">SE-RA-RS – 3</p>
-            </div>
+            <v-layout row wrap slot="header" class="pt-3">
+              <v-flex xs12 sm6 lg3>
+                <h4 class="title secondary--text">Principal CNO Developer</h4>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <h5 class="primary--text title my-1">Fort Meade, MD</h5>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">Active Clearance and FSP</p>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">SE-RA-RS – 3</p>
+              </v-flex>
+            </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
@@ -93,15 +108,23 @@
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-flex>
-      <v-flex xs12 md10 lg8 class="pa-2">
+      <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <div slot="header" class="job-header pt-3">
-              <h4 class="text-xs-center title secondary--text mr-3 inline">Senior Software Developer</h4>
-              <h5 class="primary--text text-xs-center title mb-1 mr-3 inline">Fort Meade, MD</h5>
-              <p class="secondary--text title text-xs-center mr-3 inline">Active Clearance and FSP</p>
-              <p class="secondary--text title text-xs-center inline">SE-RA-RS – 2</p>
-            </div>
+            <v-layout row wrap slot="header" class="pt-3">
+              <v-flex xs12 sm6 lg3>
+                <h4 class="title secondary--text">Senior Software Developer</h4>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <h5 class="primary--text title my-1">Fort Meade, MD</h5>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">Active Clearance and FSP</p>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">SE-RA-RS – 2</p>
+              </v-flex>
+            </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
@@ -131,17 +154,23 @@
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-flex>
-      <v-flex xs12 md10 lg8 class="pa-2">
+      <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <div slot="header" class="job-header pt-3">
-              <h4
-                class="text-xs-center title secondary--text mr-3 inline"
-              >Principal Software Developer</h4>
-              <h5 class="primary--text text-xs-center title mb-1 mr-3 inline">Fort Meade, MD</h5>
-              <p class="secondary--text title text-xs-center mr-3 inline">Active Clearance and FSP</p>
-              <p class="secondary--text title text-xs-center inline">SE-RA-RS – 3</p>
-            </div>
+            <v-layout row wrap slot="header" class="pt-3">
+              <v-flex xs12 sm6 lg3>
+                <h4 class="title secondary--text">Principal Software Developer</h4>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <h5 class="primary--text title my-1">Fort Meade, MD</h5>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">Active Clearance and FSP</p>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">SE-RA-RS – 3</p>
+              </v-flex>
+            </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
@@ -172,15 +201,23 @@
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-flex>
-      <v-flex xs12 md10 lg8 class="pa-2">
+      <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <div slot="header" class="job-header pt-3">
-              <h4 class="text-xs-center title secondary--text mr-3 inline">Senior Test Engineer</h4>
-              <h5 class="primary--text text-xs-center title mb-1 mr-3 inline">Fort Meade, MD</h5>
-              <p class="secondary--text title text-xs-center mr-3 inline">Active Clearance and FSP</p>
-              <p class="secondary--text title text-xs-center inline">SE-RA-RS – 3</p>
-            </div>
+            <v-layout row wrap slot="header" class="pt-3">
+              <v-flex xs12 sm6 lg3>
+                <h4 class="title secondary--text">Senior Test Engineer</h4>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <h5 class="primary--text title my-1">Fort Meade, MD</h5>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">Active Clearance and FSP</p>
+              </v-flex>
+              <v-flex xs12 sm6 lg3>
+                <p class="secondary--text title">SE-RA-RS – 3</p>
+              </v-flex>
+            </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
@@ -221,36 +258,3 @@ export default {
   name: "jobs"
 };
 </script>
-
-<style lang="scss" scoped>
-#fullwidth {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-}
-.hero-background-circuit {
-  background-repeat: repeat;
-}
-.inline {
-  display: inline-block !important;
-}
-/* Mobile Phone Styling */
-@media screen and (max-width: 599px) {
-  .hero-background-circuit {
-    padding: 10px !important;
-  }
-  .card {
-    margin: 8px 2px 2px !important;
-  }
-}
-.b-sheet {
-  max-width: 800px;
-  padding: 20px;
-  margin-bottom: 50px;
-  @media screen and (min-width: 960px) {
-    padding: 50px;
-    margin-bottom: 100px;
-    max-width: 1200px;
-  }
-}
-</style>
