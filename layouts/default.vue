@@ -29,13 +29,13 @@
           <span class="nav-text secondary--text">Partners</span>
         </v-btn>
         <v-btn flat to="/contracts">
-          <v-icon class="primary--text navbar-icons">fas fa-users</v-icon>&nbsp;
+          <v-icon class="primary--text navbar-icons">fas fa-file-contract</v-icon>&nbsp;
           <span class="nav-text secondary--text">Contracts</span>
         </v-btn>
-        <!-- <v-btn flat to="/about">
-          <v-icon class="primary--text navbar-icons">fas fa-user-circle</v-icon>&nbsp;
-          <span class="nav-text secondary--text">About</span>
-        </v-btn>-->
+        <v-btn flat to="/careers">
+          <v-icon class="primary--text navbar-icons">fas fa-users</v-icon>&nbsp;
+          <span class="nav-text secondary--text">Careers</span>
+        </v-btn>
         <v-btn flat to="/blog">
           <v-icon class="primary--text navbar-icons">fas fa-blog</v-icon>&nbsp;
           <span class="nav-text secondary--text">Blog</span>
@@ -96,10 +96,18 @@
         </v-list-tile>
         <v-list-tile to="/contracts" class="sidenav-element">
           <v-list-tile-action>
-            <v-icon class="primary--text text-xs-center">fas fa-users</v-icon>
+            <v-icon class="primary--text text-xs-center">fas fa-file-contract</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">CONTRACTS</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile to="/careers" class="sidenav-element">
+          <v-list-tile-action>
+            <v-icon class="primary--text text-xs-center">fas fa-users</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">CAREERS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/blog" class="sidenav-element">
@@ -259,6 +267,9 @@ aside.v-navigation-drawer {
   }
   .fa-blog {
     margin-left: 4px;
+  }
+  .fa-file-contract {
+    margin-left: 5px;
   }
 }
 

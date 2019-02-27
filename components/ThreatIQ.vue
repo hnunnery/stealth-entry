@@ -14,17 +14,9 @@
         >THREAT-IQ</h2>
         <v-divider class="my-2"></v-divider>
         <div class="text-xs-left secondary--text subheading px-2">
-          <p class="text-xs-left">
-            The purpose of our patent pending proprietary Critical Threat Management Solution herein known as
-            THREAT-IQ, is to provide an analytical and procedural overview for all law enforcement, first responders,
-            and military organizations to quickly and efficiently plan and execute a response to a critical incident or
-            an exigent circumstance that disrupts daily operations within a facility, or geographic location. THREAT-
-            IQ was developed to increase tactical response, reduce the cost and loss of life that may directly result
-            due to these exigent circumstances. THREAT-IQ was developed in mind with the need to mitigate risks in
-            responding to potentially life-threatening situations within known or unknown environments, using
-            tested and proven methods that are known to decrease response time, lapse in communications, and
-            increase tactical strategic planning en-route to scene.
-          </p>
+          <p
+            class="text-xs-left"
+          >Our patent pending proprietary Critical Threat Management Solution herein known as THREAT-IQ, was created to provide an analytical and procedural overview for all law enforcement, military organizations, and first responders to quickly develop a well-executed course of action using real-time live intelligence from multiple source points while responding to a critical threat or AOR combat event that disrupts daily operations within a facility, or geographic location. THREAT- IQ’s main purpose and mission is to minimize loss of life by decreasing tactical responses from threat to event using either our enterprise solution and/or ruggedized deployable units that provide user friendly patented cost effective SMART innovative technology.</p>
         </div>
       </v-flex>
     </v-layout>
