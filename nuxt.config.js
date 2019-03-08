@@ -18,12 +18,12 @@ module.exports = {
         hid: "description",
         name: "description",
         content:
-          "The Stealth Entry Cyber Threat Operations Center (CTOC) takes a FULL HOLISTIC view of your organization’s security threat-scape using the latest Threat Hunting, Vulnerability Analysis, Reverse Engineering, Insider Threat, Forensic chain of custody, patch management, and incident response techniques. Our goal is to support our customers cyber security initiatives by providing above and beyond the status quo Threat Hunting, Digital Forensics and Incident Response monitoring you might receive from other organizations! We offer a tiered subscription plan that works for your individual organization’s security and compliance needs."
+          "Stealth Entry Cyber Security Solutions takes a FULL HOLISTIC view of your organization’s security threat-scape using the latest techniques. Stealth Entry, LLC. is certified U.S. Small Business Administration 8(a), Serviced Disabled Veteran Owned (SDVOSB) and State of Ohio Minority Business Enterprise and Veterans Business Enterprise (MBE/VBE/EDGE)."
       },
       {
         name: "keywords",
         content:
-          "Stealth Entry, Stealth Entry Cyber Security Solutions, Cyber Security, MSSP, Managed Security Service Provider, Cyber Security as a Service, CSaaS, Threat IQ, THREAT-IQ, Columbus OH, Cyber Security, Cyber Security Training, IT Scheule 70, GSA, SBA8A, SDVOSB, Veteran, Veteran Owned, Cyber Security Assessments, Secure, Secure Cloud Services, Cloud Provider, Cloud Security, EC Council, Stealth Research Labs, Cyber Security Jobs"
+          "Stealth Entry, Stealth Entry Cyber Security Solutions, Cyber Security, MSSP, Managed Security Service Provider, Cyber Security as a Service, CSaaS, Threat IQ, THREAT-IQ, Columbus OH, Cyber Security, Cyber Security Training, IT Schedule 70, Schedule 70, , GSA, SBA8A, SDVOSB, VOSB, Veteran, Service Disabled Veteran Owned Business, Service Disabled Veteran Owned, Certified U.S. Small Business Administration 8(a), SBA, 8(a), Cyber Security Assessments, Secure, Secure Cloud Services, Cloud Provider, Cloud Security, EC Council, Stealth Research Labs, Cyber Security Jobs"
       },
       { name: "robots", content: "index" },
       { name: "apple-mobile-app-title", content: "StealthEntry" },

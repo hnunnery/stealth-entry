@@ -21,7 +21,7 @@
                       <v-flex xs9>
                         <h4 class="secondary--text display-1">
                           Send
-                          <span class="hide-on-mobile">us</span> an email
+                          <span class="hide-on-mobile">Us</span> An Email
                         </h4>
                         <p class="secondary--text subheading">info@stealthentry.com</p>
                       </v-flex>
@@ -40,8 +40,13 @@
                         <v-icon size="45px" class="primary--text">fas fa-mobile-alt</v-icon>
                       </v-flex>
                       <v-flex xs9>
-                        <h4 class="secondary--text display-1">Give us a ring</h4>
-                        <p class="secondary--text subheading">614-423-9334</p>
+                        <h4 class="secondary--text display-1">Give Us A Call</h4>
+                        <br>
+                        <p class="secondary--text subheading">Main: 614-423-9334</p>
+                        <p class="secondary--text subheading">Toll Free: 833-423-2927</p>
+                        <p class="secondary--text subheading">CTOC Ops Center:
+                          <br>833-423-2862
+                        </p>
                       </v-flex>
                     </v-layout>
                   </a>
@@ -155,6 +160,10 @@ export default {
   .container {
     padding: 5px !important;
   }
+}
+
+.subheading {
+  font-weight: bold;
 }
 
 input,
