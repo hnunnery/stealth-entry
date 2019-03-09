@@ -1,9 +1,9 @@
 <template>
-  <v-container fluid class="mt-0 pt-0 mb-4">
+  <v-container fluid class="mt-0 pt-2 mb-4">
     <v-layout row wrap justify-center>
       <v-flex xs12 lg11 xl10>
         <h2
-          class="text-shadow display-3 primary--text font-weight-light mt-3 mb-2 mx-2 text-xs-center"
+          class="text-shadow display-3 primary--text font-weight-light mb-1 mx-2 text-xs-center"
         >Careers</h2>
         <v-divider></v-divider>
       </v-flex>
@@ -250,11 +250,181 @@
         </v-expansion-panel>
       </v-flex>
     </v-layout>
+    <template>
+      <v-layout row justify-center>
+        <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
+          <template v-slot:activator="{ on }">
+            <v-btn large color="primary" dark v-on="on">Apply Now</v-btn>
+          </template>
+          <!-- Fullscreen Dialog Content -->
+          <v-card>
+            <v-toolbar dark color="primary">
+              <v-btn icon dark @click="dialog = false">
+                <v-icon>close</v-icon>
+              </v-btn>
+              <!-- <v-toolbar-title>Application Form</v-toolbar-title> -->
+            </v-toolbar>
+            <v-container>
+              <v-layout row wrap justify-center>
+                <v-flex xs12 sm10 md8 lg6 xl4>
+                  <form
+                    name="application"
+                    method="POST"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                    class="pa-4"
+                  >
+                    <!-- NETLIFY FORM NAME -->
+                    <input type="hidden" name="form-name" value="application">
+                    <!-- NETLIFY BOT FIELD -->
+                    <input type="text" name="bot-field" id="bot-field" class="hidden">
+                    <h2 class="secondary--text text-xs-center display-3">
+                      Application
+                      <span class="hidden-xs-only">Form</span>
+                    </h2>
+                    <input
+                      type="text"
+                      name="first_name"
+                      placeholder="First Name"
+                      required
+                      class="my-4"
+                    >
+                    <input
+                      type="text"
+                      name="last_name"
+                      placeholder="Last Name"
+                      required
+                      class="my-4"
+                    >
+                    <input type="email" name="email" placeholder="Email" required class="my-4">
+                    <div class="custom-select">
+                      <label for="service" class="grey--text sixteen">Listing:</label>
+                      <div class="select font-weight-bold secondary--text">
+                        <select name="service" id="service">
+                          <option value disabled selected></option>
+                          <option value="Senior CNO Developer">Senior CNO Developer</option>
+                          <option value="Principal CNO Developer">Principal CNO Developer</option>
+                          <option value="Senior Software Developer">Senior Software Developer</option>
+                          <option value="Principal Software Developer">Principal Software Developer</option>
+                          <option value="Senior Test Engineer">Senior Test Engineer</option>
+                        </select>
+                      </div>
+                    </div>
+                    <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
+                    <v-flex xs12 class="text-xs-center mt-3">
+                      <v-btn @click="onPickFile" small class="primary gradient">Upload Resume</v-btn>
+                      <input type="file" style="display: none" ref="fileInput" accept=".pdf, .docx">
+                    </v-flex>
+                    <!-- <div data-netlify-recaptcha="true"></div> -->
+                    <div class="text-xs-center">
+                      <v-btn large type="submit" class="white--text gradient mt-4">Submit</v-btn>
+                    </div>
+                  </form>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-card>
+        </v-dialog>
+      </v-layout>
+    </template>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: "jobs"
+  name: "jobs",
+  data() {
+    return {
+      dialog: false
+    };
+  },
+  methods: {
+    onPickFile() {
+      this.$refs.fileInput.click();
+    }
+  }
 };
 </script>
+
+<style lang="scss" scoped>
+input,
+textarea,
+select,
+.sixteen {
+  font-size: 16px;
+}
+
+input,
+textarea {
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 30px 0 0 0;
+  border-bottom: solid 1px var(--orange);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  &:focus,
+  &:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+    &::-webkit-input-placeholder {
+      color: var(--orange);
+      font-size: 11px;
+      transform: translateY(-20px);
+      visibility: visible !important;
+    }
+  }
+}
+
+/* CSS for Select Component */
+.custom-select select {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+  padding: 0 50px 0 20px;
+  cursor: pointer;
+  text-indent: 5px;
+}
+
+.custom-select .select {
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--orange);
+  height: 50px;
+  cursor: pointer;
+}
+
+.custom-select .select:focus {
+  outline: none;
+}
+
+.custom-select .select:before {
+  content: "";
+  background: var(--orange);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  pointer-events: none;
+}
+
+.custom-select .select:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 7px 0;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.custom-select .select::-ms-expand {
+  display: none;
+}
+</style>

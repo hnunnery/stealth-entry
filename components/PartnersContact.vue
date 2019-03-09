@@ -72,10 +72,18 @@
           <v-flex xs12 sm9 md6 lg5>
             <v-card class="elevation12 my-4 white">
               <v-card-text>
-                <form name="reseller" method="POST" data-netlify="true" class="pa-4">
+                <form
+                  name="reseller"
+                  method="POST"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                  class="pa-4"
+                >
                   <h2 class="secondary--text text-xs-center my-header display-2">Contact Sales</h2>
                   <!-- NETLIFY FORM NAME -->
                   <input type="hidden" name="form-name" value="reseller">
+                  <!-- NETLIFY BOT FIELD -->
+                  <input type="text" name="bot-field" id="bot-field" class="hidden">
                   <input type="text" name="name" placeholder="Name" required class="my-4">
                   <input type="text" name="company" placeholder="Company" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">

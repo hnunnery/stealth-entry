@@ -91,7 +91,7 @@
                     <!-- NETLIFY FORM NAME -->
                     <input type="hidden" name="form-name" value="contact">
                     <!-- NETLIFY BOT FIELD -->
-                    <input type="text" name="bot-field" class="hidden">
+                    <input type="text" name="bot-field" id="bot-field" class="hidden">
                     <h2 class="secondary--text text-xs-center display-3">Contact Us</h2>
                     <input
                       type="text"
