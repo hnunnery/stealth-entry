@@ -12,23 +12,28 @@
       <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <v-layout row wrap slot="header" class="pt-3">
-              <v-flex xs12 sm6 lg3>
+            <v-layout row wrap align-center slot="header">
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h4 class="title secondary--text">Senior CNO Developer</h4>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <h5 class="primary--text title my-1">Fort Meade, MD</h5>
+              <v-flex xs12 sm6 lg3 class="py-1">
+                <h5 class="primary--text title">Fort Meade, MD</h5>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">Active Clearance and FSP</p>
+              <v-flex xs12 sm6 lg3 class="py-1">
+                <p class="secondary--text title no-margin">Active Clearance and FSP</p>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">SE-RA-RS – 2</p>
+              <v-flex xs12 sm6 lg3 class="py-2">
+                <a
+                  href="mailto:careers@stealthentry.com?subject=Application for Senior CNO Developer"
+                >
+                  <v-btn class="apply-btn primary gradient white--text">Apply Now</v-btn>
+                </a>
               </v-flex>
             </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
+                  <p class="secondary--text title">SE-RA-RS – 2</p>
                   <h5 class="title mt-1 mb-3">Position Overview:</h5>
                   <p>The developer will design custom software tools and techniques on Windows platforms. They will work closely with customers to understand operational requirements and develop documentation pertinent to operating and supporting developed software and techniques. Along with this, they will be mentoring and tasking junior-level developers to solve real-time cyber challenges.</p>
                   <!-- Experience Requirements -->
@@ -63,23 +68,28 @@
       <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <v-layout row wrap slot="header" class="pt-3">
-              <v-flex xs12 sm6 lg3>
+            <v-layout row wrap align-center slot="header">
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h4 class="title secondary--text">Principal CNO Developer</h4>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h5 class="primary--text title my-1">Fort Meade, MD</h5>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">Active Clearance and FSP</p>
+              <v-flex xs12 sm6 lg3 class="py-1">
+                <p class="secondary--text title no-margin">Active Clearance and FSP</p>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">SE-RA-RS – 3</p>
+              <v-flex xs12 sm6 lg3 class="py-2">
+                <a
+                  href="mailto:careers@stealthentry.com?subject=Application for Principal CNO Developer"
+                >
+                  <v-btn class="apply-btn primary gradient white--text">Apply Now</v-btn>
+                </a>
               </v-flex>
             </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
+                  <p class="secondary--text title">SE-RA-RS – 3</p>
                   <h5 class="title mt-1 mb-3">Position Overview:</h5>
                   <p>The developer will design custom software tools and techniques on Windows platforms. They will work closely with customers to understand operational requirements and develop documentation pertinent to operating and supporting developed software and techniques. Along with this, they will be mentoring and tasking junior-level developers to solve real-time cyber challenges.</p>
                   <h5 class="title mt-1 mb-3">Experience Requirements:</h5>
@@ -111,23 +121,28 @@
       <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <v-layout row wrap slot="header" class="pt-3">
-              <v-flex xs12 sm6 lg3>
+            <v-layout row wrap align-center slot="header">
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h4 class="title secondary--text">Senior Software Developer</h4>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h5 class="primary--text title my-1">Fort Meade, MD</h5>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">Active Clearance and FSP</p>
+              <v-flex xs12 sm6 lg3 class="py-1">
+                <p class="secondary--text title no-margin">Active Clearance and FSP</p>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">SE-RA-RS – 2</p>
+              <v-flex xs12 sm6 lg3 class="py-2">
+                <a
+                  href="mailto:careers@stealthentry.com?subject=Application for Senior Software Developer"
+                >
+                  <v-btn class="apply-btn primary gradient white--text">Apply Now</v-btn>
+                </a>
               </v-flex>
             </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
+                  <p class="secondary--text title">SE-RA-RS – 2</p>
                   <h5 class="title mt-1 mb-3">Position Overview:</h5>
                   <p>Software developers will work with small teams to design, develop, and software to fulfill unique requirements on across various OS platforms.</p>
                   <!-- Experience Requirements -->
@@ -157,23 +172,28 @@
       <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <v-layout row wrap slot="header" class="pt-3">
-              <v-flex xs12 sm6 lg3>
+            <v-layout row wrap align-center slot="header">
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h4 class="title secondary--text">Principal Software Developer</h4>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h5 class="primary--text title my-1">Fort Meade, MD</h5>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">Active Clearance and FSP</p>
+              <v-flex xs12 sm6 lg3 class="py-1">
+                <p class="secondary--text title no-margin">Active Clearance and FSP</p>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">SE-RA-RS – 3</p>
+              <v-flex xs12 sm6 lg3 class="py-2">
+                <a
+                  href="mailto:careers@stealthentry.com?subject=Application for Principal Software Developer"
+                >
+                  <v-btn class="apply-btn primary gradient white--text">Apply Now</v-btn>
+                </a>
               </v-flex>
             </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
+                  <p class="secondary--text title">SE-RA-RS – 3</p>
                   <h5 class="title mt-1 mb-3">Position Overview:</h5>
                   <p>Software developers will work with small teams to design, develop, and software to fulfill unique requirements on across various OS platforms.</p>
                   <!-- Experience Requirements -->
@@ -204,23 +224,28 @@
       <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
           <v-expansion-panel-content>
-            <v-layout row wrap slot="header" class="pt-3">
-              <v-flex xs12 sm6 lg3>
+            <v-layout row wrap align-center slot="header">
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h4 class="title secondary--text">Senior Test Engineer</h4>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h5 class="primary--text title my-1">Fort Meade, MD</h5>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">Active Clearance and FSP</p>
+              <v-flex xs12 sm6 lg3 class="py-1">
+                <p class="secondary--text title no-margin">Active Clearance and FSP</p>
               </v-flex>
-              <v-flex xs12 sm6 lg3>
-                <p class="secondary--text title">SE-RA-RS – 3</p>
+              <v-flex xs12 sm6 lg3 class="py-2">
+                <a
+                  href="mailto:careers@stealthentry.com?subject=Application for Senior Test Engineer"
+                >
+                  <v-btn class="apply-btn primary gradient white--text">Apply Now</v-btn>
+                </a>
               </v-flex>
             </v-layout>
             <v-card>
               <v-card-text>
                 <div class="secondary--text subheading text-xs-left mt-2">
+                  <p class="secondary--text title">SE-RA-RS – 3</p>
                   <h5 class="title mt-1 mb-3">Position Overview:</h5>
                   <p>The Test Engineer will review source code and identify the specific modules where issues exist. They will then work with developers to provide detailed documentation of the findings.</p>
                   <!-- Experience Requirements -->
@@ -250,11 +275,12 @@
         </v-expansion-panel>
       </v-flex>
     </v-layout>
+
     <template>
       <v-layout row justify-center>
         <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
           <template v-slot:activator="{ on }">
-            <v-btn large class="primary gradient" dark v-on="on">Apply Now</v-btn>
+            <!-- <v-btn large class="primary gradient" dark v-on="on">Apply Now</v-btn> -->
           </template>
           <!-- Fullscreen Dialog Content -->
           <v-card>
@@ -340,6 +366,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.apply-btn {
+  width: 220px;
+  padding: 0;
+  margin: 0;
+  /* @media screen and (max-width: 599px) {
+    margin-top: 15px;
+  } */
+}
+p.no-margin {
+  margin: 0px !important;
+}
 @media screen and (max-width: 599px) {
   form {
     padding: 0px !important;
