@@ -298,7 +298,7 @@
                     >
                     <input type="email" name="email" placeholder="Email" required class="my-4">
                     <div class="custom-select">
-                      <label for="listing" class="grey--text sixteen">Listing</label>
+                      <label for="listing" class="grey--text text--darken-1 sixteen">Listing</label>
                       <div class="select font-weight-bold secondary--text">
                         <select name="listing" id="listing">
                           <option value disabled selected></option>
@@ -311,7 +311,7 @@
                       </div>
                     </div>
                     <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
-                    <p class="grey--text sixteen mb-0">Upload Resume</p>
+                    <p class="grey--text text--darken-1 sixteen mb-0">Upload Resume</p>
                     <input type="file">
                     <!-- <div data-netlify-recaptcha="true"></div> -->
                     <div class="text-xs-center">

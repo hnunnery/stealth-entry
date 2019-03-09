@@ -88,7 +88,7 @@
                   <input type="text" name="company" placeholder="Company" required class="my-4">
                   <input type="email" name="email" placeholder="Email" required class="my-4">
                   <div class="custom-select">
-                    <label for="brands" class="grey--text sixteen">Brand:</label>
+                    <label for="brands" class="grey--text text--darken-1 sixteen">Brand:</label>
                     <div class="select font-weight-bold secondary--text">
                       <select name="brands" id="brands">
                         <option value disabled selected></option>

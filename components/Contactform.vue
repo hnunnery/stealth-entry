@@ -109,7 +109,7 @@
                     >
                     <input type="email" name="email" placeholder="Email" required class="my-4">
                     <div class="custom-select">
-                      <label for="service" class="grey--text sixteen">Service:</label>
+                      <label for="service" class="grey--text text--darken-1 sixteen">Service:</label>
                       <div class="select font-weight-bold secondary--text">
                         <select name="service" id="service">
                           <option value disabled selected></option>
