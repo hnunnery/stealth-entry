@@ -254,7 +254,7 @@
       <v-layout row justify-center>
         <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
           <template v-slot:activator="{ on }">
-            <v-btn large color="primary" dark v-on="on">Apply Now</v-btn>
+            <v-btn large class="primary gradient" dark v-on="on">Apply Now</v-btn>
           </template>
           <!-- Fullscreen Dialog Content -->
           <v-card>
@@ -278,13 +278,13 @@
                     <input type="hidden" name="form-name" value="application">
                     <!-- NETLIFY BOT FIELD -->
                     <input type="text" name="bot-field" id="bot-field" class="hidden">
-                    <h2 class="secondary--text text-xs-center display-3">
-                      Application
-                      <span class="hidden-xs-only">Form</span>
-                    </h2>
+                    <h2
+                      class="secondary--text text-xs-center display-3 hidden-xs-only"
+                    >Application Form</h2>
                     <input
                       type="text"
                       name="first_name"
+                      id="first_name"
                       placeholder="First Name"
                       required
                       class="my-4"
@@ -312,8 +312,7 @@
                     </div>
                     <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                     <v-flex xs12 class="text-xs-center mt-3">
-                      <v-btn @click="onPickFile" small class="primary gradient">Upload Resume</v-btn>
-                      <input type="file" style="display: none" ref="fileInput" accept=".pdf, .docx">
+                      <input type="file">
                     </v-flex>
                     <!-- <div data-netlify-recaptcha="true"></div> -->
                     <div class="text-xs-center">
@@ -345,6 +344,18 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+@media screen and (max-width: 450px) {
+  form {
+    padding: 0px !important;
+  }
+  #first_name {
+    margin-top: 0px !important;
+  }
+}
+</style>
+
 
 <style lang="scss" scoped>
 input,
