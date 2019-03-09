@@ -312,7 +312,7 @@
                     </div>
                     <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                     <p class="grey--text text--darken-1 sixteen mb-0">Upload Resume</p>
-                    <input type="file" name="file">
+                    <input type="file" name="file" accept=".pdf, .doc, .docx">
                     <!-- <div data-netlify-recaptcha="true"></div> -->
                     <div class="text-xs-center">
                       <v-btn large type="submit" class="white--text gradient mt-4">Submit</v-btn>
