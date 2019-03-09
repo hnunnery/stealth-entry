@@ -262,7 +262,7 @@
               <v-btn icon dark @click="dialog = false">
                 <v-icon>close</v-icon>
               </v-btn>
-              <!-- <v-toolbar-title>Application Form</v-toolbar-title> -->
+              <v-toolbar-title class="hidden-sm-and-up">Application Form</v-toolbar-title>
             </v-toolbar>
             <v-container>
               <v-layout row wrap justify-center>
@@ -312,7 +312,14 @@
                     </div>
                     <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                     <v-flex xs12 class="text-xs-center mt-3">
-                      <input type="file">
+                      <v-btn @click="onPickFile" small class="primary">Upload Resume</v-btn>
+                      <input
+                        type="file"
+                        name="file_upload"
+                        style="display: none"
+                        ref="fileInput"
+                        accept=".pdf, .docx"
+                      >
                     </v-flex>
                     <!-- <div data-netlify-recaptcha="true"></div> -->
                     <div class="text-xs-center">
@@ -346,7 +353,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 599px) {
   form {
     padding: 0px !important;
   }
