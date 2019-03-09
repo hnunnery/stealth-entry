@@ -311,10 +311,8 @@
                       </div>
                     </div>
                     <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
-                    <v-flex xs12 class="text-xs-center mt-3">
-                      <v-btn @click="onPickFile" small class="primary">Upload Resume</v-btn>
-                      <input type="file" style="display: none" ref="fileInput">
-                    </v-flex>
+                    <p class="grey--text sixteen mb-0">Upload Resume</p>
+                    <input type="file">
                     <!-- <div data-netlify-recaptcha="true"></div> -->
                     <div class="text-xs-center">
                       <v-btn large type="submit" class="white--text gradient mt-4">Submit</v-btn>
@@ -337,11 +335,6 @@ export default {
     return {
       dialog: false
     };
-  },
-  methods: {
-    onPickFile() {
-      this.$refs.fileInput.click();
-    }
   }
 };
 </script>
