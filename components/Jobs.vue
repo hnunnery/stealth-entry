@@ -298,7 +298,7 @@
                     >
                     <input type="email" name="email" placeholder="Email" required class="my-4">
                     <div class="custom-select">
-                      <label for="listing" class="grey--text sixteen">Listing:</label>
+                      <label for="listing" class="grey--text sixteen">Listing</label>
                       <div class="select font-weight-bold secondary--text">
                         <select name="listing" id="listing">
                           <option value disabled selected></option>
@@ -313,13 +313,7 @@
                     <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                     <v-flex xs12 class="text-xs-center mt-3">
                       <v-btn @click="onPickFile" small class="primary">Upload Resume</v-btn>
-                      <input
-                        type="file"
-                        name="file_upload"
-                        style="display: none"
-                        ref="fileInput"
-                        accept=".pdf, .docx"
-                      >
+                      <input type="file" style="display: none" ref="fileInput">
                     </v-flex>
                     <!-- <div data-netlify-recaptcha="true"></div> -->
                     <div class="text-xs-center">
