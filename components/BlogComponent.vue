@@ -3,13 +3,7 @@
     <v-layout wrap justify-center align-center>
       <!-- BLOG POST 1 -->
       <v-flex xs12 md6 lg4>
-        <v-card
-          class="elevation-12 ma-3 card"
-          to="/blog/blog12172018"
-          data-aos="flip-up"
-          data-aos-delay="100"
-          data-aos-duration="1000"
-        >
+        <v-card class="elevation-12 ma-3 card" to="/blog/blog12172018">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_crop,f_auto,g_north,w_1000,h_540,b_black,o_70/v1549426160/StealthEntry/hacker.jpg"
             alt="hacker"
@@ -29,13 +23,7 @@
       </v-flex>
       <!-- BLOG POST 1 -->
       <v-flex xs12 md6 lg4>
-        <v-card
-          class="elevation-12 ma-3 card"
-          to="/blog/blog12102018"
-          data-aos="flip-up"
-          data-aos-delay="200"
-          data-aos-duration="1000"
-        >
+        <v-card class="elevation-12 ma-3 card" to="/blog/blog12102018">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_1000,b_black,o_70/v1549426148/StealthEntry/detected.jpg"
             alt="detected"
@@ -53,13 +41,7 @@
       </v-flex>
       <!-- BLOG POST 1 -->
       <v-flex xs12 md6 lg4>
-        <v-card
-          class="elevation-12 ma-3 card"
-          to="/blog/blog121020182"
-          data-aos="flip-up"
-          data-aos-delay="300"
-          data-aos-duration="1000"
-        >
+        <v-card class="elevation-12 ma-3 card" to="/blog/blog121020182">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_crop,f_auto,g_north,h_540,w_1000,b_black,o_70/v1549425942/StealthEntry/monitors.jpg"
             alt="monitoring"
