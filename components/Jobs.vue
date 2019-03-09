@@ -268,14 +268,14 @@
               <v-layout row wrap justify-center>
                 <v-flex xs12 sm10 md8 lg6 xl4>
                   <form
-                    name="application"
+                    name="job-application"
                     method="POST"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                     class="pa-4"
                   >
                     <!-- NETLIFY FORM NAME -->
-                    <input type="hidden" name="form-name" value="application">
+                    <input type="hidden" name="form-name" value="job-application">
                     <!-- NETLIFY BOT FIELD -->
                     <input type="text" name="bot-field" id="bot-field" class="hidden">
                     <h2
@@ -298,9 +298,9 @@
                     >
                     <input type="email" name="email" placeholder="Email" required class="my-4">
                     <div class="custom-select">
-                      <label for="service" class="grey--text sixteen">Listing:</label>
+                      <label for="listing" class="grey--text sixteen">Listing:</label>
                       <div class="select font-weight-bold secondary--text">
-                        <select name="service" id="service">
+                        <select name="listing" id="listing">
                           <option value disabled selected></option>
                           <option value="Senior CNO Developer">Senior CNO Developer</option>
                           <option value="Principal CNO Developer">Principal CNO Developer</option>
