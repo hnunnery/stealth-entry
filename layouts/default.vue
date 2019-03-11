@@ -36,10 +36,10 @@
           <v-icon class="primary--text navbar-icons">fas fa-users</v-icon>&nbsp;
           <span class="nav-text secondary--text">Careers</span>
         </v-btn>
-        <v-btn flat to="/blog">
+        <!-- <v-btn flat to="/blog">
           <v-icon class="primary--text navbar-icons">fas fa-blog</v-icon>&nbsp;
           <span class="nav-text secondary--text">Blog</span>
-        </v-btn>
+        </v-btn> -->
         <v-btn flat to="/contact">
           <v-icon class="primary--text navbar-icons">fas fa-envelope</v-icon>&nbsp;
           <span class="nav-text secondary--text">Contact</span>
@@ -110,14 +110,14 @@
             <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">CAREERS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile to="/blog" class="sidenav-element">
+        <!-- <v-list-tile to="/blog" class="sidenav-element">
           <v-list-tile-action>
             <v-icon class="primary--text text-xs-center">fas fa-blog</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">BLOG</v-list-tile-title>
           </v-list-tile-content>
-        </v-list-tile>
+        </v-list-tile> -->
         <v-list-tile to="/contact" class="bottom-sidenav-element sidenav-element">
           <v-list-tile-action>
             <v-icon class="primary--text text-xs-center">fas fa-envelope</v-icon>
