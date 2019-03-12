@@ -1,8 +1,11 @@
 <template>
-  <v-container fluid class="hero-background-circuit pa-3 wrapper">
+  <v-container fluid class="pa-3 wrapper">
     <v-layout wrap justify-center align-center>
+      <v-flex xs12 class="text-xs-center">
+        <h2 class="mb-1 display-1 font-weight-light my-header primary--text">Blog Posts</h2>
+      </v-flex>
       <!-- BLOG POST 1 -->
-      <v-flex xs12 md6 lg4>
+      <v-flex xs12 class="px-2">
         <v-card class="elevation-12 ma-3 card" to="/blog/blog12172018">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_crop,f_auto,g_north,w_1000,h_540,b_black,o_70/v1549426160/StealthEntry/hacker.jpg"
@@ -22,7 +25,7 @@
         </v-card>
       </v-flex>
       <!-- BLOG POST 1 -->
-      <v-flex xs12 md6 lg4>
+      <v-flex xs12 class="px-2">
         <v-card class="elevation-12 ma-3 card" to="/blog/blog12102018">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_1000,b_black,o_70/v1549426148/StealthEntry/detected.jpg"
@@ -40,7 +43,7 @@
         </v-card>
       </v-flex>
       <!-- BLOG POST 1 -->
-      <v-flex xs12 md6 lg4>
+      <v-flex xs12 class="px-2">
         <v-card class="elevation-12 ma-3 card" to="/blog/blog121020182">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_crop,f_auto,g_north,h_540,w_1000,b_black,o_70/v1549425942/StealthEntry/monitors.jpg"

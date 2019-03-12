@@ -1,7 +1,7 @@
 <template>
   <v-layout row wrap justify-center>
     <v-flex xs12 class="text-xs-center mb-5">
-      <h2 class="display-1 mb-2 font-weight-bold secondary--text">
+      <h2 class="display-1 mb-2 my-header font-weight-light primary--text">
         Interview with
         <span class="hidden-xs-only">Stealth Entry</span> CEO
       </h2>
