@@ -1,10 +1,11 @@
 <template>
-  <v-layout row wrap justify-center>
-    <v-flex xs12 class="text-xs-center mb-5">
-      <h2 class="display-1 mb-2 my-header font-weight-light primary--text">
-        Interview with
-        <span class="hidden-xs-only">Stealth Entry</span> CEO
-      </h2>
+  <v-layout row wrap justify-center class="mx-3">
+    <v-flex xs12 class="text-xs-center">
+      <h2 class="mb-1 display-1 font-weight-light my-header primary--text">Stealth Entry Videos</h2>
+      <v-divider class="mx-4"></v-divider>
+    </v-flex>
+    <v-flex xs12 class="text-xs-center mt-3 mb-5">
+      <!-- YouTube Interview with Izzy -->
       <div class="video-container">
         <iframe
           width="560"
@@ -13,7 +14,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          class="elevation-14"
+          class="elevation-12"
         ></iframe>
       </div>
     </v-flex>
@@ -21,6 +22,17 @@
 </template>
 
 <style lang="scss" scoped>
+@media screen and (max-width: 599px) {
+  .layout {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}
+</style>
+
+
+<style lang="scss" scoped>
+/* Video Container Styling */
 .video-container {
   position: relative;
   padding-bottom: 51.5%;
@@ -34,8 +46,8 @@
 .video-container embed {
   position: absolute;
   top: 0;
-  left: 5%;
-  width: 90%;
+  left: 0;
+  width: 100%;
   height: 100%;
 }
 </style>

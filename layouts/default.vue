@@ -62,12 +62,18 @@
       app
     >
       <v-list>
+        <v-img
+          src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_45/v1549227032/StealthEntry/stealth-entry-logo.png"
+          class="ma-2"
+        ></v-img>
         <v-list-tile to="/" class="sidenav-element">
           <v-list-tile-action>
             <v-icon class="primary--text text-xs-center">fas fa-home</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">HOME</v-list-tile-title>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >HOME</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/services" class="sidenav-element">
@@ -75,7 +81,9 @@
             <v-icon class="primary--text text-xs-center">fas fa-shield-alt</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">SERVICES</v-list-tile-title>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >SERVICES</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/research" class="sidenav-element">
@@ -83,7 +91,9 @@
             <v-icon class="primary--text text-xs-center">fas fa-flask</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">RESEARCH</v-list-tile-title>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >RESEARCH</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/partners" class="sidenav-element">
@@ -91,7 +101,9 @@
             <v-icon class="primary--text text-xs-center">far fa-handshake</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">PARTNERS</v-list-tile-title>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >PARTNERS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/contracts" class="sidenav-element">
@@ -99,7 +111,9 @@
             <v-icon class="primary--text text-xs-center">fas fa-file-contract</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">CONTRACTS</v-list-tile-title>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >CONTRACTS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/careers" class="sidenav-element">
@@ -107,7 +121,9 @@
             <v-icon class="primary--text text-xs-center">fas fa-users</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">CAREERS</v-list-tile-title>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >CAREERS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/media" class="sidenav-element">
@@ -115,7 +131,9 @@
             <v-icon class="primary--text text-xs-center">fas fa-newspaper</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">MEDIA</v-list-tile-title>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >MEDIA</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="/contact" class="bottom-sidenav-element sidenav-element">
@@ -123,7 +141,9 @@
             <v-icon class="primary--text text-xs-center">fas fa-envelope</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="secondary--text nav-font-size font-weight-medium">CONTACT</v-list-tile-title>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >CONTACT</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -270,6 +290,9 @@ aside.v-navigation-drawer {
   }
   .fa-file-contract {
     margin-left: 5px;
+  }
+  .mobile-nav {
+    padding-top: 1px;
   }
 }
 
