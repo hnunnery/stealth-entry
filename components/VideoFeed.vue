@@ -13,6 +13,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          class="elevation-14"
         ></iframe>
       </div>
     </v-flex>
