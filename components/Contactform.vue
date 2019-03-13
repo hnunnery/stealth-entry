@@ -44,7 +44,7 @@
                         <br>
                         <p class="secondary--text subheading">Main: 614-423-9334</p>
                         <p class="secondary--text subheading">Toll Free: 833-423-2927</p>
-                        <p class="secondary--text subheading">CTOC Ops Center:
+                        <p class="secondary--text subheading">CTOC Ops Center (Toll Free):
                           <br>833-423-2862
                         </p>
                       </v-flex>
