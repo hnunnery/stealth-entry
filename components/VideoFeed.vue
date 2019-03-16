@@ -19,7 +19,7 @@
       </div>
     </v-flex>
     <v-flex xs12 class="text-xs-center mt-3 mb-5">
-      <!-- YouTube Interview with Izzy -->
+      <!-- CIM Panel Discussion ComSpark -->
       <div class="video-container">
         <iframe
           width="560"
@@ -33,12 +33,26 @@
       </div>
     </v-flex>
     <v-flex xs12 class="text-xs-center mt-3 mb-5">
-      <!-- YouTube Interview with Izzy -->
+      <!-- Cyber Security Training -->
       <div class="video-container">
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/Yp1FU9Z9OMw"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="elevation-12"
+        ></iframe>
+      </div>
+    </v-flex>
+    <v-flex xs12 class="text-xs-center mt-3 mb-5">
+      <!-- Three Steps -->
+      <div class="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Ko2GcBN-rdU"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
