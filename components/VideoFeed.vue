@@ -17,6 +17,7 @@
           class="elevation-12"
         ></iframe>
       </div>
+      <h3 class="headline secondary--text mt-3">Interview with CEO, Israel Arroyo Jr</h3>
     </v-flex>
     <v-flex xs12 class="text-xs-center mt-3 mb-5">
       <!-- CIM Panel Discussion ComSpark -->
@@ -31,6 +32,7 @@
           class="elevation-12"
         ></iframe>
       </div>
+      <h3 class="headline secondary--text mt-3">CIM Panel Discussion - ComSpark</h3>
     </v-flex>
     <v-flex xs12 class="text-xs-center mt-3 mb-5">
       <!-- Cyber Security Training -->
@@ -45,6 +47,7 @@
           class="elevation-12"
         ></iframe>
       </div>
+      <h3 class="headline secondary--text mt-3">Cyber Security Training</h3>
     </v-flex>
     <v-flex xs12 class="text-xs-center mt-3 mb-5">
       <!-- Three Steps -->
@@ -59,6 +62,7 @@
           class="elevation-12"
         ></iframe>
       </div>
+      <h3 class="headline secondary--text mt-3">We can help in Three Steps</h3>
     </v-flex>
   </v-layout>
 </template>

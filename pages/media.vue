@@ -1,11 +1,11 @@
 <template>
   <v-container fluid class="media mt-4">
     <v-layout row wrap justify-center>
-      <v-flex xs12 md10 lg6>
+      <v-flex xs12 md10 lg6 class="px-4">
         <VideoFeed/>
         <Blog/>
       </v-flex>
-      <v-flex xs12 md10 lg6>
+      <v-flex xs12 md10 lg6 class="px-4">
         <RssFeed/>
       </v-flex>
     </v-layout>
@@ -31,12 +31,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.media {
-  padding: 0px !important;
-}
 @media screen and (max-width: 599px) {
   .container {
     margin-top: 15px !important;
+  }
+  .media {
+    padding: 0px !important;
+  }
+  .flex {
+    padding: 0px !important;
   }
 }
 </style>

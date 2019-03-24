@@ -21,6 +21,7 @@ module.exports = {
           "Stealth Entry Cyber Security Solutions takes a FULL HOLISTIC view of your organization’s security threat-scape using the latest techniques. Stealth Entry, LLC. is certified U.S. Small Business Administration 8(a), Serviced Disabled Veteran Owned (SDVOSB) and State of Ohio Minority Business Enterprise and Veterans Business Enterprise (MBE/VBE/EDGE)."
       },
       {
+        hid: "keywords",
         name: "keywords",
         content:
           "Stealth Entry, Stealth Entry Cyber Security Solutions, Cyber Security, MSSP, Managed Security Service Provider, Cyber Security as a Service, CSaaS, Threat IQ, THREAT-IQ, Columbus OH, Cyber Security, Cyber Security Training, IT Schedule 70, Schedule 70, , GSA, SBA8A, SDVOSB, VOSB, Veteran, Service Disabled Veteran Owned Business, Service Disabled Veteran Owned, Certified U.S. Small Business Administration 8(a), SBA, 8(a), Cyber Security Assessments, Secure, Secure Cloud Services, Cloud Provider, Cloud Security, EC Council, Stealth Research Labs, Cyber Security Jobs"
@@ -33,21 +34,32 @@ module.exports = {
       { name: "theme-color", content: "#ffffff" },
       { name: "apple-mobile-web-app-status-bar-style", content: "default" },
       {
+        hid: "og:title",
         property: "og:title",
         content: "Stealth Entry Cyber Security Solutions"
       },
       {
+        hid: "og:description",
         property: "og:description",
         content:
           "Our goal is to support our customers cyber security initiatives by providing above and beyond the status quo Threat Hunting, Digital Forensics and Incident Response monitoring you might receive from other organizations!"
       },
       {
+        hid: "og:image",
         property: "og:image",
         content:
           "https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551139322/StealthEntry/main.jpg"
       },
-      { property: "og:url", content: "https://www.stealthentry.com" },
-      { name: "twitter:card", content: "summary_large_image" }
+      {
+        hid: "og:url",
+        property: "og:url",
+        content: "https://www.stealthentry.com"
+      },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "summary_large_image"
+      }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
