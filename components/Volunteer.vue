@@ -51,8 +51,6 @@
 #customers {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  min-height: 100vh;
 }
 .hero-background-circuit {
   background-repeat: repeat;
