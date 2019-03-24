@@ -162,17 +162,17 @@
                 href="https://www.linkedin.com/company/stealth-entry-cyber-security-solutions/"
                 target="_blank"
               >
-                <v-icon size="32px">fab fa-linkedin-in</v-icon>
+                <v-icon class="white--text" size="32px">fab fa-linkedin-in</v-icon>
               </a>
             </v-btn>
             <v-btn class="mx-3" dark icon>
               <a href="https://www.facebook.com/StealthEntry/" target="_blank">
-                <v-icon size="32px">fab fa-facebook</v-icon>
+                <v-icon class="white--text" size="32px">fab fa-facebook</v-icon>
               </a>
             </v-btn>
             <v-btn class="mx-3" dark icon>
               <a href="https://twitter.com/StealthEntry" target="_blank">
-                <v-icon size="32px">fab fa-twitter</v-icon>
+                <v-icon class="white--text" size="32px">fab fa-twitter</v-icon>
               </a>
             </v-btn>
             <v-btn class="mx-3" dark icon>
@@ -188,7 +188,7 @@
                   Created by
                   <a href="https://www.codehunter.io" target="_blank">
                     <span class="b-align">code</span>
-                    <span class="text--white font-weight-bold">Hunter</span>
+                    <span class="white--text font-weight-bold">Hunter</span>
                   </a> Web Design and Development
                 </p>
               </v-flex>
