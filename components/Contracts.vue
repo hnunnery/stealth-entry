@@ -2,7 +2,9 @@
   <v-container class="pt-2">
     <v-layout wrap justify-center>
       <v-flex xs12 xl8 offset-xl-2>
-        <h2 class="text-xs-center primary--text text-shadow font-weight-light display-3">Contracts</h2>
+        <h2
+          class="custom-size text-xs-center primary--text text-shadow font-weight-light display-3"
+        >Contracts</h2>
         <v-divider></v-divider>
         <h4
           class="text-xs-center secondary--text body-2 my-3"
@@ -77,6 +79,11 @@ export default {
 .gradient {
   width: 220px;
   margin: 10px auto;
+}
+@media screen and (max-width: 599px) {
+  .custom-size {
+    font-size: 2.35em !important;
+  }
 }
 </style>
 

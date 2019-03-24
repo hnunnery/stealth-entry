@@ -12,7 +12,7 @@
               <v-flex xs12 md5 class="mb-3">
                 <v-img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_320,q_100/v1550460580/StealthEntry/team/israel.webp"
-                  height="320px"
+                  height="250px"
                   contain
                 ></v-img>
               </v-flex>

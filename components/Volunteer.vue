@@ -15,28 +15,28 @@
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_270/v1550532353/StealthEntry/partners/vfw.jpg"
                   alt="vfw"
-                  class="responsive-img"
+                  class="responsive-img mb-4"
                 >
               </v-flex>
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
                   src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_320/v1534824483/VOWAID/vowaid-logo.png"
                   alt="vowaid"
-                  class="responsive-img"
+                  class="responsive-img mb-4"
                 >
               </v-flex>
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_400/v1550531882/StealthEntry/partners/toys-for-tots.png"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_370/v1550531882/StealthEntry/partners/toys-for-tots.png"
                   alt="toys for tots"
-                  class="responsive-img"
+                  class="responsive-img mb-4"
                 >
               </v-flex>
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_400/v1550717566/StealthEntry/partners/safe_secure.png"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_350/v1553437834/StealthEntry/partners/safe_secure.png"
                   alt="safe secure online"
-                  class="responsive-img"
+                  class="responsive-img mb-4"
                 >
               </v-flex>
             </v-layout>

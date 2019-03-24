@@ -3,7 +3,7 @@
     <v-layout row wrap justify-center>
       <v-flex xs12 lg11 xl10>
         <h2
-          class="text-shadow display-3 primary--text font-weight-light mb-1 mx-2 text-xs-center"
+          class="custom-size text-shadow display-3 primary--text font-weight-light mb-1 mx-2 text-xs-center"
         >Careers</h2>
         <v-divider></v-divider>
       </v-flex>
@@ -370,9 +370,6 @@ export default {
   width: 220px;
   padding: 0;
   margin: 0;
-  /* @media screen and (max-width: 599px) {
-    margin-top: 15px;
-  } */
 }
 p.no-margin {
   margin: 0px !important;
@@ -383,6 +380,9 @@ p.no-margin {
   }
   #first_name {
     margin-top: 0px !important;
+  }
+  .custom-size {
+    font-size: 2.35em !important;
   }
 }
 </style>
