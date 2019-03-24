@@ -45,7 +45,7 @@ export default {
         {
           hid: "og:title",
           property: "og:title",
-          content: "Stealth Entry Blog - What is CSaaS?"
+          content: "What is CSaaS? Stealth Entry Blog"
         },
         {
           hid: "og:description",
@@ -57,7 +57,7 @@ export default {
           hid: "og:image",
           property: "og:image",
           content:
-            "https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1553429932/StealthEntry/blog/what-is-csaas.png"
+            "https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1553438824/StealthEntry/blog/what-is-csaas-graphic.png"
         },
         {
           hid: "og:url",
