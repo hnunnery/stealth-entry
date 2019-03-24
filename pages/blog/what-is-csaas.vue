@@ -37,7 +37,7 @@ export default {
         {
           hid: "og:title",
           property: "og:title",
-          content: "What is CSaaS?"
+          content: "Stealth Entry Blog - What is CSaaS?"
         },
         {
           hid: "og:description",
