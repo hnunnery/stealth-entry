@@ -1,11 +1,11 @@
 <template>
-  <v-container fluid id="customers" class="grey darken-3 mb-4">
+  <v-container fluid id="customers" class="grey darken-3 mb-5">
     <v-layout wrap justify-center align-center>
       <v-flex xs12 xl10 class="px-3">
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 my-header font-weight-light text-xs-center pt-2"
+              class="primary--text display-3 my-header font-weight-light text-xs-center pt-3"
             >Customers</h2>
             <v-divider></v-divider>
           </v-flex>

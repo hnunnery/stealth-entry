@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="customers" class="mb-4">
+  <v-container fluid id="customers" class="pt-3 mb-5">
     <v-layout wrap justify-center align-center>
       <v-flex xs12 xl10 class="px-3">
         <v-layout wrap justify-center>

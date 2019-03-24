@@ -1,7 +1,7 @@
 <template>
-  <v-container fluid class="pa-1">
+  <v-container fluid class="pa-1 mb-5">
     <v-layout wrap justify-center align-center>
-      <v-flex xs12 xl10 class="px-3">
+      <v-flex xs12 xl10 class="px-3 mb-4">
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
