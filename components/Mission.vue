@@ -68,6 +68,21 @@
           </v-flex>
         </v-layout>
       </v-flex>
+      <v-flex
+        xs12
+        lg10
+        xl8
+        class="text-xs-center mt-4"
+        data-aos="zoom-out-up"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+      >
+        <img
+          src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1549227032/StealthEntry/stealth-entry-logo.png"
+          alt="stealth entry logo"
+          class="responsive-img"
+        >
+      </v-flex>
     </v-layout>
   </v-container>
 </template>
