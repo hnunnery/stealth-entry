@@ -2,70 +2,48 @@
   <v-layout row wrap justify-center class="mx-3">
     <v-flex xs12 class="text-xs-center">
       <h2 class="mb-1 display-1 font-weight-light my-header primary--text">Stealth Entry Videos</h2>
-      <v-divider class="mx-4"></v-divider>
+      <v-divider class="mx-4 mb-3"></v-divider>
     </v-flex>
-    <v-flex xs12 class="text-xs-center mt-3 mb-5">
-      <!-- YouTube Interview with Izzy -->
-      <div class="video-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/TZbLM0j2Y_w"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          class="elevation-12"
-        ></iframe>
-      </div>
-      <h3 class="headline secondary--text mt-3">Interview with CEO, Israel Arroyo Jr</h3>
-    </v-flex>
-    <v-flex xs12 class="text-xs-center mt-3 mb-5">
-      <!-- CIM Panel Discussion ComSpark -->
-      <div class="video-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/_3csOojYJsE"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          class="elevation-12"
-        ></iframe>
-      </div>
-      <h3 class="headline secondary--text mt-3">CIM Panel Discussion - ComSpark</h3>
-    </v-flex>
-    <v-flex xs12 class="text-xs-center mt-3 mb-5">
-      <!-- Cyber Security Training -->
-      <div class="video-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/Yp1FU9Z9OMw"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          class="elevation-12"
-        ></iframe>
-      </div>
-      <h3 class="headline secondary--text mt-3">Cyber Security Training</h3>
-    </v-flex>
-    <v-flex xs12 class="text-xs-center mt-3 mb-5">
-      <!-- Three Steps -->
-      <div class="video-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/Ko2GcBN-rdU"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          class="elevation-12"
-        ></iframe>
-      </div>
-      <h3 class="headline secondary--text mt-3">We can help in Three Steps</h3>
-    </v-flex>
+    <v-layout row wrap justify-center>
+      <v-flex xs12 v-for="(video, index) in videos" :key="index" class="text-xs-center mb-5">
+        <Youtube :video="video"/>
+      </v-flex>
+    </v-layout>
   </v-layout>
 </template>
+
+<script>
+import Youtube from "@/components/Youtube";
+
+export default {
+  components: {
+    Youtube
+  },
+  data() {
+    return {
+      videos: [
+        {
+          id: "TZbLM0j2Y_w",
+          title: "Interview with CEO, Israel Arroyo Jr"
+        },
+        {
+          id: "_3csOojYJsE",
+          title: "CIM Panel Discussion - ComSpark"
+        },
+        {
+          id: "Yp1FU9Z9OMw",
+          title: "Cyber Security Training"
+        },
+        {
+          id: "Ko2GcBN-rdU",
+          title: "We can help in Three Steps"
+        }
+      ]
+    };
+  }
+};
+</script>
+
 
 <style lang="scss" scoped>
 @media screen and (max-width: 599px) {
@@ -73,28 +51,6 @@
     margin: 0px !important;
     padding: 0px !important;
   }
-}
-</style>
-
-
-<style lang="scss" scoped>
-/* Video Container Styling */
-.video-container {
-  position: relative;
-  padding-bottom: 51.5%;
-  padding-top: 25px;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 </style>
 
