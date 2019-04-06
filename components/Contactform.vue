@@ -44,7 +44,8 @@
                         <br>
                         <p class="secondary--text subheading">Main: 614-423-9334</p>
                         <p class="secondary--text subheading">Toll Free: 833-423-2927</p>
-                        <p class="secondary--text subheading">CTOC Ops Center (Toll Free):
+                        <p class="secondary--text subheading">
+                          CTOC Ops Center (Toll Free):
                           <br>833-423-2862
                         </p>
                       </v-flex>
@@ -65,7 +66,8 @@
                       <h4 class="secondary--text display-1">
                         <span class="hide-on-mobile">Mailing</span> Address
                       </h4>
-                      <p class="secondary--text subheading">171 Charring Cross Drive
+                      <p class="secondary--text subheading">
+                        171 Charring Cross Drive
                         <br>Westerville OH 43081
                       </p>
                     </v-flex>
@@ -132,7 +134,7 @@
                     <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                     <!-- <div data-netlify-recaptcha="true"></div> -->
                     <div class="text-xs-center">
-                      <v-btn type="submit" class="white--text gradient mt-4">Submit</v-btn>
+                      <v-btn type="submit" large class="white--text gradient mt-4">Submit</v-btn>
                     </div>
                   </form>
                 </v-card-text>

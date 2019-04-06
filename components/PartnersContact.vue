@@ -106,7 +106,7 @@
                   <textarea name="message" placeholder="Message" rows="4" required class="my-4"></textarea>
                   <!-- <div data-netlify-recaptcha="true"></div> -->
                   <div class="text-xs-center">
-                    <v-btn type="submit" class="white--text gradient mt-4">Submit</v-btn>
+                    <v-btn type="submit" large class="white--text gradient mt-4">Submit</v-btn>
                   </div>
                 </form>
               </v-card-text>
