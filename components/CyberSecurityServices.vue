@@ -231,16 +231,30 @@ export default {
 .subheading {
   font-size: 1.3em !important;
 }
+
 button {
-  width: 240px;
+  width: 350px;
 }
+@media screen and (min-width: 600px) {
+  button {
+    width: 240px;
+  }
+}
+
 .b-sheet {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 20px;
   margin-bottom: 50px;
   @media screen and (min-width: 960px) {
     padding: 50px;
     margin-bottom: 100px;
+    h4 {
+      font-size: 3em !important;
+    }
+    p,
+    li {
+      font-size: 1.3em !important;
+    }
   }
 }
 ul.languages li {
