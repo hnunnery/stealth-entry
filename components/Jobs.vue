@@ -35,7 +35,7 @@
                 <div class="secondary--text subheading text-xs-left mt-2">
                   <p class="secondary--text title">SE-SAI-001</p>
                   <h5 class="title mt-1 mb-3">Position Overview:</h5>
-                  <p>Stealth Entry Cyber Security Solutions is seeking a Cybersecurity Exploit Analyst who will be a member of technical engineering and services solutions to a DoD Cyber Security Service Provider (CSSP) in support of mission critical DoD systems in Stafford, VA The successful candidate will be responsible for providing capabilities necessary to review exploit code, their associated vulnerabilities, discover enterprise security discrepancies, assess associated risks and assist in the development of remedial action in coordination with the Mitigation Action Team.</p>
+                  <p>Stealth Entry Cyber Security Solutions is seeking a Cyber Security Exploit Analyst who will be a member of technical engineering and services solutions to a DoD Cyber Security Service Provider (CSSP) in support of mission critical DoD systems in Stafford, VA The successful candidate will be responsible for providing capabilities necessary to review exploit code, their associated vulnerabilities, discover enterprise security discrepancies, assess associated risks and assist in the development of remedial action in coordination with the Mitigation Action Team.</p>
                   <!-- Job Responsibilities-->
                   <h5 class="title mt-1 mb-3">Job Responsibilities:</h5>
                   <p>• Create and maintain the body of documentation that describes the tactics, techniques, and procedures that comprise the Enterprise Network Exploit Analyst team.</p>
@@ -315,7 +315,7 @@
                   <p class="secondary--text title">SE-SAI-005</p>
 
                   <h5 class="title mt-1 mb-3">Position Overview:</h5>
-                  <p>SAIC is seeking a Sr. Cyber Security Engineer who will be a member of the technical engineering and services solutions to a DoD Cyber Security Service Provider (CSSP) in support of mission critical DoD systems in Stafford, VA.</p>
+                  <p>Stealth Entry Cyber Security Solutions is seeking a Sr. Cyber Security Engineer who will be a member of the technical engineering and services solutions to a DoD Cyber Security Service Provider (CSSP) in support of mission critical DoD systems in Stafford, VA.</p>
 
                   <!-- Job Responsibilities-->
                   <h5 class="title mt-1 mb-3">Job Responsibilities:</h5>
