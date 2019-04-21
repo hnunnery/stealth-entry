@@ -63,8 +63,10 @@
     >
       <v-list>
         <v-img
-          src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_45/v1549227032/StealthEntry/stealth-entry-logo.png"
-          class="ma-2"
+          src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1555862135/StealthEntry/favicon.png"
+          class="ma-4 hide-sometimes"
+          height="80px"
+          contain
         ></v-img>
         <v-list-tile to="/" class="sidenav-element">
           <v-list-tile-action>
@@ -266,12 +268,17 @@ export default {
 /* STYLE NAVIGATION DRAWER */
 aside.v-navigation-drawer {
   background-repeat: repeat;
-  padding-top: 7vh;
 }
-
+.hide-sometimes {
+  @media only screen and (max-height: 660px) {
+    display: none;
+  }
+}
 .sidenav-element {
   background-color: #ffffff;
   border-top: 0.5px solid var(--accent);
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 .bottom-sidenav-element {
   border-bottom: 0.5px solid var(--accent);
