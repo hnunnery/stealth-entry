@@ -270,15 +270,15 @@ aside.v-navigation-drawer {
   background-repeat: repeat;
 }
 .hide-sometimes {
-  @media only screen and (max-height: 600px) {
+  @media only screen and (max-height: 620px) {
     display: none;
   }
 }
 .sidenav-element {
   background-color: #ffffff;
   border-top: 0.5px solid var(--accent);
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .bottom-sidenav-element {
   border-bottom: 0.5px solid var(--accent);
