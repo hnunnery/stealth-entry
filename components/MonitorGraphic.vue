@@ -1,14 +1,14 @@
 <template>
   <v-container fluid class="pa-5 orange">
     <v-layout row wrap justify-center align-center class="text-xs-center">
-      <v-flex xs12 lg6 pa-5>
+      <v-flex xs12 lg6 pa-4>
         <!-- <h3
           class="display-4 grey--text text--darken-3 font-weight-bold headline-spacing big"
         >Stealth Entry</h3>-->
         <p
           class="display-3 white--text headline-spacing big"
         >Uniquely qualified to act as your trusted security partner</p>
-        <v-divider class="big my-4"></v-divider>
+        <v-divider class="big my-5"></v-divider>
         <p
           class="display-3 white--text headline-spacing"
         >We work as a part of your team to deliver exceptional results</p>
@@ -60,7 +60,7 @@ export default {
   }
   p {
     margin-top: 50px !important;
-    font-size: 2.3em !important;
+    font-size: 2.5em !important;
   }
 }
 </style>
