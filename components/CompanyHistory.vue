@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="pt-2 pb-5 orange">
     <v-layout row wrap justify-center class="text-xs-center">
-      <v-flex xs12 lg10 xl8>
+      <v-flex xs12 lg10 xl9>
         <h2 class="white--text display-2 pt-4 pb-3 text-shadow font-weight-light">Company History</h2>
         <v-divider class="mb-3"></v-divider>
         <p
