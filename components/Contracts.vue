@@ -9,17 +9,33 @@
         <h4
           class="text-xs-center secondary--text body-2 my-3"
         >AUTHORIZED INFORMATION TECHNOLOGY SCHEDULE PRICELIST GENERAL PURPOSE COMMERCIAL INFORMATION TECHNOLOGY EQUIPMENT, SOFTWARE & SERVICES</h4>
-        <p>FPDS Code D302 - IT Systems Development Services</p>
-        <p>FPDS Code D306 - IT Systems Analysis Services</p>
-        <p>FPDS Code D307 - Automated Information Systems Design and Integration Services</p>
-        <p>FPDS Code D308 - Programming Services</p>
-        <p>FPDS Code D311 - IT Data Conversion Services</p>
-        <p>FPDS Code D317 - Creation/Retrieval of IT Related Automated News Services, Data Services, or Other Information Services</p>
-        <p>FPDS Code D399 - Other Information Technology Services, Not Elsewhere Classified</p>
-        <br>
-        <p>Note 1: All non-professional labor categories must be incidental to and used solely to support hardware, software and/or professional services, and cannot be purchased separately.</p>
-        <p>Note 2: Offerors and Agencies are advised that the Group 70 – Information Technology Schedule is not to be used as a means to procure services which properly fll under the Brooks Act. These services include but are not limited to, architectural, engineering, mapping, cartographic production, remote sensing, geographic information systems, and related services. FAR 36.6 distinguishes between mapping services of an A/E nature and mapping services which are not connected nor incidental to the traditionally accepted A/E Services.</p>
-        <p>Note 3: This solicitation is not intended to solicit for the reselling of IT Professional Services, except for the provision of implementation, maintenance, integration, or training services in direct support of a product. Under such circumstances, the services must be a performance by the publisher or manufacturer or one of their authorized agents.</p>
+        <div class="subheading secondary--text">
+          <p>
+            <span class="primary--text font-weight-bold">FPDS Code D302</span> - IT Systems Development Services
+          </p>
+          <p>
+            <span class="primary--text font-weight-bold">FPDS Code D306</span> - IT Systems Analysis Services
+          </p>
+          <p>
+            <span class="primary--text font-weight-bold">FPDS Code D307</span> - Automated Information Systems Design and Integration Services
+          </p>
+          <p>
+            <span class="primary--text font-weight-bold">FPDS Code D308</span> - Programming Services
+          </p>
+          <p>
+            <span class="primary--text font-weight-bold">FPDS Code D311</span> - IT Data Conversion Services
+          </p>
+          <p>
+            <span class="primary--text font-weight-bold">FPDS Code D317</span> - Creation/Retrieval of IT Related Automated News Services, Data Services, or Other Information Services
+          </p>
+          <p>
+            <span class="primary--text font-weight-bold">FPDS Code D399</span> - Other Information Technology Services, Not Elsewhere Classified
+          </p>
+          <br>
+          <p>Note 1: All non-professional labor categories must be incidental to and used solely to support hardware, software and/or professional services, and cannot be purchased separately.</p>
+          <p>Note 2: Offerors and Agencies are advised that the Group 70 – Information Technology Schedule is not to be used as a means to procure services which properly fll under the Brooks Act. These services include but are not limited to, architectural, engineering, mapping, cartographic production, remote sensing, geographic information systems, and related services. FAR 36.6 distinguishes between mapping services of an A/E nature and mapping services which are not connected nor incidental to the traditionally accepted A/E Services.</p>
+          <p>Note 3: This solicitation is not intended to solicit for the reselling of IT Professional Services, except for the provision of implementation, maintenance, integration, or training services in direct support of a product. Under such circumstances, the services must be a performance by the publisher or manufacturer or one of their authorized agents.</p>
+        </div>
         <v-layout row wrap justify-center align-end class="mt-4">
           <v-flex xs12 sm6 class="text-xs-center">
             <h4 class="secondary--text pt-3">GSA IT Schedule 70: GS-35F-450CA</h4>

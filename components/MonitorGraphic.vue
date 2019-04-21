@@ -16,9 +16,9 @@
         <v-img
           src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1555859364/StealthEntry/monitor.png"
           alt="monitor"
-          data-aos="fade-left"
-          data-aos-delay="500"
-          data-aos-duration="1000"
+          data-aos="slide-left"
+          data-aos-delay="700"
+          data-aos-duration="1500"
         ></v-img>
       </v-flex>
     </v-layout>
