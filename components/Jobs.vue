@@ -1,13 +1,13 @@
 <template>
-  <v-container fluid class="mt-0 pt-2 mb-4">
-    <v-layout row wrap justify-center>
+  <v-container fluid class="mt-0 pt-2 pb-4 hero-background-circuit">
+    <!-- <v-layout row wrap justify-center>
       <v-flex xs12 lg11 xl10>
         <h2
           class="custom-size text-shadow display-3 primary--text font-weight-light mb-1 mx-2 text-xs-center"
         >Careers</h2>
         <v-divider></v-divider>
       </v-flex>
-    </v-layout>
+    </v-layout>-->
     <v-layout row wrap justify-center align-start class="py-2">
       <v-flex xs12 lg11 xl10 class="pa-2">
         <v-expansion-panel>
