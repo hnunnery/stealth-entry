@@ -3,7 +3,7 @@
     <v-layout row wrap justify-center>
       <v-flex xs12 text-xs-center>
         <img
-          src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_800/v1550339723/StealthEntry/SRL-wide.svg"
+          src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_800/v1555883246/StealthEntry/Stealth_Research_Labs.png"
           class="responsive-img"
           data-aos="fade-up"
           data-aos-delay="300"

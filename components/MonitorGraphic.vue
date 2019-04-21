@@ -3,8 +3,12 @@
     <v-layout row wrap justify-center align-center class="text-xs-center">
       <v-flex xs12 lg6 pa-5>
         <!-- <h3
-          class="display-4 grey--text text--darken-3 font-weight-bold headline-spacing desktop"
+          class="display-4 grey--text text--darken-3 font-weight-bold headline-spacing big"
         >Stealth Entry</h3>-->
+        <p
+          class="display-3 white--text headline-spacing big"
+        >Uniquely qualified to act as your trusted security partner</p>
+        <v-divider class="big my-4"></v-divider>
         <p
           class="display-3 white--text headline-spacing"
         >We work as a part of your team to deliver exceptional results</p>
@@ -38,7 +42,14 @@ export default {
     font-size: 6em !important;
   }
 }
-
+.big {
+  display: none;
+}
+@media screen and (min-width: 1650px) {
+  .big {
+    display: block;
+  }
+}
 /* Mobile Phone Styling */
 @media screen and (max-width: 599px) {
   .container,
