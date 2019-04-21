@@ -270,7 +270,7 @@ aside.v-navigation-drawer {
   background-repeat: repeat;
 }
 .hide-sometimes {
-  @media only screen and (max-height: 660px) {
+  @media only screen and (max-height: 600px) {
     display: none;
   }
 }
