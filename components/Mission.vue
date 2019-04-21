@@ -1,13 +1,13 @@
 <template>
-  <v-container fluid class="pt-2 mb-4">
+  <v-container fluid class="pt-5 mb-4">
     <v-layout row wrap justify-center align-center>
       <v-flex xs12>
         <v-layout row wrap justify-center class="text-xs-center">
-          <v-flex xs12 md10 lg5 class="mx-3">
+          <v-flex xs12 md10 lg5 class="mx-3 my-5">
             <h2
               class="primary--text display-2 top-spacing pt-5 pb-3 text-shadow font-weight-light"
             >Core Values</h2>
-            <v-divider class="mb-3"></v-divider>
+            <v-divider class="mb-4"></v-divider>
             <v-layout row wrap justify-center class="mt-3">
               <v-flex xs12 sm6 class="text-xs-left secondary--text display-1 my-2">
                 <v-icon
@@ -43,14 +43,14 @@
               </v-flex>
             </v-layout>
           </v-flex>
-          <v-flex xs12 md10 lg5 class="mx-3 widen">
+          <v-flex xs12 md10 lg5 class="mx-3 my-5 widen">
             <h2 class="primary--text display-2 pt-5 pb-3 text-shadow font-weight-light">Vision</h2>
-            <v-divider class="mb-3"></v-divider>
+            <v-divider class="mb-4"></v-divider>
             <p
               class="secondary--text text-xs-left subheading"
             >Born from a vision to strengthen companies and government agencies with their cyber security needs, founder Israel Arroyo, Jr. made it a personal mission to change how the cyber security industry is perceived, while implementing practical security programs with results driven data.</p>
           </v-flex>
-          <v-flex xs12 md10>
+          <v-flex xs12 md10 my-4>
             <h2 class="primary--text display-2 pt-5 pb-3 text-shadow font-weight-light">Mission</h2>
             <v-divider class="mb-3"></v-divider>
             <p

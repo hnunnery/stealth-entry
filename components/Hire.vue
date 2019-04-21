@@ -5,7 +5,7 @@
         <div class="orange accent"></div>
         <div class="hire-top darkgrey diagonal-div hero-background-circuit">
           <h4
-            class="primary--text display-1 px-3 py-3 px-2"
+            class="primary--text display-1 pa-3 trust"
           >Trust Stealth Entry as your Cyber Security as a Service (CSaaS)</h4>
           <v-btn class="gradient orange white--text mt-4 mb-0" to="/contact">Take Action Today</v-btn>
           <Process/>
@@ -38,13 +38,19 @@ div.layout {
     border-top: 1px solid var(--orange);
   }
 }
-.hero-background-circuit {
-  background-repeat: repeat;
+
+/* Button */
+.gradient {
+  width: 300px;
 }
+
 /* Mobile Phone Styling */
 @media screen and (max-width: 599px) {
   .gradient {
-    margin: 20px auto !important;
+    margin: 26px auto !important;
+  }
+  .trust {
+    padding-top: 80px !important;
   }
 }
 // ORANGE DIAGONAL
