@@ -14,10 +14,70 @@
           <v-expansion-panel-content>
             <v-layout row wrap align-center slot="header">
               <v-flex xs12 sm6 lg3 class="py-1">
+                <h4
+                  class="title secondary--text"
+                >Computer Network Defense and Incident Response Analyst</h4>
+              </v-flex>
+              <v-flex xs12 sm6 lg3 class="py-1">
+                <h5 class="primary--text title my-1">Fort Meade, MD</h5>
+              </v-flex>
+              <v-flex xs12 sm6 lg3 class="py-1">
+                <p class="secondary--text title no-margin">Active TS/SCI Clearance</p>
+              </v-flex>
+              <v-flex xs12 sm6 lg3 class="py-2">
+                <a
+                  href="mailto:careers@stealthentry.com?subject=Application for Computer Network Defense and Incident Response Analyst"
+                >
+                  <v-btn class="apply-btn primary gradient white--text">Apply Now</v-btn>
+                </a>
+              </v-flex>
+            </v-layout>
+            <v-card>
+              <v-card-text>
+                <div class="secondary--text subheading text-xs-left mt-2">
+                  <p class="secondary--text title">SE-SAI-0005</p>
+                  <h5 class="title mt-1 mb-3">Position Overview:</h5>
+                  <p>Stealth Entry Cyber Security Solutions is seeking an immediate need for a CND/IR Analyst in the Ft Meade MD to join our team supporting our DoD customer. We are looking for the right analyst to be part of a joint Contractor-Government Cyber Protection Team, who will perform CND incident triage, to include determining, urgency, and potential impact; identifying the specific vulnerability; and making written recommendations that enable expeditious remediation.</p>
+                  <!-- Job Responsibilities-->
+                  <h5 class="title mt-1 mb-3">Job Responsibilities:</h5>
+                  <p>10 years recent (since 2004) work experience in incident response directly related to the following tasks:</p>
+                  <p>• Utilize forensically sound collection techniques of images and inspect to discern mitigation/remediation on enterprise systems, perform real-time CND incident handling (e.g., forensic collections, intrusion correlation/tracking, threat analysis, and direct system remediation) to support deployable Incident Response Teams (IRTs).</p>
+                  <p>• Receive and analyze network alerts from various sources within the enterprise and determine possible causes of such alerts and track and document CND incidents from initial detection through final resolution.</p>
+                  <p>• Knowledge in deploying approved defense-in-depth principles and practices (e.g., defense-in-multiple places, layered defenses, and security robustness), collect intrusion artifacts (e.g., source code, malware, and trojans), and use discovered data to enable mitigation of potential CND incidents within the enterprise.</p>
+                  <p>• Assist with analysis of actions taken by malicious actors in order to determine initial infection vector, establish a timeline of activity, and any data loss associated with incidents.</p>
+                  <p>• Write and publish CND guidance and reports on incident findings to appropriate constituencies. Reports shall contain details regarding the compromise, technical attributes, (i.e. which hosts, what malware was found, what files were potentially stolen or manipulated), and be delivered to the customer or mission owner.</p>
+                  <p>• Serve as technical expert and liaison to military and civilian law enforcement personnel and explain incident details as required</p>
+
+                  <!-- Qualifications -->
+                  <h5 class="title mt-5 mb-3">Required Education:</h5>
+                  <p>• 4 year degree in Computer Science/Cyber, Security/Computer Information or Information Systems field.</p>
+                  <h5 class="title mt-2 my-3">Required Certifications:</h5>
+                  <p>• IAT level III certification</p>
+                  <p>• Documented additional education, specialization or certification in or more of these technologies:</p>
+                  <p>
+                    Acunetix, Adobe, Armitage Cobalt Strike, FireEye, Fluke Networks Air Magnet, F-Response,
+                    Encase Guidance Software, Hey Rays IDA Pro, IBM, McAfee Advanced Threat Defense,
+                    Network Miner Pro, Palo Alto, Burp Suite Professional, Metasploit Rapid 7, Red Seal, Splunk,
+                    VMWare, Domain Tools, Virus Total, Microsoft Products.
+                  </p>
+                  <p>**The analyst shall also have knowledge and provide low level Python Programming, PowerShell Programming, and Script Development.</p>
+                  <h5 class="title mt-2 my-3">Required Clearance:</h5>
+                  <p>• Must have a TS/SCI security clearance</p>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-flex>
+      <v-flex xs12 lg11 xl10 class="pa-2">
+        <v-expansion-panel>
+          <v-expansion-panel-content>
+            <v-layout row wrap align-center slot="header">
+              <v-flex xs12 sm6 lg3 class="py-1">
                 <h4 class="title secondary--text">Cyber Security Exploit SME</h4>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
-                <h5 class="primary--text title my-1">Stafford/Quantico VA</h5>
+                <h5 class="primary--text title my-1">Stafford/Quantico, VA</h5>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
                 <p class="secondary--text title no-margin">Active TS/SCI Clearance</p>
@@ -83,7 +143,7 @@
                 <h4 class="title secondary--text">Data Scientist SME</h4>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
-                <h5 class="primary--text title my-1">Quantico VA</h5>
+                <h5 class="primary--text title my-1">Quantico, VA</h5>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
                 <p class="secondary--text title no-margin">Active TS/SCI Clearance</p>
@@ -164,7 +224,7 @@
                 <h4 class="title secondary--text">Discovery and Counter-Infiltration Tech Lead</h4>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
-                <h5 class="primary--text title my-1">Quantico VA</h5>
+                <h5 class="primary--text title my-1">Quantico, VA</h5>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
                 <p class="secondary--text title no-margin">Active TS/SCI Clearance</p>
@@ -236,7 +296,7 @@
                 <h4 class="title secondary--text">Red Team Tools Developer</h4>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
-                <h5 class="primary--text title my-1">Quantico VA</h5>
+                <h5 class="primary--text title my-1">Quantico, VA</h5>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
                 <p class="secondary--text title no-margin">Active TS/SCI Clearance</p>
@@ -296,7 +356,7 @@
                 <h4 class="title secondary--text">Security Information & Event Management SME</h4>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
-                <h5 class="primary--text title my-1">Quantico VA</h5>
+                <h5 class="primary--text title my-1">Quantico, VA</h5>
               </v-flex>
               <v-flex xs12 sm6 lg3 class="py-1">
                 <p class="secondary--text title no-margin">Active TS/SCI Clearance</p>
