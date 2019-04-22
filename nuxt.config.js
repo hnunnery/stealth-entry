@@ -10,7 +10,7 @@ module.exports = {
    */
   head: {
     title: "Stealth Entry",
-    titleTemplate: "%s - Cyber Security Solutions",
+    titleTemplate: "%s Cyber Security Solutions",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },

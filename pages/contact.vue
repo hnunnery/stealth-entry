@@ -12,11 +12,10 @@ export default {
   components: {
     Contactform
   },
-  data() {
-    return {};
-  },
-  metaInfo: {
-    titleTemplate: "%s | Contact Us"
+  head() {
+    return {
+      titleTemplate: "Contact %s Today"
+    };
   }
 };
 </script>

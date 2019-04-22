@@ -24,8 +24,10 @@ export default {
     VideoFeed,
     Blog
   },
-  metaInfo: {
-    title: "Stealth Entry - Media"
+  head() {
+    return {
+      titleTemplate: "%s Media"
+    };
   }
 };
 </script>

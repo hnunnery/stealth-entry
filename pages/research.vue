@@ -21,11 +21,10 @@ export default {
     SecureIoT,
     SecureBlockchain
   },
-  data() {
-    return {};
-  },
-  metaInfo: {
-    titleTemplate: "%s | Stealth Research Labs"
+  head() {
+    return {
+      titleTemplate: "Stealth Research Labs"
+    };
   }
 };
 </script>

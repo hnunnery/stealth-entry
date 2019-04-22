@@ -21,11 +21,10 @@ export default {
     CloudService,
     CyberSecurityTraining
   },
-  data() {
-    return {};
-  },
-  metaInfo: {
-    titleTemplate: "%s | Services"
+  head() {
+    return {
+      titleTemplate: "%s Services"
+    };
   }
 };
 </script>

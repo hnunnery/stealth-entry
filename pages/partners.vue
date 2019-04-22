@@ -24,11 +24,10 @@ export default {
     Customers,
     Volunteer
   },
-  data() {
-    return {};
-  },
-  metaInfo: {
-    titleTemplate: "%s | Partners"
+  head() {
+    return {
+      titleTemplate: "%s Partners"
+    };
   }
 };
 </script>

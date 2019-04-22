@@ -12,11 +12,10 @@ export default {
   components: {
     Contracts
   },
-  data() {
-    return {};
-  },
-  metaInfo: {
-    titleTemplate: "%s | Contracts"
+  head() {
+    return {
+      titleTemplate: "%s Contract Information"
+    };
   }
 };
 </script>

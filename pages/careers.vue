@@ -25,7 +25,7 @@ export default {
           hid: "og:description",
           property: "og:description",
           content:
-            "Stealth Entry Cyber Security Solutions is hiring! We have a diverse portfolio of contracts positions."
+            "Stealth Entry Cyber Security Solutions is hiring! We have a diverse portfolio of contract positions."
         },
         {
           hid: "og:image",
