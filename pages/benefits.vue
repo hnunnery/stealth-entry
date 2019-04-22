@@ -1,45 +1,42 @@
 <template>
   <div class="careers">
-    <Jobs/>
     <Benefits/>
   </div>
 </template>
 
 <script>
-import Jobs from "@/components/Jobs";
 import Benefits from "@/components/Benefits";
 
 export default {
-  name: "careers",
+  name: "benefits",
   components: {
-    Jobs,
     Benefits
   },
   head() {
     return {
-      titleTemplate: "%s Careers",
+      titleTemplate: "%s Benefits",
       meta: [
         {
           hid: "og:title",
           property: "og:title",
-          content: "Stealth Entry Careers"
+          content: "Stealth Entry Benefits Summary"
         },
         {
           hid: "og:description",
           property: "og:description",
           content:
-            "Stealth Entry Cyber Security Solutions is hiring! We have a diverse portfolio of contract positions."
+            "Our benefits support your health, work-life balance through paid time off and holidays, and professional growth."
         },
         {
           hid: "og:image",
           property: "og:image",
           content:
-            "https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1549812205/StealthEntry/SE_-_Apply_today.png"
+            "https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1555976524/StealthEntry/Stealth_Entry_Benefits.png"
         },
         {
           hid: "og:url",
           property: "og:url",
-          content: "https://www.stealthentry.com/careers"
+          content: "https://www.stealthentry.com/benefits"
         },
         {
           hid: "twitter:card",
