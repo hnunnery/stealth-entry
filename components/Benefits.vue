@@ -12,7 +12,7 @@
         >Are you ready to join a team that is dedicated to its members, and who are part of a mission bigger than themselves! A team that is committed in going above and beyond the expectations of our customers and developing innovative cyber solutions to support not only the nations mission of defending our valuable resources, but our corporate and industry customers sensitive information and assets.</p>
         <p
           class="subheading white--text"
-        >Our constant innovation is fueled by our strong corporate culture, and unwavering commitment to our core values; Integrity, Respect, Accountability and Humility! We used these values as the baseline of our vision to partner with our customers and become a trusted member of their organization, rather than just an outside third-party resource.</p>
+        >Our constant innovation is fueled by our strong corporate culture, and unwavering commitment to our core values; Integrity, Respect, Dependability and Humility! We used these values as the baseline of our vision to partner with our customers and become a trusted member of their organization, rather than just an outside third-party resource.</p>
         <p
           class="subheading white--text"
         >These core values are represented in Corporate Trademark by the 5 points in the broken circle. Each point is representative of each of our four core values, with the last point being representative of our commitment to our customers’ needs and leaving no team member behind on the cyber battle field. If career growth and working on innovative technologies sounds like something that drives your passion for success, then come be a part of our team.</p>
