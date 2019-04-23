@@ -179,7 +179,7 @@
             </v-btn>
             <v-btn class="mx-3" dark icon>
               <a href="https://www.youtube.com/channel/UCcYioxh1Zufejh58C9Yi8YQ" target="_blank">
-                <v-icon size="32px">fab fa-youtube-square</v-icon>
+                <v-icon class="white--text" size="32px">fab fa-youtube-square</v-icon>
               </a>
             </v-btn>
           </v-flex>
