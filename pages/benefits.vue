@@ -19,7 +19,7 @@ export default {
         {
           hid: "og:title",
           property: "og:title",
-          content: "Join Our Team! "
+          content: "Join the Stealth Entry Team! "
         },
         {
           hid: "og:description",
