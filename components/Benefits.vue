@@ -1,10 +1,10 @@
 <template>
-  <v-container fluid class="py-5 grey darken-3">
+  <v-container fluid class="pt-3 pb-5 grey darken-3">
     <v-layout wrap justify-center>
       <v-flex xs12 lg10 xl8>
         <h2
           class="custom-size text-xs-center primary--text text-shadow font-weight-light display-3"
-        >Benefits Summary</h2>
+        >We Emphasize Work, Life Balance</h2>
         <v-divider class="mb-4"></v-divider>
         <h4 class="primary--text headline mt-4 mb-2">Welcome Aboard!</h4>
         <p
@@ -98,7 +98,7 @@ export default {
 }
 @media screen and (max-width: 599px) {
   .custom-size {
-    font-size: 2.35em !important;
+    font-size: 3em !important;
   }
 }
 </style>

@@ -19,7 +19,7 @@ export default {
         {
           hid: "og:title",
           property: "og:title",
-          content: "Stealth Entry Benefits Summary"
+          content: "Join Our Team! "
         },
         {
           hid: "og:description",
@@ -31,7 +31,7 @@ export default {
           hid: "og:image",
           property: "og:image",
           content:
-            "https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1555976524/StealthEntry/Stealth_Entry_Benefits.png"
+            "https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556027899/StealthEntry/Stealth_Entry_Balance.png"
         },
         {
           hid: "og:url",
