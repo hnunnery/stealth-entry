@@ -1,18 +1,18 @@
 <template>
   <div class="careers">
-    <Jobs/>
+    <Jobs2/>
     <Benefits/>
   </div>
 </template>
 
 <script>
-import Jobs from "@/components/Jobs";
+import Jobs2 from "@/components/Jobs2";
 import Benefits from "@/components/Benefits";
 
 export default {
   name: "careers",
   components: {
-    Jobs,
+    Jobs2,
     Benefits
   },
   head() {
