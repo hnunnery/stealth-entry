@@ -1,18 +1,18 @@
 <template>
   <div class="careers">
-    <Jobs2/>
+    <ZRwidget/>
     <Benefits/>
   </div>
 </template>
 
 <script>
-import Jobs2 from "@/components/Jobs2";
+import ZRwidget from "@/components/ZRwidget";
 import Benefits from "@/components/Benefits";
 
 export default {
   name: "careers",
   components: {
-    Jobs2,
+    ZRwidget,
     Benefits
   },
   head() {

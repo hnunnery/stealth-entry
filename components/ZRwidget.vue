@@ -1,16 +1,16 @@
 <template>
-  <v-container>
+  <v-container fluid class="grey darken-3">
     <v-layout row wrap justify-center>
-      <v-flex xs12>
+      <v-flex xs12 lg10 xl8>
         <div id="jobs-widget" style="width: 100%; height: 100%;" class="elevation-12">
           <div
-            style="border:1px solid #e3e3e3; padding: 30px; -moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px; text-align: center; margin-bottom: 7px;"
+            style="border:1px solid #424242; padding: 30px; -moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px; text-align: center; margin-bottom: 7px; color: white; font-size: 1.5em;"
           >
             <img
               style="margin-left:auto; margin-right: auto;"
               src="https://www.ziprecruiter.com/zrs/80eb026d/img/ajax-loader-sm.gif"
             >
-            <br>Loading jobs...
+            <br><span v-show="timeUp">You may need to refresh page</span>
           </div>
         </div>
       </v-flex>
@@ -866,5 +866,16 @@ if (process.client) {
     }
   });
 }
-export default {};
+export default {
+    data() {
+      return {
+        timeUp: false
+      }
+    },
+    mounted() {
+        setTimeout(() => {
+          this.timeUp = true
+        }, 4000);
+      }
+};
 </script>
