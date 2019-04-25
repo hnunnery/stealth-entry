@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="customers" class="pt-3 mb-5">
+  <v-container fluid id="customers" class="pt-3 pb-5 grey darken-3">
     <v-layout wrap justify-center align-center>
       <v-flex xs12 xl10 class="px-3">
         <v-layout wrap justify-center>
@@ -13,7 +13,7 @@
             <v-layout wrap justify-center align-center class="pa-1 mt-4 partners-component">
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_270/v1550532353/StealthEntry/partners/vfw.jpg"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_250/v1556149907/StealthEntry/partners/VFW-logo.png"
                   alt="vfw"
                   class="responsive-img mb-4"
                 >
@@ -34,7 +34,7 @@
               </v-flex>
               <v-flex xs12 sm6 lg4 class="text-xs-center py-3">
                 <img
-                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_350/v1553437834/StealthEntry/partners/safe_secure.png"
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_400/v1550717376/StealthEntry/partners/safe_secure_logo.png"
                   alt="safe secure online"
                   class="responsive-img mb-4"
                 >

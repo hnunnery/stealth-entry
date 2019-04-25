@@ -75,6 +75,7 @@
                 <form
                   name="reseller"
                   method="POST"
+                  action="/thanks"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                   class="pa-4"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="video-container">
+    <div class="video-container elevation-12">
       <iframe
         width="560"
         height="315"
@@ -8,7 +8,6 @@
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-        class="elevation-12"
       ></iframe>
     </div>
     <h3 class="headline secondary--text mt-3">{{ this.video.title }}</h3>
