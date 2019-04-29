@@ -343,7 +343,7 @@ aside.v-navigation-drawer {
 .desktop {
   display: none;
 }
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 960px) {
   .desktop {
     display: block;
   }
