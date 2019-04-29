@@ -41,18 +41,18 @@
             <h4 class="secondary--text pt-3">GSA IT Schedule 70: GS-35F-450CA</h4>
             <v-layout row wrap justify-center align-end>
               <v-flex xs12 lg6 class="text-xs-center">
-                <v-btn class="white--text gradient">
-                  <a
-                    href="https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=GS-35F-450CA&contractorName=STEALTH+ENTRY+LLC&executeQuery=YES"
-                    target="_blank"
-                  >VISIT GSA EBUY</a>
-                </v-btn>
+                <a
+                  href="https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=GS-35F-450CA&contractorName=STEALTH+ENTRY+LLC&executeQuery=YES"
+                  target="_blank"
+                >
+                  <v-btn class="white--text gradient">VISIT GSA EBUY</v-btn>
+                </a>
               </v-flex>
 
               <v-flex xs12 lg6 class="text-xs-center">
-                <v-btn class="white--text gradient">
-                  <a href="/contracts.pdf" target="_blank" data-type="document">REVIEW GSA CONTRACT</a>
-                </v-btn>
+                <a href="/contracts.pdf" target="_blank" data-type="document">
+                  <v-btn class="white--text gradient">REVIEW GSA CONTRACT</v-btn>
+                </a>
               </v-flex>
             </v-layout>
           </v-flex>
@@ -95,6 +95,9 @@ export default {
 .gradient {
   width: 220px;
   margin: 10px auto;
+}
+a {
+  color: white !important;
 }
 @media screen and (max-width: 599px) {
   .custom-size {
