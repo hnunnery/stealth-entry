@@ -61,21 +61,21 @@
             <h4 class="secondary--text pt-3">State of Ohio State Term Schedule (STS):</h4>
             <v-layout row wrap justify-center align-end>
               <v-flex xs12 lg6 class="text-xs-center">
-                <v-btn class="white--text gradient">
-                  <a
-                    href="https://www.carahsoft.com/buy/slg-contracts/ohio-state-contracts/Ohio534354"
-                    target="_blank"
-                  >Carahsoft 534354</a>
-                </v-btn>
+                <a
+                  href="https://www.carahsoft.com/buy/slg-contracts/ohio-state-contracts/Ohio534354"
+                  target="_blank"
+                >
+                  <v-btn class="white--text gradient">Carahsoft 534354</v-btn>
+                </a>
               </v-flex>
 
               <v-flex xs12 lg6 class="text-xs-center">
-                <v-btn class="white--text gradient">
-                  <a
-                    href="https://www.immixgroup.com/contract-vehicles/state/ohio-sts/534103/"
-                    target="_blank"
-                  >ImmixGroup 534103</a>
-                </v-btn>
+                <a
+                  href="https://www.immixgroup.com/contract-vehicles/state/ohio-sts/534103/"
+                  target="_blank"
+                >
+                  <v-btn class="white--text gradient">ImmixGroup 534103</v-btn>
+                </a>
               </v-flex>
             </v-layout>
           </v-flex>
