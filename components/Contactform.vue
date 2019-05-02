@@ -4,7 +4,7 @@
       <v-layout wrap justify-center align-center>
         <v-flex xs12>
           <v-layout wrap justify-center align-center>
-            <v-flex xs12 md6>
+            <v-flex xs12 md6 xl4>
               <h2 class="primary--text display-3 text-xs-center pt-3">Get in Touch</h2>
               <div class="py-4">
                 <div
