@@ -1,11 +1,11 @@
 <template>
   <v-container fluid class="media mt-4">
     <v-layout row wrap justify-center>
-      <v-flex xs12 md10 lg6 class="px-4">
+      <v-flex xs12 md10 lg6 class="px-5">
         <VideoFeed/>
         <Blog/>
       </v-flex>
-      <v-flex xs12 md10 lg6 class="px-4">
+      <v-flex xs12 md10 lg6 class="px-5">
         <RssFeed/>
       </v-flex>
     </v-layout>
