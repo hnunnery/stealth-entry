@@ -1,11 +1,11 @@
 <template>
-  <v-container fluid id="customers" class="pt-3 pb-5 grey darken-3">
+  <v-container fluid id="customers" class="pt-3 pb-5 orange">
     <v-layout wrap justify-center align-center>
       <v-flex xs12 xl10 class="px-3">
         <v-layout wrap justify-center>
           <v-flex xs12>
             <h2
-              class="primary--text display-3 my-header custom-size font-weight-light text-xs-center pt-3"
+              class="white--text display-3 my-header custom-size font-weight-light text-xs-center pt-3"
             >Volunteer Organizations</h2>
             <v-divider></v-divider>
           </v-flex>
