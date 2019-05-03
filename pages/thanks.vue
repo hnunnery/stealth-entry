@@ -10,9 +10,9 @@ export default {
   components: {
     ThankYou
   },
-   head() {
+  head() {
     return {
-      titleTemplate: "Thank You!"
+      titleTemplate: "Thank You"
     };
   }
 };
