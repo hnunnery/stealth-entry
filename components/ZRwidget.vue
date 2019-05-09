@@ -4,7 +4,7 @@
       <v-flex xs12 lg10 xl8>
         <div
           id="jobs-widget"
-          style="width: 100%; height: 100%; color: #ff9800; padding: 10px; margin-bottom: 30px;"
+          style="width: 100%; height: 100%; color: #ffffff; padding: 10px; margin-bottom: 30px;"
         >
           <div
             style="border:1px solid #424242; padding: 30px; -moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px; text-align: center; margin-bottom: 7px; color: #ffffff; font-size: 1.5em;"
@@ -908,7 +908,10 @@ export default {
     font-size: 1.3em;
   }
   tr {
-    height: 60px;
+    height: 60px !important;
+  }
+  thead {
+    color: #ff9800 !important;
   }
 }
 </style>
