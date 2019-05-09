@@ -43,7 +43,7 @@
       </v-flex>
       <v-flex xs12>
         <v-layout row wrap justify-center align-center>
-          <v-flex xs12 md8 offset-md-2 lg6>
+          <v-flex xs12 md8 lg6 xl5>
             <img
               src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1549501975/StealthEntry/brief.jpg"
               alt="monitoring"
@@ -56,7 +56,9 @@
             >Cyber Security as a Service (CSaaS)</h2>
             <v-divider class="my-2"></v-divider>
             <div class="text-xs-left secondary--text subheading px-2">
-              <p>The Stealth Entry Cyber Threat Operations Center (CTOC) takes a FULL HOLISTIC view of your organization’s security threat-scape using the latest Threat Hunting, Vulnerability Analysis, Reverse Engineering, Insider Threat, Forensic chain of custody, patch management, and incident response techniques. Our goal is to support our customers cyber security initiatives by providing above and beyond the status quo Threat Hunting, Digital Forensics and Incident Response monitoring you might receive from other organizations! We offer a tiered subscription plan that works for your individual organization’s security and compliance needs.</p>
+              <p
+                class="hero-text"
+              >The Stealth Entry Cyber Threat Operations Center (CTOC) takes a FULL HOLISTIC view of your organization’s security threat-scape using the latest Threat Hunting, Vulnerability Analysis, Reverse Engineering, Insider Threat, Forensic chain of custody, patch management, and incident response techniques. Our goal is to support our customers cyber security initiatives by providing above and beyond the status quo Threat Hunting, Digital Forensics and Incident Response monitoring you might receive from other organizations! We offer a tiered subscription plan that works for your individual organization’s security and compliance needs.</p>
             </div>
           </v-flex>
         </v-layout>
@@ -64,15 +66,6 @@
     </v-layout>
   </v-container>
 </template>
-
-<script>
-export default {
-  name: "hero",
-  data() {
-    return {};
-  }
-};
-</script>
 
 <style lang="scss" scoped>
 #fullwidth {
@@ -126,6 +119,16 @@ export default {
   }
   h2 {
     font-size: 2.9em !important;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  h2 {
+    font-size: 3.4em !important;
+  }
+  .hero-text {
+    margin-top: 30px;
+    line-height: 2.4em;
   }
 }
 </style>

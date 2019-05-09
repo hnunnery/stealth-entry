@@ -1,10 +1,13 @@
 <template>
-  <v-container fluid class="grey darken-3">
+  <v-container fluid px-0 class="grey darken-3">
     <v-layout row wrap justify-center>
       <v-flex xs12 lg10 xl8>
-        <div id="jobs-widget" style="width: 100%; height: 100%;" class="elevation-12">
+        <div
+          id="jobs-widget"
+          style="width: 100%; height: 100%; color: #ff9800; padding: 10px; margin-bottom: 30px;"
+        >
           <div
-            style="border:1px solid #424242; padding: 30px; -moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px; text-align: center; margin-bottom: 7px; color: white; font-size: 1.5em;"
+            style="border:1px solid #424242; padding: 30px; -moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px; text-align: center; margin-bottom: 7px; color: #ffffff; font-size: 1.5em;"
           >
             <img
               style="margin-left:auto; margin-right: auto;"
@@ -898,3 +901,11 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+#jobs-widget {
+  @media screen and (min-width: 993px) {
+    font-size: 1.3em;
+  }
+}
+</style>
