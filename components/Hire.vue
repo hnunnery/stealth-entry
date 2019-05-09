@@ -2,7 +2,7 @@
   <v-container fluid id="hire">
     <v-layout row wrap class="row justify-center align-center">
       <v-flex xs12 class="text-xs-center">
-        <div class="orange accent"></div>
+        <div class="orange angle"></div>
         <div class="hire-top darkgrey diagonal-div hero-background-circuit">
           <h4
             class="primary--text display-1 pa-3 trust"
@@ -54,7 +54,7 @@ div.layout {
   }
 }
 // ORANGE DIAGONAL
-.accent {
+.angle {
   @media screen and (min-width: 960px) {
     -webkit-clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
@@ -70,7 +70,6 @@ div.layout {
   @media screen and (min-width: 960px) {
     -webkit-clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
-    /* height: 350px; */
     padding-top: 180px;
     padding-bottom: 10px;
   }
