@@ -907,11 +907,5 @@ export default {
   @media screen and (min-width: 993px) {
     font-size: 1.3em;
   }
-  tr {
-    height: 60px !important;
-  }
-  a {
-    color: #ff9800 !important;
-  }
 }
 </style>
