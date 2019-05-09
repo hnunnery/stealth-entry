@@ -908,6 +908,7 @@ export default {
     font-size: 1.3em;
   }
   tr {
-  height: 60px;
+    height: 60px;
+  }
 }
 </style>
