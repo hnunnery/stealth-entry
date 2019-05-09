@@ -910,7 +910,7 @@ export default {
   tr {
     height: 60px !important;
   }
-  thead {
+  a {
     color: #ff9800 !important;
   }
 }
