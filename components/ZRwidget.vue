@@ -907,5 +907,7 @@ export default {
   @media screen and (min-width: 993px) {
     font-size: 1.3em;
   }
+  tr {
+  height: 60px;
 }
 </style>
