@@ -1,18 +1,15 @@
 <template>
   <div class="careers">
-    <ZRwidget/>
-    <Benefits/>
+    <Benefits />
   </div>
 </template>
 
 <script>
-import ZRwidget from "@/components/ZRwidget";
 import Benefits from "@/components/Benefits";
 
 export default {
   name: "careers",
   components: {
-    ZRwidget,
     Benefits
   },
   head() {
