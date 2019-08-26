@@ -1,5 +1,14 @@
 <template>
   <div class="careers">
+    <v-container>
+      <v-layout row wrap justify-center>
+        <v-flex xs12 text-xs-center>
+          <a href="mailto:careers@stealthentry.com?subject=Stealth Entry Careers">
+            <v-btn class="large primary gradient white--text">Submit Resume Here</v-btn>
+          </a>
+        </v-flex>
+      </v-layout>
+    </v-container>
     <Benefits />
   </div>
 </template>
