@@ -17,56 +17,49 @@
                     src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549899543/StealthEntry/partners/cisco.png"
                     alt="cisco"
                     class="responsive-img cisco"
-                  >
+                  />
                 </v-flex>
                 <v-flex xs6 class="text-xs-center py-4 px-2">
                   <img
                     src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549900611/StealthEntry/partners/ubiquiti.png"
                     alt="ubiquiti"
                     class="responsive-img ubiquiti"
-                  >
-                </v-flex>
-                <v-flex xs6 class="text-xs-center py-4 px-2">
-                  <img
-                    src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220,q_100/v1549899542/StealthEntry/partners/project-hosts.png"
-                    alt="project-hosts"
-                    class="responsive-img project-hosts"
-                  >
+                  />
                 </v-flex>
                 <v-flex xs6 class="text-xs-center py-4 px-2">
                   <img
                     src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549899542/StealthEntry/partners/thales.png"
                     alt="thales"
                     class="responsive-img thales"
-                  >
+                  />
                 </v-flex>
                 <v-flex xs6 class="text-xs-center py-4 px-2">
                   <img
                     src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549900848/StealthEntry/partners/imperva.png"
                     alt="imperva"
                     class="responsive-img imperva"
-                  >
+                  />
                 </v-flex>
                 <v-flex xs6 class="text-xs-center py-4 px-2">
                   <img
                     src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549901144/StealthEntry/partners/F5-Logo.png"
                     alt="f5"
                     class="responsive-img f5"
-                  >
+                  />
                 </v-flex>
                 <v-flex xs6 class="text-xs-center py-4 px-2">
                   <img
                     src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220/v1549901644/StealthEntry/partners/fortinet.png"
                     alt="fortinet"
                     class="responsive-img fortinet"
-                  >
+                  />
                 </v-flex>
                 <v-flex xs6 class="text-xs-center py-4 px-2">
                   <img
                     src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_220,q_100/v1549899542/StealthEntry/partners/symantec.png"
                     alt="symantec"
                     class="responsive-img symantec"
-                  >
+                  />
                 </v-flex>
               </v-layout>
             </v-flex>
@@ -83,12 +76,12 @@
                   >
                     <h2 class="secondary--text text-xs-center my-header display-2">Contact Sales</h2>
                     <!-- NETLIFY FORM NAME -->
-                    <input type="hidden" name="form-name" value="reseller">
+                    <input type="hidden" name="form-name" value="reseller" />
                     <!-- NETLIFY BOT FIELD -->
-                    <input type="text" name="bot-field" id="bot-field" class="hidden">
-                    <input type="text" name="name" placeholder="Name" required class="my-4">
-                    <input type="text" name="company" placeholder="Company" required class="my-4">
-                    <input type="email" name="email" placeholder="Email" required class="my-4">
+                    <input type="text" name="bot-field" id="bot-field" class="hidden" />
+                    <input type="text" name="name" placeholder="Name" required class="my-4" />
+                    <input type="text" name="company" placeholder="Company" required class="my-4" />
+                    <input type="email" name="email" placeholder="Email" required class="my-4" />
                     <div class="custom-select">
                       <label for="brands" class="grey--text text--darken-1 sixteen">Brand:</label>
                       <div class="select font-weight-bold secondary--text">
